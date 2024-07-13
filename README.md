@@ -1,89 +1,81 @@
-<h1 align="center"> HACKING MD SERVICE BOT WHATSAPP  </h1>
-<p align="center">  
-
-***
+## JOEL MD
+ <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=red&size=25&center=true&vCenter=true&width=600&height=100&lines=AM+BEST+CODER+MD+Created+by+joelkang'oma.&heart;++;Self-taught+Back-Created+By,;Ibrahim+Adams+Am+The,;Best+Is+Bot+For+You+To,;Deploy..<3"></a>
+ <a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M">
+ <img alt="JOEL BUG BOT" height="300" src="https://telegra.ph/file/0683b5ce3fcdfd8b4c2a6.jpg">
   
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=HACKING THE BOT +WHATSAPP; MULTI+SERVICE+REVOLUTIONIZES;CREATE+BY+THOMAS+TECH;BOT DATED+06.6.2024" alt="Typing SVG" /></a>
-  </p>
-    <img alt="HACKING-MD" width="700" height="300" src="https://telegra.ph/file/ac3a8142e8e18bcabb75b.jpg">
-<p align="center">
-<p align="center">
+</h1> 
+<p align="center">l introduce <b>BEST CODER MD</b>, a powerful simple WhatsApp bot </p>
 
 
-## HACKING-MD: The Multi-Device Bot That Revolutionizes Your WhatsApp Conversations
-
-**Imagine a personal assistant who accompanies you in all your WhatsApp conversations.** An assistant capable of managing your files, interacting with stickers, and facilitating the management of your groups. This assistant is HACKING-MD.
-
-**HACKING-MD is much more than just a simple bot.** It's a true companion that will save you time and simplify your life. Here are some examples of what it can do for you:
-
-* **Manage your files:** Send and receive files of all kinds, including documents, images, and videos. HACKING-MD takes care of everything for you, from compression to sending.
-* **Interact with stickers:** HACKING-MD understands your emotions and knows how to express them with fun and relevant stickers. Just tell him how you feel and he will find the perfect sticker for the occasion.
-* **Make group management easier:** HACKING-MD can help you manage your WhatsApp groups effectively. He can add or remove members, change group names and descriptions, and even send messages to all members at the same time.
-
-**HACKING-MD is an essential tool for anyone who uses WhatsApp.** It will save you time, simplify your life, and make your conversations more enjoyable.
-
-**Don't wait any longer, install HACKING-MD today!**
-
-**Here are some other benefits of HACKING-MD:**
-
-* **Available on all devices:** HACKING-MD is compatible with all devices, including smartphones, tablets, and computers.
-* **Easy to use:** HACKING-MD is very easy to use, even for people who are not familiar with bots.
-* **Customizable:** You can customize HACKING-MD according to your needs.
-* **Free:** HACKING-MD is completely free.
-
-**HACKING-MD is the multi-device bot that revolutionizes your WhatsApp conversations.** Install it today and discover all its features!
+    
+ 
+ 
 
 
 
-## HACKING 
-
-1- _MON GROUPE  WHATSAPP_ **[**SUPPORT WHATSAPP**](https://chat.whatsapp.com/CmrAOrFSBMi4eXW8xL5UHZ); Si tu à  besoin d'aide  tu peux  rejoindre pour  mon groupe WhatsApp en cas de problèmes 
-
-2. "**Obtenu la session**", 
-
-   [_**SSESSION-1**_](["CLIQUEZ ICI" ](https://habot.000webhostapp.com/); *POUR  AVOIR  VOTRE SESSION_ID POUR DEPLOYER*
+---
 
 
+
+
+
+## HOW TO DEPLOY JOEL MD
+
+
+## 1.FIRST STEP 
+
+
+<a href="https://github.com/jokathanjoka/BEST-CODER-MD/fork"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/FORK THIS REPO-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
+
+star✨ my repo if you like this bot🤖
+
+
+## 2.SECOND STEP 
+
+
+ GET SESSION ID BY
+ 
+
+<a href="https://joelpaircode-4469d56eeb3e.herokuapp.com/qr"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR CODE-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
  
-  3.  [_**SESSION-2**_](["**CLIQUEZ ICI"](https://habot.000webhostapp.com/); c'est  la même session
+
+<a href="https://pairmodeli-6b8e7f4910f8.herokuapp.com/pair"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
+
+
+## 3.THIRD STEP 
+
+
+DEPLOY ON 
+
+<a
+      href='https://dashboard.heroku.com/new?template=https://github.com/jokathanjoka/BEST-CODER-MD/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-HEROKU-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+
+##
 
 
 
 
-   [_**PAIRING CODE**_](["**click**"]("https://thomas9-339be853ee05.herokuapp.com/"); **Click**
 
+THANKS TO 
 
-   
-4. '***DEPLOYER**
-   
-   
-   
-   - **Heroku Deployment:**
-
-
-   
-     ***Si tu n'a pas compte*** **Heroku** tu peux,  cliquer [**ICI HEROKU CREATE**](https://id.heroku.com/login) POUR CRÉER  UN COMPTE HEROKU 
-
-
-
-   
-     2. **Cliquez** [**ICI POUR HEROKU**](https://dashboard.heroku.com/new?template=https://github.com/HACKING995/HACKING956)  POUR DEPLOYER SUR **Heroku**.
+1.myself (joel kang'oma)
 
 
 
 
-## License
+CONTACT DEVELOPER ON WHATSAPP 
 
-The WhatsApp Bot HACKING-MD is released under the [MIT License](https://opensource.org/licenses/MIT).
+<a href="https://wa.me/255714595078" target="_blank">
+    <img alt="whatsapp Group" src="https://img.shields.io/badge/ joel tech contact -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-Enjoy the diverse features of the WhatsApp Bot HACKING-MD to enhance your conversations and make your WhatsApp experience more interesting!
 
-## Developeurs:
+  
+ 
+<a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M" target="_blank">
+    <img alt="whatsapp Group" src="https://img.shields.io/badge/ JOEL  MD   CHANNEL -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+ 
 
-- [**Thomas**](https://chat.whatsapp.com/CmrAOrFSBMi4eXW8xL5UHZ)
-- [**᚛MD-HACKER᚜**](https://wa.me/22588697148)
 
-### FAIRE  PAR THOMAS 
+     
 
-[![HACKING955](https://telegra.ph/file/b8e378f61794498c29c34.jpg)",
