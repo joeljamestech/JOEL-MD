@@ -49,7 +49,7 @@ star✨ my repo if you like this bot🤖
 DEPLOY ON 
 
 <a
-      href='https://dashboard.heroku.com/new?template=https://github.com/jokathanjoka/BEST-CODER-MD/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-HEROKU-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+      href='https://dashboard.heroku.com/new?template=https://github.com/joeljamestech/JOEL-MD/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-HEROKU-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 ##
 
