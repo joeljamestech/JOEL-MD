@@ -2,9 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
-zokou({ nomCom: "repo", catégorie:"Général", reaction: "💎", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-  const githubRepo = 'https://api.github.com/repos/HACKING995/HACKING956';
-  const img = 'https://telegra.ph/file/b9a0855b3741a8b62a796.jpg';
+zokou({ nomCom: "repo", catégorie:"Général", reaction: "🍑", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+  const githubRepo = 'https://github.com/joeljamestech/JOEL-MD/tree/main';
+  const img = 'https://telegra.ph/file/d65e03cbad4fb1fe35228.jpg';
 
   try {
     const response = await fetch(githubRepo);
@@ -22,16 +22,16 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "💎", nomFichier: __
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `HELLO 👋 
-THIS YOU *Hacking-MD.*\n YOU DEPLOYE THIS *REPO*, *SESSION_ID*  https://habot.000webhostapp.com/
+THIS YOU *JOEL-MD.*\n YOU DEPLOYE THIS *REPO*, *SESSION_ID*  https://habot.000webhostapp.com/
 
 🗼 *REPOSITORY:* ${data.html_url}
 ✨ *STARS:* ${repoInfo.stars}
 🧧 *FORKS:* ${repoInfo.forks}
 📅 *RELEASE DATE:* ${releaseDate}
 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
-👨‍💻 *OWNER:* *Thomas*
+👨‍💻 *OWNER:* *joel tech*
 __________________________________
-            *Made With* Thomas`;
+            *Made With joel tech`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
     } else {
