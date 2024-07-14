@@ -36,8 +36,8 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 ╭────  JOEL MD ─────✣
 │  ╭─────────────✣
-│  │▸ *BOT-OWNER* : ${s.OWNER_NAME}
-   │▸ *COMMANDER* : ${nomAuteurMessage} 
+│  │▸ *my owner* : ${s.OWNER_NAME}
+   │▸ *commander* : ${nomAuteurMessage} 
 ╰──────────────✇
     ▸ *date *: ${date}
     ▸ *prefix* : ${s.PREFIXE}
