@@ -34,26 +34,24 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────  ${s.BOT} ─────✣
-│☹︎╭─────────────✣
-│☹︎│▸ *BOT-OWNER* : ${s.OWNER_NAME}
-│☹︎│▸ *COMMANDER* : ${nomAuteurMessage} 
-│☹︎╰──────────────✇
-│☹︎│▸ *date *: ${date}
-│☹︎│▸ *prefix* : ${s.PREFIXE}
-│☹︎│▸ *worktype* : ${mode} mode
-│☹︎│▸ *plugin* : ${cm.length} 
-│☹︎│▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│☹︎│▸ *running on* : ${os.platform()}
-│☹︎│▸ *theme* : *joel tech*
-│☹︎╰──────────────✇
-╰──────────────────✇
-> JOEL-𝐌𝐃 𝐍𝐄𝐖 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 𝐋𝐀𝐓𝐄𝐒𝐓
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 JOEL TECH \n${readmore}`;
+╭────  JOEL MD ─────✣
+│  ╭─────────────✣
+│  │▸ *BOT-OWNER* : ${s.OWNER_NAME}
+   │▸ *COMMANDER* : ${nomAuteurMessage} 
+╰──────────────✇
+    ▸ *date *: ${date}
+    ▸ *prefix* : ${s.PREFIXE}
+    ▸ *worktype* : ${mode} mode
+    ▸ *plugin* : ${cm.length} 
+    ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+    ▸ *running on* : ${os.platform()}
+    ▸ *theme* : *joel tech*
+
+> JOEL MD 2024\n${readmore}`;
     
 let menuMsg = `
 
- * LIST COMMANDES *${readmore}
+ * JOEL MD COMMADS *${readmore}
 `;
 
     for (const cat in coms) {
@@ -66,7 +64,7 @@ let menuMsg = `
 ╰────────────···▸▸ \n`
     }
 
-    menuMsg += `> JOEL MD NEW UPDATE LATEST 
+    menuMsg += `> powered by joel kang'oma 
 `;
 
    var lien = mybotpic();
