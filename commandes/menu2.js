@@ -34,26 +34,26 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────《《  ${s.BOT} 》》─────✣
+╭────  ${s.BOT} ─────✣
 │☹︎╭─────────────✣
 │☹︎│▸ *BOT-OWNER* : ${s.OWNER_NAME}
 │☹︎│▸ *COMMANDER* : ${nomAuteurMessage} 
 │☹︎╰──────────────✇
-│☹︎│▸ *TODAY* : ${date}
-│☹︎│▸ *PREFIX* : ${s.PREFIXE}
-│☹︎│▸ *WORKTYPE* : ${mode} mode
-│☹︎│▸ *PLUGINS* : ${cm.length} 
-│☹︎│▸ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│☹︎│▸ *RUNNING ON* : ${os.platform()}
-│☹︎│▸ *THEME* : *BELTAH KE*
+│☹︎│▸ *date *: ${date}
+│☹︎│▸ *prefix* : ${s.PREFIXE}
+│☹︎│▸ *worktype* : ${mode} mode
+│☹︎│▸ *plugin* : ${cm.length} 
+│☹︎│▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│☹︎│▸ *running on* : ${os.platform()}
+│☹︎│▸ *theme* : *joel tech*
 │☹︎╰──────────────✇
 ╰──────────────────✇
-> 𝐇𝐀𝐂𝐊𝐈𝐍𝐆-𝐌𝐃 𝐍𝐄𝐖 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 𝐋𝐀𝐓𝐄𝐒𝐓
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐓𝐇𝐎𝐌𝐀𝐒 𝐓𝐄𝐂𝐇\n${readmore}`;
+> JOEL-𝐌𝐃 𝐍𝐄𝐖 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 𝐋𝐀𝐓𝐄𝐒𝐓
+> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 JOEL TECH \n${readmore}`;
     
 let menuMsg = `
 
- *❄︎LIST COMMANDES❄︎*${readmore}
+ * LIST COMMANDES *${readmore}
 `;
 
     for (const cat in coms) {
@@ -66,7 +66,7 @@ let menuMsg = `
 ╰────────────···▸▸ \n`
     }
 
-    menuMsg += `> 𝐇𝐀𝐂𝐊𝐈𝐍𝐆-𝐌𝐃 𝐍𝐄𝐖 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 𝐋𝐀𝐓𝐄𝐒𝐓
+    menuMsg += `> JOEL MD NEW UPDATE LATEST 
 `;
 
    var lien = mybotpic();
