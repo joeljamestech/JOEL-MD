@@ -7,7 +7,7 @@ const { default: axios } = require('axios');
 zokou({ nomCom: 'ping',
     desc: 'To check ping',
     Categorie: 'General',
-    reaction: '🚀', 
+    reaction: '🍑', 
     fromMe: 'true', 
 
        
@@ -15,7 +15,7 @@ zokou({ nomCom: 'ping',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
     const { start} = new Date().getTime()
-    return repondre('*THOMAS TECH!!!*\n ```' + 9000 + '``` *𝐌𝐬*') 
+    return repondre('*JOEL MD!!!*\n ```' + 9000 + '``` *𝐌𝐬*') 
     const { end } = new Date().getTime()
     await zok.sendMessage('*Pong!*\n ```' + (end - start) + '``` *ms*')
   }
