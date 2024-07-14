@@ -21,8 +21,8 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "🍑", nomFichier: __
       const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
-      const gitdata = `HELLO 👋 
-THIS YOU *JOEL-MD.*\n YOU DEPLOYE THIS *REPO*, *SESSION_ID*  https://habot.000webhostapp.com/
+      const gitdata = `OOI
+THIS IS *JOEL-MD.*\n GET SESSION ID *BY*, *PAIRING CODE*  https://pairmodeli-6b8e7f4910f8.herokuapp.com/pair/
 
 🗼 *REPOSITORY:* ${data.html_url}
 ✨ *STARS:* ${repoInfo.stars}
