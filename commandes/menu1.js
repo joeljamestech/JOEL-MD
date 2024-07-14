@@ -34,24 +34,19 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*${s.BOT} AVAILABLE MENUS* 
-╭─────────────────✣
-│❒⁠⁠⁠⁠╭─────────────✣
-│❒⁠⁠⁠⁠│▸ *MENU1* 
-│❒⁠⁠⁠⁠│▸ *MENU2* 
-│❒⁠⁠⁠⁠│▸ *MENU3*
-│❒⁠⁠⁠⁠╰──────────────✇
-│❒⁠⁠⁠⁠│▸ *COMMANDE* : ${cm.length} 
-│❒⁠⁠⁠⁠│▸ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠│▸ *UPTIME* : ${os.platform()}
-│❒⁠⁠⁠⁠│▸ *THEME* : *THOMAS TECH*
-│❒⁠⁠⁠⁠╰──────────────✇
-╰──────────────────✇
-> 𝐇𝐀𝐂𝐊𝐈𝐍𝐆-𝐌𝐃 𝐍𝐄𝐖 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 𝐋𝐀𝐓𝐄𝐒𝐓
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐓𝐇𝐎𝐌𝐀𝐒 𝐓𝐄𝐂𝐇\n${readmore}`;
+*JOEL MD AVAILABLE MENUS* 
+
+
+    ▸ *commander* : ${cm.length} 
+    ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+    ▸ *uptime* : ${os.platform()}
+    ▸ *theme* : *joel tech*
+
+> JOEL MD WA BOT
+> POWERED BY JOEL TECH \n${readmore}`;
     
 let menuMsg = `
-> Hello ${nomAuteurMessage},,, Type menu1,menu2 or menu3 to access a list of commands. 
+> Hello ${nomAuteurMessage},,, Type menu2 to access a list of commands. 
   
 ╰───────────────────⏣`;
 
