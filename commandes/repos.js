@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
-zokou({ nomCom: "repo", catégorie:"Général", reaction: "🍑", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
   const githubRepo = 'https://api.github.com/repos/joeljamestech/JOEL-MD';
   const img = 'https://telegra.ph/file/d65e03cbad4fb1fe35228.jpg';
 
@@ -21,8 +21,8 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "🍑", nomFichier: __
       const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
-      const gitdata = `OOI
-THIS IS *JOEL-MD.*\n GET SESSION ID *BY*, *PAIRING CODE*  https://pairmodeli-6b8e7f4910f8.herokuapp.com/pair/
+      const gitdata = `*hellow whatsaap user
+this is* *joel-md.*\n get session id *by*, *pairing code*  https://pairmodeli-6b8e7f4910f8.herokuapp.com/pair/
 
 🗼 *REPOSITORY:* ${data.html_url}
 ✨ *STARS:* ${repoInfo.stars}
@@ -31,7 +31,7 @@ THIS IS *JOEL-MD.*\n GET SESSION ID *BY*, *PAIRING CODE*  https://pairmodeli-6b8
 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
 👨‍💻 *OWNER:* *joel tech*
 __________________________________
-            *Made With joel tech`;
+            *Made With joel kang'oma*`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
     } else {
