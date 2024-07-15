@@ -134,7 +134,7 @@ zokou( {
     
     
          let msg = `
-┏━━━┛ HD-Rang ┗━━━┓
+┏━━━┛ joel rank menu ┗━━━┓
          
     *Name :* @${auteurMsgRepondu.split("@")[0]}
     
@@ -146,7 +146,7 @@ zokou( {
 
     *Messages :* ${rank.messages}
     
-   ┕━✿━┑  ┍━✿━┙`
+   ┕━✿━┑ joel tech ┍━✿━┙`
     
      zk.sendMessage( 
         dest,
@@ -210,7 +210,7 @@ zokou( {
     
     
          let msg = `
-┏━━━┛ HD-Rang ┗━━━┓
+┏━━━┛ joel md rank menu  ┗━━━┓
      
   *Name :* ${nomAuteurMessage}
 
@@ -222,7 +222,7 @@ zokou( {
 
   *Messages :* ${rang.messages}
 
-   ┕━✿━┑  ┍━✿━┙`
+   ┕━✿━┑ joel tech ┍━✿━┙`
     
      zk.sendMessage( 
         dest,
@@ -251,7 +251,7 @@ zokou( {
     const {ms , mybotpic} = commandeOptions ;
 
 
-       let msg = `┏━━┛ HD-top-rang ┗━━┓\n\n`
+       let msg = `┏━━┛ joel kang'oma┗━━┓\n\n`
        
       let topRanks = await getBottom10Users() ;
         let mention = [] ;
