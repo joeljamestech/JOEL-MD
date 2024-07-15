@@ -1,6 +1,6 @@
 {
   "name":"JOEL-MD",
-  "description":"bot whatsapp développé par joel",
+  "description":"bot whatsapp développé par joel any problem wa.me 255714595078",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/4e959c8114dbc13470c5f.jpg",
   "repository":"https://github.com/HACKING995/HACKING956",
@@ -51,15 +51,7 @@
       "description":"type yes to put your bot on public mode or no to put it on private mod",
       "value":"no",
       "required":false
-    }
-	,
-    "HEROKU_APY_KEY": {
-    "description": "insert your heroku api-key (this is optionnal)",
-     "required" :false
-    },
-  "HEROKU_APP_NAME": {
-    "description": "insert your heroku APP NAME (this is optionnal)",
-     "required" :false
+    
     }  
 	  ,
     "SESSION_ID":
@@ -88,12 +80,7 @@
     "desc": "this is the limit of warn for warning commandes",
     "required": false,
     "value": "3"
-  },
-  "STARTING_BOT_MESSAGE":
-  {
-    "description": "if you don't want startting-bot-message put no else put yes",
-    "required": true,
-    "value": "yes"
+
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
