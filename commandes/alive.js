@@ -71,9 +71,9 @@ else {
 }
 
     } else {
-        if(!superUser) { repondre("I am alive to reject the finance bill in Kenya🇿🇦") ; return};
+        if(!superUser) { repondre("reject the finance bill in Kenya🇿🇦") ; return};
 
-      await   repondre("*clink a link below to join ganz channel to beI am alive to reject the finance bill in Kenya🇿🇦 https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M* ");
+      await   repondre("*clink a link below to join ganz official channel to reject the finance bill in Kenya🇿🇦 https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M ");
          repondre("don't do fake thinks i mean reject the finance bill in Kenya 🇿🇦:)")
      }
  } else {
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' *reject finacy bill in kenya 🇿🇦. ')
+repondre(' * hey reject finacy bill in kenya 🇿🇦. ')
 
 }
     });
