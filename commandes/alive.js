@@ -71,14 +71,14 @@ else {
 }
 
     } else {
-        if(!superUser) { repondre("there is no alive for this bot") ; return};
+        if(!superUser) { repondre("I am alive to reject the finance bill in Kenya🇿🇦") ; return};
 
-      await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
-         repondre("don't do fake thinks :)")
+      await   repondre("*clink a link below to join ganz channel to beI am alive to reject the finance bill in Kenya🇿🇦 https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M* ");
+         repondre("don't do fake thinks i mean reject the finance bill in Kenya 🇿🇦:)")
      }
  } else {
 
-    if(!superUser) { repondre ("Only the owner can  modify the alive") ; return};
+    if(!superUser) { repondre ("I am alive to reject the finance bill in Kenya🇿🇦") ; return};
 
   
     const texte = arg.join(' ').split(';')[0];
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' Holla🥴, *BELTAH-MD BOT* is alive just like you gee. ')
+repondre(' *reject finacy bill in kenya 🇿🇦. ')
 
 }
     });
