@@ -1,5 +1,5 @@
 {
-  "name":"JOEL-MD",
+  "name":"JOEL-MD NEW VISION",
   "description":"bot whatsapp développé par joel any problem wa.me 255714595078",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/4e959c8114dbc13470c5f.jpg",
@@ -9,7 +9,7 @@
   "env":{
     "PREFIX":
     {
-      "description":"choose your prefix of bot",
+      "description":"choose your prefix of bot set all if you want your bot to run in multiple prefix 🕷️",
       "value":".",
       "required":true
     },
@@ -21,7 +21,7 @@
     }, "AUTO_DOWNLOAD_STATUS":
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"yes",
+      "value":"bo",
       "required":false
     }
     ,
