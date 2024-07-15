@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *Hacking_MD version 2.0*`
+ *JOEL-MD-WABOT*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre('message alive refresh successfully')
+repondre(' Holla🥴, *BELTAH-MD BOT* is alive just like you gee. ')
 
 }
     });
