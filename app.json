@@ -2,7 +2,7 @@
   "name":"JOEL MD NEW UPDATE",
   "description":"bot whatsapp développéd by joel tech",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/4e959c8114dbc13470c5f.jpg",
+  "logo":"https://telegra.ph/file/1774326c63cc0b0e87680.jpg",
   "repository":"https://github.com/HACKING995/HACKING956",
   "succes_url":"/",
   "stack":"container",
@@ -21,7 +21,7 @@
     }, "AUTO_DOWNLOAD_STATUS":
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"yes",
+      "value":"no",
       "required":false
     }
     ,
@@ -97,7 +97,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"2",
     "required": true 
   },
   "ANTI_DELETE_MESSAGE" : {
