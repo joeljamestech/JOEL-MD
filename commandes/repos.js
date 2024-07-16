@@ -22,14 +22,14 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `*hellow whatsaap user
-this is* *joel-md.*\n get session id *by*, *pairing code*  https://pairmodeli-6b8e7f4910f8.herokuapp.com/pair/
+this is* *joel-md.*\n get session id *by*, *pairing code*  https://joeljss-81a7a78304ea.herokuapp.com/pair/
 
-🗼 *REPOSITORY:* ${data.html_url}
-✨ *STARS:* ${repoInfo.stars}
-🧧 *FORKS:* ${repoInfo.forks}
-📅 *RELEASE DATE:* ${releaseDate}
-🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
-👨‍💻 *OWNER:* *joel tech*
+🕷️ *REPOSITORY:* ${data.html_url}
+🕷️ *STARS:* ${repoInfo.stars}
+🕷️ *FORKS:* ${repoInfo.forks}
+🕷️ *RELEASE DATE:* ${releaseDate}
+🕷️ *UPDATE ON:* ${repoInfo.lastUpdate}
+🕷️ *OWNER:* *joel tech*
 __________________________________
             *Made With joel kang'oma*`;
 
