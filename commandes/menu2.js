@@ -6,7 +6,7 @@ const { format, styletext } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
-zokou({ nomCom: "menu3", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "joel", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre } = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -22,7 +22,7 @@ zokou({ nomCom: "menu3", categorie: "Menu" }, async (dest, zk, commandeOptions) 
     const date = moment.tz("asia/karachi").format("DD/MM/YYYY");
     console.log("date" + date);
     console.log("temps " + temps);
-    let menuMsg = "  ╩═══ * JOEL MD * ╩═══\n\n";
+    let menuMsg = "  ═══ * ᴊᴏᴇʟ ᴍᴅ * ═══\n\n";
     /*menuMsg+=`
     
     
