@@ -66,19 +66,9 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏━━𒈒JOEL MD ━━┓
-┃ ⿻Mode: ${mode}
-┃ ⿻User : ${s.OWNER_NAME}
-┃
-┣━━❏joel md-bot info❏
-┃
-┃ ⿻Library : Baileys
-️┃ ⿻Prefix : ${s.PREFIXE}
-️┃ ⿻Date : ${date}
-┃ ⿻Time : ${temps}
-┃ ⿻Tools : ${cm.length}
-┃ ⿻Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃ ⿻Host : ${os.platform()}
+┏━━𒈒JOEL MD 2024 ━━┓
+┃   Mode: ${mode}
+┃   User : ${s.OWNER_NAME}
 ┃
 ┣━𒈒joel md new vision 𒈒━➠
 ┗━━━𒈒by joel tech 𒈒━━┛\n\n`;
@@ -128,7 +118,7 @@ let menuMsg = `
 
 
 ┏━━━━━━━━━━━━━━┓
-┃➠wa channel: https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M
+┃powered by joeltech
 ┗━━━━━━━━━━━━━━┛\n
 
 
