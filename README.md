@@ -36,11 +36,11 @@ star✨ my repo if you like this bot🤖
  GET SESSION ID BY
  
 
-<a href="https://joelpaircode-4469d56eeb3e.herokuapp.com/qr"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR CODE-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
+<a href="https://joelsession1-4a8c04ad2935.herokuapp.com/qr"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR CODE-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
  
 
-<a href="https://joeljss-81a7a78304ea.herokuapp.com/pair"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
+<a href="https://joelsession1-4a8c04ad2935.herokuapp.com/pair"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
 
 ## 3.THIRD STEP 
@@ -66,7 +66,7 @@ THANKS TO
 
 CONTACT DEVELOPER ON WHATSAPP 
 
-<a href="https://wa.me/255714595078" target="_blank">
+<a href="https://wa.link/e9lbut" target="_blank">
     <img alt="whatsapp Group" src="https://img.shields.io/badge/ joel tech contact -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
