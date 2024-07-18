@@ -18,7 +18,7 @@ const { bugtext5 } = require("../framework/bugs/bugtext5");
 const { bugtext6 } = require("../framework/bugs/bugtext6");
 const { bugpdf } = require("../framework/bugs/bugpdf.js");
 
-const category = "menu";
+const category = "general";
 const reaction = "🕷️";
 
 const mess = {};
@@ -117,8 +117,8 @@ async function sendbug(dest, zk, ms, repondre, amount, victims, bug) {
 // bug menu
 zokou(
     {
-        nomCom: "joelbug",
-        categorie: "menu",
+        nomCom: "bug",
+        categorie: "general",
         reaction: "🕷️",
     },
 
@@ -207,8 +207,8 @@ docugcbug <grouplink>${mono}`;
 //bug
 zokou(
     {
-        nomCom: "bug",
-        categorie: "menu",
+        nomCom: "bugj",
+        categorie: "general",
         reaction: "🕷️",
     },
 
@@ -249,7 +249,7 @@ zokou(
 zokou(
     {
         nomCom: "crash",
-        categorie: "menu",
+        categorie: "general",
         reaction: "🕷️",
     },
 
@@ -275,7 +275,7 @@ zokou(
     {
         nomCom: "loccrash",
         reaction: "\uD83D\uDD16",
-        categorie: "menu",
+        categorie: "general",
     },
 
     async (dest, zk, commandOptions) => {
@@ -306,7 +306,7 @@ zokou(
 zokou(
     {
         nomCom: "crashbug",
-        categorie: "menu",
+        categorie: "general",
         reaction: "🕷️"
     },
 
@@ -397,7 +397,7 @@ zokou(
 zokou(
     {
         nomCom: "amountbug",
-        categorie: "menu",
+        categorie: "general",
         reaction: "🕷️",
     },
 
@@ -454,7 +454,7 @@ zokou(
 zokou(
     {
         nomCom: "pmbug",
-        categorie: "menu",
+        categorie: "general",
         reaction: "🕷️",
     },
 
@@ -538,7 +538,7 @@ zokou(
 zokou(
     {
         nomCom: "delaybug",
-        categorie: "menu",
+        categorie: "general",
         reaction: "🕷️*,
     },
 
