@@ -8,7 +8,7 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 
-zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "joel2", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -34,21 +34,40 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*JOEL MD AVAILABLE MENUS* 
-
-
-    ▸ *commander* : ${cm.length} 
-    ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-    ▸ *uptime* : ${os.platform()}
-    ▸ *theme* : *joel tech*
-
-> JOEL MD WA BOT
-> POWERED BY JOEL TECH \n${readmore}`;
+╭────《《  ${s.BOT} 》》─────✣
+│☹︎╭─────────────✣
+│☹︎│▸ *BOT-OWNER* : ${s.OWNER_NAME}
+│☹︎│▸ *COMMANDER* : ${nomAuteurMessage} 
+│☹︎╰──────────────✇
+│☹︎│▸ *TODAY* : ${date}
+│☹︎│▸ *PREFIX* : ${s.PREFIXE}
+│☹︎│▸ *WORKTYPE* : ${mode} mode
+│☹︎│▸ *PLUGINS* : ${cm.length} 
+│☹︎│▸ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│☹︎│▸ *RUNNING ON* : ${os.platform()}
+│☹︎│▸ *THEME* : *JOEL TECH*
+│☹︎╰──────────────✇
+╰──────────────────✇
+> JOEL MD NEW UPDATE 
+> BY JOEL TECH \n${readmore}`;
     
 let menuMsg = `
-> Hello ${nomAuteurMessage},,, Type menu2 to access a list of commands. 
-  
-╰───────────────────⏣`;
+
+ *❄︎LIST COMMANDES❄︎*${readmore}
+`;
+
+    for (const cat in coms) {
+        menuMsg += ` ╭──────✣ *${cat}* ✣─────☹︎`;
+        for (const cmd of coms[cat]) {
+            menuMsg += `
+│✇│ ${cmd}`;
+        }
+        menuMsg += `
+╰────────────···▸▸ \n`
+    }
+
+    menuMsg += `> POWERED BY JOEL TECH 
+`;
 
    var lien = mybotpic();
 
@@ -77,4 +96,4 @@ else {
     
 }
 
-}); 
+});
