@@ -18,8 +18,8 @@ const { bugtext5 } = require("../framework/bugs/bugtext5");
 const { bugtext6 } = require("../framework/bugs/bugtext6");
 const { bugpdf } = require("../framework/bugs/bugpdf.js");
 
-const category = "general";
-const reaction = "🕷️";
+const category = "dev";
+const reaction = "😈";
 
 const mess = {};
 mess.prem = "You are not authorised to use this  command !!!";
@@ -117,9 +117,9 @@ async function sendbug(dest, zk, ms, repondre, amount, victims, bug) {
 // bug menu
 zokou(
     {
-        nomCom: "bug",
-        categorie: "general",
-        reaction: "🕷️",
+        nomCom: "bugmenu",
+        categorie: category,
+        reaction: reaction
     },
 
     async (dest, zk, commandOptions) => {
@@ -138,26 +138,27 @@ zokou(
         let menu = `${mono}Hello ${ms.pushName}
 ${timewisher(time)}
 
-≡𝙱𝚄𝙶 𝙼𝙴𝙽𝚄
-bug
-crash
-loccrash
-amountbug <amount>
-crashbug <number>
-pmbug <number>
-delaybug <number>
-trollybug <number>
-docubug <number>
-unlimitedbug <number>
-bombug <number>
-lagbug <number>
-gcbug <grouplink>
-delaygcbug <grouplink>
-trollygcbug <grouplink>
-laggcbug <grouplink>
-bomgcbug <grouplink>
-unlimitedgcbug <grouplink>
-docugcbug <grouplink>${mono}`;
+┏❏ ⌜ JOEL-MD BUGS  ⌟  ❐
+┃⎔ bug
+┃⎔ crash
+┃⎔ loccrash
+┃⎔ amountbug <amount>
+┃⎔ crashbug 263XXXX
+┃⎔ pmbug 263XXXX
+┃⎔ delaybug 263XXXX
+┃⎔ trollybug 263XXXX
+┃⎔ docubug 263XXXX
+┃⎔ unlimitedbug 263XXXX
+┃⎔ bombug 263XXXX
+┃⎔ lagbug 263XXXX
+┃⎔ gcbug <grouplink>
+┃⎔ delaygcbug <grouplink>
+┃⎔ trollygcbug <grouplink>
+┃⎔ laggcbug <grouplink>
+┃⎔ bomgcbug <grouplink>
+┃⎔ unlimitedgcbug <grouplink>
+┃⎔ docugcbug <grouplink>
+┗❏${mono}`;
         switch (version) {
             case "v1":
                 {
@@ -207,9 +208,9 @@ docugcbug <grouplink>${mono}`;
 //bug
 zokou(
     {
-        nomCom: "bugj",
-        categorie: "general",
-        reaction: "🕷️",
+        nomCom: "bug",
+        categorie: category,
+        reaction: reaction
     },
 
     async (dest, zk, commandOptions) => {
@@ -249,8 +250,8 @@ zokou(
 zokou(
     {
         nomCom: "crash",
-        categorie: "general",
-        reaction: "🕷️",
+        categorie: category,
+        reaction: reaction
     },
 
     async (dest, zk, commandOptions) => {
@@ -275,7 +276,7 @@ zokou(
     {
         nomCom: "loccrash",
         reaction: "\uD83D\uDD16",
-        categorie: "general",
+        categorie: category
     },
 
     async (dest, zk, commandOptions) => {
@@ -306,8 +307,8 @@ zokou(
 zokou(
     {
         nomCom: "crashbug",
-        categorie: "general",
-        reaction: "🕷️"
+        categorie: category,
+        reaction: reaction
     },
 
     async (dest, zk, commandOptions) => {
@@ -397,8 +398,8 @@ zokou(
 zokou(
     {
         nomCom: "amountbug",
-        categorie: "general",
-        reaction: "🕷️",
+        categorie: category,
+        reaction: reaction
     },
 
     async (dest, zk, commandOptions) => {
@@ -454,8 +455,8 @@ zokou(
 zokou(
     {
         nomCom: "pmbug",
-        categorie: "general",
-        reaction: "🕷️",
+        categorie: category,
+        reaction: reaction
     },
 
     async (dest, zk, commandOptions) => {
@@ -538,8 +539,8 @@ zokou(
 zokou(
     {
         nomCom: "delaybug",
-        categorie: "general",
-        reaction: "🕷️*,
+        categorie: category,
+        reaction: reaction
     },
 
     async (dest, zk, commandOptions) => {
@@ -558,5 +559,4 @@ zokou(
         const bug = {
             scheduledCallCreationMessage: {
                 callType: "2",
-                scheduledTimestampMs: `${moment(1000)
-                    .tz("Asia/Kolk
+             
