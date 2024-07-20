@@ -19,7 +19,7 @@ zokou({ nomCom: "yts", categorie: "Search", reaction: "🐅" }, async (dest, zk,
 
     let captions = "";
 for (let i = 0; i < 15; i++) {
-  captions += `╭━━JOEL MD YOUTUBE MENU━━╮\n${i + 1}. Title: ${resultat[i].title}\nTime : ${resultat[i].timestamp}\nUrl: ${resultat[i].url}\n`;
+  captions += `ᴊᴏᴇʟ ᴍᴅ\n${i + 1}. Title: ${resultat[i].title}\nTime : ${resultat[i].timestamp}\nUrl: ${resultat[i].url}\n`;
 }
     captions += "\n======\n*powered by joel kang'oma*";
 
@@ -95,7 +95,7 @@ _*En cours de téléchargement...*_\n\n`
 zokou({
   nomCom: "ytmp3",
   categorie: "Download",
-  reaction: "💿"
+  reaction: "🎗️"
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
 
