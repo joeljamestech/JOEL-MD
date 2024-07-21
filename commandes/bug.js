@@ -6,7 +6,7 @@ const { format, styletext } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
-zokou({ nomCom: "joel", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "joel2", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre } = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -48,23 +48,36 @@ zokou({ nomCom: "joel", categorie: "Menu" }, async (dest, zk, commandeOptions) =
    ||
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
-╔════---------
-║    Préfix : ${s.PREFIXE}
-║    Owner : ${s.NOM_OWNER}    
-║    Mode : ${mode}
-║    Plugins :${cm.length}
-║    Date : ${date}
-║    Time : ${temps}
-║    Memory : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-║    Platform : ${os.platform()}
+
+┏❏ ⌜ JOEL-MD BUGS  ⌟  ❐
+┃⎔ bug
+┃⎔ crash
+┃⎔ loccrash
+┃⎔ amountbug <amount>
+┃⎔ crashbug 263XXXX
+┃⎔ pmbug 263XXXX
+┃⎔ delaybug 263XXXX
+┃⎔ trollybug 263XXXX
+┃⎔ docubug 263XXXX
+┃⎔ unlimitedbug 263XXXX
+┃⎔ bombug 263XXXX
+┃⎔ lagbug 263XXXX
+┃⎔ gcbug <grouplink>
+┃⎔ delaygcbug <grouplink>
+┃⎔ trollygcbug <grouplink>
+┃⎔ laggcbug <grouplink>
+┃⎔ bomgcbug <grouplink>
+┃⎔ unlimitedgcbug <grouplink>
+┃⎔ docugcbug <grouplink>
+┗❏${mono}`;
 ╚════--------------- \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
-            emoji[cat] = "🔋";
+            emoji[cat] = "";
         }
-        menuMsg += `${emoji[cat]} ══ *${cat} * ══ ${emoji[cat]}\n`;
+        menuMsg += `${emoji[cat]}  *${cat} * ══ ${emoji[cat]}\n`;
         for (const cmd of coms[cat]) {
-            menuMsg += "\t  ║ " + cmd + "" + " \n";
+            menuMsg += "\t   " + cmd + "" + " \n";
         }
     }
     var link = "https://telegra.ph/file/94ff2d14a8be266434db6.jpg";
