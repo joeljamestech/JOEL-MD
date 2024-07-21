@@ -14,7 +14,7 @@ const s = require(__dirname + "/../set");
 
 
 
-zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "joel2", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
 
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
 
@@ -66,43 +66,44 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏━━𒈒JOEL MD 2024 ━━┓
-┃   Mode: ${mode}
-┃   User : ${s.OWNER_NAME}
-┃
-┣━𒈒joel md new vision 𒈒━➠
-┗━━━𒈒by joel tech 𒈒━━┛\n\n`;
+┏❏  *JOEL* *MD* *V* *6*
+┃ ⿻Mode: ${mode}
+┃ ⿻User : ${s.OWNER_NAME}
+┃ ⿻Library : Baileys
+️┃ ⿻Prefix : ${s.PREFIXE}
+️┃ ⿻Date : ${date}
+┃ ⿻Time : ${temps}
+┃ ⿻Tools : ${cm.length}
+┃ ⿻Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┃ ⿻Host : ${os.platform()}
+┗❏\n\n`;
 
 
     
 
 let menuMsg = `
-┏━━━━━━━━━━━━━━┓
-┣❏joel md bot 
-┣❏©joel _it🕷️
-┗━━━━━━━━━━━━━━┛\n
+┏━━━━━━━━━┓
+┣*joel md cmds*
+┗━━━━━━━━━┛\n
 
 
-
-
-𒈒joel md cmds𒈒
 `;
 
 
 
     for (const cat in coms) {
 
-        menuMsg += `┏━━━━━⚼ ${cat}`;
+        menuMsg += `┏❏ *${cat}*`;
 
         for (const cmd of coms[cat]) {
 
             menuMsg += `
-┃➠ ${cmd}`;
+┃ ⎔ ${cmd}`;
 
         }
 
         menuMsg += `
-┗━━━━━━━━━━━━━━┛\n`
+┗❏\n`
 
     }
 
@@ -112,13 +113,11 @@ let menuMsg = `
 
 
 ︎┏━━━━━━━━━━━━━━┓
-️┣❏joel md bot 
-┣❏© by joel tech 
-┗━━━━━━━━━━━━━━┛\n
-
-
-┏━━━━━━━━━━━━━━┓
-┃powered by joeltech
+️┣❏*JOEL MD*
+┣❏*BY* *JOEL* *IT*
+┗┳━━━━━━━━━━━━┳┛
+┏┻━━━━━━━━━━━━┻┓
+┃*powered* *by* *joel* *tech*
 ┗━━━━━━━━━━━━━━┛\n
 
 
@@ -134,7 +133,7 @@ let menuMsg = `
 
     try {
 
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *JOEL-BOT*, déveloper joel james" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TKM-BOT*, déveloper Cod3uchiha" , gifPlayback : true }, { quoted: ms });
 
     }
 
@@ -181,4 +180,3 @@ else {
 
 
 });
-          
