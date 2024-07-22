@@ -71,14 +71,14 @@ else {
 }
 
     } else {
-        if(!superUser) { repondre("reject the finance bill in Kenya🇿🇦") ; return};
+        if(!superUser) { repondre("𝕁𝕆𝔼𝕃 𝕄𝔻 𝕃𝔸𝕋𝔼𝕊𝕋 𝕍𝕀𝕊𝕀𝕆ℕ") ; return};
 
-      await   repondre("*join ganz official channel to reject the finance bill and shit in Kenya🇿🇦 https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M ");
-         repondre("don't do fake thinks i mean reject the finance bill in Kenya 🇿🇦:)")
+      await   repondre("𝕡𝕠𝕨𝕖𝕣𝕖𝕕 𝕓𝕪 𝕛𝕠𝕖𝕝 𝕜𝕒𝕟𝕘'𝕠𝕞𝕒 ");
+         repondre("𝕁𝕆𝔼𝕃 𝕄𝔻 𝕃𝔸𝕋𝔼𝕊𝕋 𝕍𝕀𝕊𝕀𝕆ℕ")
      }
  } else {
 
-    if(!superUser) { repondre ("I am alive to reject the finance bill in Kenya🇿🇦") ; return};
+    if(!superUser) { repondre ("𝕁𝕆𝔼𝕃 𝕄𝔻 𝕃𝔸𝕋𝔼𝕊𝕋 𝕍𝕀𝕊𝕀𝕆ℕ") ; return};
 
   
     const texte = arg.join(' ').split(';')[0];
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' join ganz official channel to reject the finance bill and shit in Kenya🇿🇦 https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M🇿🇦. ')
+repondre(' join joel md channel  https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M🇿🇦. ')
 
 }
     });
