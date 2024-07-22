@@ -42,7 +42,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/1886570d6f98f45220aed.mp4,https://telegra.ph/file/10cbe68e2052c9972d1bd.mp4,https://telegra.ph/file/c0b64b8b1b74475ef90a5.jpg",
+      "value":"https://telegra.ph/file/1886570d6f98f45220aed.mp4,https://telegra.ph/file/10cbe68e2052c9972d1bd.mp4,https://telegra.ph/file/c0b64b8b1b74475ef90a5.jpg,https://telegra.ph/file/",
       "required":false
        
      },
@@ -81,7 +81,7 @@
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255781144539"
+    "value": "255714595078"
   },
     "WARN_COUNT":
   {
