@@ -67,7 +67,7 @@ zokou({ nomCom: "help", categorie: "Menu" }, async (dest, zk, commandeOptions) =
             menuMsg += "\t  🇹🇿 " + cmd + "" + " \n";
         }
     }
-    var link = "";
+    var link = "https://telegra.ph/file/b8dae98e4b94ab95950aa.mp4";
     try {
         zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©TKM INC" }, { quoted: ms });
     }
