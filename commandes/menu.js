@@ -70,11 +70,11 @@ const date = moment().format('DD/MM/YYYY');
 ┃ ⿻: ${mode}
 ┃ ⿻𝕠𝕨𝕟𝕖𝕣 : 𝕛𝕠𝕖𝕝 𝕥𝕖𝕔𝕙
 ┃ ⿻𝕝𝕚𝕓𝕣𝕒𝕣𝕪 : Baileys
-️┃ ⿻Prefix : ${s.PREFIXE}
-️┃ ⿻Date : ${date}
-┃ ⿻Time : ${temps}
-┃ ⿻Tools : ${cm.length}
-┃ ⿻Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+️┃ ⿻𝕡𝕣𝕖𝕗𝕚𝕩 : ${s.PREFIXE}
+️┃ ⿻𝕕𝕒𝕥𝕖 : ${date}
+┃ ⿻𝕥𝕚𝕞𝕖 : ${temps}
+┃ ⿻𝕡𝕝𝕦𝕘𝕚𝕟 : ${cm.length}
+┃ ⿻ 𝕣𝕒𝕞: ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ┃ ⿻𝕥𝕙𝕖𝕞𝕖 : 𝕛𝕠𝕖𝕝 𝕥𝕖𝕔𝕙
 ┗❏\n\n`;
 
