@@ -1,9 +1,9 @@
 {
-  "name":"ᴊᴏᴇʟ ᴍᴅ",
+  "name":"𝕁𝕆𝔼𝕃 𝕄𝔻 𝕃𝔸𝕋𝔼𝕊𝕋 𝕍𝕀𝕊𝕀𝕆ℕ",
   "description":"bot whatsapp développéd by joel tech",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/f281d0f0fa61e93b16539.jpg",
-  "repository":"https://github.com/HACKING995/HACKING956",
+  "repository":"",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"JOEL MD",
+      "value":"𝕁𝕆𝔼𝕃 𝕄𝔻 𝕃𝔸𝕋𝔼𝕊𝕋 𝕍𝕀𝕊𝕀𝕆ℕ",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/1886570d6f98f45220aed.mp4,https://telegra.ph/file/10cbe68e2052c9972d1bd.mp4",
+      "value":"https://telegra.ph/file/1886570d6f98f45220aed.mp4,https://telegra.ph/file/10cbe68e2052c9972d1bd.mp4,https://telegra.ph/file/b8dae98e4b94ab95950aa.mp4,https://telegra.ph/file/e07a3d933fb4cad0b3791.jpg",
       "required":false
        
      },
