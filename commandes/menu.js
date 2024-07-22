@@ -66,16 +66,16 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏❏  *JOEL* *MD* *V* *6*
-┃ ⿻Mode: ${mode}
-┃ ⿻User : ${s.OWNER_NAME}
-┃ ⿻Library : Baileys
+┏❏  𝕁𝕆𝔼𝕃 𝕄𝔻 𝕃𝔸𝕋𝔼𝕊𝕋 𝕍𝕀𝕊𝕀𝕆ℕ
+┃ ⿻: ${mode}
+┃ ⿻𝕠𝕨𝕟𝕖𝕣 : 𝕛𝕠𝕖𝕝 𝕥𝕖𝕔𝕙
+┃ ⿻𝕝𝕚𝕓𝕣𝕒𝕣𝕪 : Baileys
 ️┃ ⿻Prefix : ${s.PREFIXE}
 ️┃ ⿻Date : ${date}
 ┃ ⿻Time : ${temps}
 ┃ ⿻Tools : ${cm.length}
 ┃ ⿻Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃ ⿻Host : ${os.platform()}
+┃ ⿻𝕥𝕙𝕖𝕞𝕖 : 𝕛𝕠𝕖𝕝 𝕥𝕖𝕔𝕙
 ┗❏\n\n`;
 
 
@@ -83,7 +83,7 @@ const date = moment().format('DD/MM/YYYY');
 
 let menuMsg = `
 ┏━━━━━━━━━┓
-┣*joel md cmds*
+┣𝕛𝕠𝕖𝕝 𝕞𝕕 𝕔𝕠𝕞𝕞𝕒𝕟𝕕𝕤
 ┗━━━━━━━━━┛\n
 
 
@@ -113,11 +113,11 @@ let menuMsg = `
 
 
 ︎┏━━━━━━━━━━━━━━┓
-️┣❏*JOEL MD*
-┣❏*BY* *JOEL* *IT*
+️┣❏𝕁𝕆𝔼𝕃 𝕄𝔻 𝕃𝔸𝕋𝔼𝕊𝕋 𝕍𝕀𝕊𝕀𝕆ℕ
+┣❏𝕥𝕙𝕒𝕟𝕜𝕤 𝕗𝕠𝕣 𝕔𝕙𝕠𝕠𝕤𝕚𝕟𝕘 𝕛𝕠𝕖𝕝 𝕞𝕕
 ┗┳━━━━━━━━━━━━┳┛
 ┏┻━━━━━━━━━━━━┻┓
-┃*powered* *by* *joel* *tech*
+┃𝕡𝕠𝕨𝕖𝕣𝕖𝕕 𝕓𝕪 𝕛𝕠𝕖𝕝 𝕜𝕒𝕟𝕘'𝕠𝕞𝕒
 ┗━━━━━━━━━━━━━━┛\n
 
 
