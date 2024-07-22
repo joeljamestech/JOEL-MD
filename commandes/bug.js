@@ -6,7 +6,7 @@ const { format, styletext } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
-zokou({ nomCom: "joel2", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "help", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre } = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -22,7 +22,7 @@ zokou({ nomCom: "joel2", categorie: "Menu" }, async (dest, zk, commandeOptions) 
     const date = moment.tz("asia/karachi").format("DD/MM/YYYY");
     console.log("date" + date);
     console.log("temps " + temps);
-    let menuMsg = "  ═══ * ᴊᴏᴇʟ ᴍᴅ * ═══\n\n";
+    let menuMsg = "  𝕁𝕆𝔼𝕃 𝕄𝔻 𝕃𝔸𝕋𝔼𝕊𝕋 𝕍𝕀𝕊𝕀𝕆ℕ \n\n";
     /*menuMsg+=`
     
     
@@ -44,45 +44,32 @@ zokou({ nomCom: "joel2", categorie: "Menu" }, async (dest, zk, commandeOptions) 
    ||      Date : ${date}
    ||      Heure : ${temps}
    ||      Mémoire : ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}                   {Plateforme : ${os.platform()}
-   ||  Développeurs : joel tech++||best coder 
+   ||  Développeurs : Djalega++||Luffy
    ||
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
-
-┏❏ ⌜ JOEL-MD BUGS  ⌟  ❐
-┃⎔ bug
-┃⎔ crash
-┃⎔ loccrash
-┃⎔ amountbug <amount>
-┃⎔ crashbug 263XXXX
-┃⎔ pmbug 263XXXX
-┃⎔ delaybug 263XXXX
-┃⎔ trollybug 263XXXX
-┃⎔ docubug 263XXXX
-┃⎔ unlimitedbug 263XXXX
-┃⎔ bombug 263XXXX
-┃⎔ lagbug 263XXXX
-┃⎔ gcbug <grouplink>
-┃⎔ delaygcbug <grouplink>
-┃⎔ trollygcbug <grouplink>
-┃⎔ laggcbug <grouplink>
-┃⎔ bomgcbug <grouplink>
-┃⎔ unlimitedgcbug <grouplink>
-┃⎔ docugcbug <grouplink>
-┗❏${mono}`;
+╔════---------
+║    Préfix : ${s.PREFIXE}
+║    Owner : ${s.NOM_OWNER}    
+║    Mode : ${mode}
+║    Plugins :${cm.length}
+║    Date : ${date}
+║    Time : ${temps}
+║    Memory : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+║    Platform : ${os.platform()}
 ╚════--------------- \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
-            emoji[cat] = "";
+            emoji[cat] = "🇹🇿";
         }
-        menuMsg += `${emoji[cat]}  *${cat} * ══ ${emoji[cat]}\n`;
+        menuMsg += `${emoji[cat]} 🇹🇿*${cat} * 🇹🇿 ${emoji[cat]}\n`;
         for (const cmd of coms[cat]) {
-            menuMsg += "\t   " + cmd + "" + " \n";
+            menuMsg += "\t  🇹🇿 " + cmd + "" + " \n";
         }
     }
-    var link = "https://telegra.ph/file/94ff2d14a8be266434db6.jpg";
+    var link = "";
     try {
-        zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©JOEL INC" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©TKM INC" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
