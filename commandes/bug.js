@@ -14,7 +14,7 @@ zokou({ nomCom: "help", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     if (s.MODE_PUBLIC != "oui") {
         mode = "private";
     }
-    var emoji = { "Général": "🌐", "Logo": "🎨", "hentai": "🔥", "weeb": "🌸", "Recherche": "🔍", "conversion": "🌟", "groupe": "♻️","Téléchargement":"💾" };
+    var emoji = { "Général": "🇹🇿", "Logo": "😇", "hentai": "🇹🇿", "weeb": "🇹🇿", "Recherche": "🇹🇿", "conversion": "🇹🇿", "groupe": "🇹🇿","Téléchargement":"🇹🇿" };
     cm.map(async (com, index) => { if (!coms[com.categorie])
         coms[com.categorie] = []; coms[com.categorie].push(com.nomCom); });
     const temps = moment(moment()).format("HH:MM:SS");
@@ -67,9 +67,9 @@ zokou({ nomCom: "help", categorie: "Menu" }, async (dest, zk, commandeOptions) =
             menuMsg += "\t  🇹🇿 " + cmd + "" + " \n";
         }
     }
-    var link = "https://telegra.ph/file/b8dae98e4b94ab95950aa.mp4";
+    var link = "https://telegra.ph/file/fba4f5f8debd711ef0eb4.jpg";
     try {
-        zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©TKM INC" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©JOEL INC" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
