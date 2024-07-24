@@ -21,8 +21,8 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
       const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
-      const gitdata = `*hellow whatsaap user
-this is* *joel-md.*\n get session id *by*, *pairing code*  https://joelsession1-4a8c04ad2935.herokuapp.com/pair/
+      const gitdata = `HELLOW WHATSAAP USER WELCOME ᴊᴏᴇʟ ᴍᴅ SCRIPT 
+this is* *joel-md.*\n GET SESSION ID *BY*, *PAIRING CODE*  https://joelsession1-4a8c04ad2935.herokuapp.com/pair/
 
 🕷️ *REPOSITORY:* ${data.html_url}
 🕷️ *STARS:* ${repoInfo.stars}
@@ -31,7 +31,7 @@ this is* *joel-md.*\n get session id *by*, *pairing code*  https://joelsession1-
 🕷️ *UPDATE ON:* ${repoInfo.lastUpdate}
 🕷️ *OWNER:* *joel tech*
 __________________________________
-            *Made With joel kang'oma*`;
+            𝕡𝕠𝕨𝕖𝕣𝕖𝕕 𝕓𝕪 𝕛𝕠𝕖𝕝 𝕜𝕒𝕟𝕘'𝕠𝕞𝕒`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
     } else {
