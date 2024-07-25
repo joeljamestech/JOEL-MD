@@ -1,4 +1,4 @@
-## JOEL MD V 1.0.0
+## JOEL MD WA BOT V 1.0.0
  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=red&size=25&center=true&vCenter=true&width=600&height=100&lines=I'm+joel+md+Created+by+joelkang'oma.&heart;++;Self-taught+Back-Created+By,;Ibrahim+Adams+Am+The,;Best+Is+Bot+For+You+To,;Deploy..<3"></a>
  <a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M">
  <img alt="JOEL BUG BOT" height="300" src="https://telegra.ph/file/8db6837e13d245b863961.jpg">
