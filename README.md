@@ -63,8 +63,10 @@ DEPLOY ON
 
 THANKS TO 
 
-1.myself (joel kang'oma)
+1.myself (joel tech)
 
+
+2.badboi (always supporter)
 
 
 
