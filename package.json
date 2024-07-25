@@ -1,5 +1,5 @@
 {
-  "name": "ALPHA-MD",
+  "name": "JOEL-MD",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "whatsapp-bot",
     "keithkeizzah"
   ],
-  "author": "Keith Tech",
+  "author": "joel Tech",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
