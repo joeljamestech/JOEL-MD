@@ -1,6 +1,6 @@
 {
-  "name": "JOEL-MD",
-  "version": "2.0.0",
+  "name": "JOEL MD",
+  "version": "5.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,12 +12,12 @@
   "keywords": [
     "bot",
     "Baileys",
-    "KEITH-KEIZZAH",
+    "Zokou",
     "whatsapp",
     "whatsapp-bot",
-    "keithkeizzah"
+    "Faouz995"
   ],
-  "author": "joel Tech",
+  "author": "Faouz995",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -27,6 +27,7 @@
     "@xaviabot/fb-downloader": "^1.0.14",
     "aptoide-scraper": "^1.0.1",
     "axios": "^1.4.0",
+    "api-dylux": "^1.6.9",
     "cache-manager": "latest",
     "canvacord": "^5.4.8",
     "chal": "^0.0.1-security.0",
@@ -38,9 +39,9 @@
     "fluent-ffmpeg": "^2.1.2",
     "form-data": "^4.0.0",
     "fs-extra": "^11.1.1",
+    "genius-lyrics": "^4.4.3", 
     "g-i-s": "^2.1.7",
     "gist": "^0.2.0",
-    "genius-lyrics": "^4.4.3",
     "google-it": "^1.6.4",
     "google-tts-api": "latest",
     "heroku-client": "^3.1.0",
@@ -66,6 +67,6 @@
     "youtube-yts": "^2.0.0",
     "youtubedl-core": "^4.11.7",
     "yt-search": "^2.10.4",
-"ytdl-core": "github:soya-daizu/ytdl-core#sig-patch"
+    "ytdl-core": "github:soya-daizu/ytdl-core#sig-patch"
   }
   }
