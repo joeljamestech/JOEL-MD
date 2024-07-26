@@ -137,7 +137,7 @@ zokou({
 zokou({
   nomCom: "mp3",
   categorie: "Download",
-  reaction: "💿"
+  reaction: "🔊"
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
 
