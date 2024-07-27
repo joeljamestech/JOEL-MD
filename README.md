@@ -61,27 +61,15 @@ DEPLOY ON
 
 
 
-THANKS TO 
+**CONTACT OWNER**
 
-1.myself (joel tech)
-
-
-2.badboi (always supporter)
-
-
-
-CONTACT DEVELOPER ON WHATSAPP 
-
-<a href="https://wa.link/e9lbut" target="_blank">
-    <img alt="whatsapp Group" src="https://img.shields.io/badge/ joel tech contact -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-
-
-  
- 
-<a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M" target="_blank">
-    <img alt="whatsapp Group" src="https://img.shields.io/badge/ JOEL  MD   CHANNEL -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
- 
-
-
-     
-
+<table>
+  <tr>
+    <td>joeljames tech</td>
+    <td>joe md channel</td>
+  </tr>
+  <tr>
+    <td><a href="https://wa.link/e9lbut"><img src="https://telegra.ph/file/074fda0c9cc17c420cf3d.jpg" width="180"</td>
+    <td><a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M"><img src="https://telegra.ph/file/074fda0c9cc17c420cf3d.jpg" width="180"</td>
+  </tr>
+</table>
