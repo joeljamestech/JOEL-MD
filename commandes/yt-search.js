@@ -19,9 +19,9 @@ zokou({ nomCom: "yts", categorie: "Search", reaction: "🐅" }, async (dest, zk,
 
     let captions = "";
 for (let i = 0; i < 15; i++) {
-  captions += `𝕁𝕆𝔼𝕃 𝕄𝔻 𝕃𝔸𝕋𝔼𝕊𝕋 𝕍𝕀𝕊𝕀𝕆ℕ\n${i + 1}. Title: ${resultat[i].title}\nTime : ${resultat[i].timestamp}\nUrl: ${resultat[i].url}\n`;
+  captions += ` 𝗝𝗢𝗘𝗟 𝗠𝗗 𝗟𝗔𝗧𝗘𝗦𝗧 𝗩𝗜𝗦𝗜𝗢𝗡 𝟮𝟬𝟮𝟰\n${i + 1}. Title: ${resultat[i].title}\nTime : ${resultat[i].timestamp}\nUrl: ${resultat[i].url}\n`;
 }
-    captions += "\n======\n𝕡𝕠𝕨𝕖𝕣𝕖𝕕 𝕓𝕪 𝕛𝕠𝕖𝕝 𝕜𝕒𝕟𝕘'𝕠𝕞𝕒";
+    captions += "\n======\n𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗷𝗼𝗲𝗹 𝗸𝗮𝗻𝗴'𝗼𝗺𝗮";
 
     // repondre(captions)
     zk.sendMessage(dest, { image: { url: resultat[0].thumbnail }, caption: captions }, { quoted: ms });
@@ -33,7 +33,7 @@ for (let i = 0; i < 15; i++) {
 zokou({
   nomCom: "ytmp4",
   categorie: "Download",
-  reaction: "🍑"
+  reaction: "🕷️"
 }, async (origineMessage, zk, commandeOptions) => {
   const { arg, ms, repondre } = commandeOptions;
 
@@ -137,7 +137,7 @@ zokou({
 zokou({
   nomCom: "mp3",
   categorie: "Download",
-  reaction: "🔊"
+  reaction: "🕷️"
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
 
