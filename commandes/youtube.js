@@ -10,7 +10,7 @@ const yts1 = require("youtube-yts");
 zokou({
   nomCom: "play",
   categorie: "Search",
-  reaction: "💿"
+  reaction: "🕷️"
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
      
@@ -30,7 +30,7 @@ zokou({
        
       let infoMess = {
   image: { url: videos[0].thumbnail },
-  caption: `𝕁𝕆𝔼𝕃 𝕄𝔻 𝕃𝔸𝕋𝔼𝕊𝕋 𝕍𝕀𝕊𝕀𝕆ℕ
+  caption: `𝗝𝗢𝗘𝗟 𝗠𝗗 𝗟𝗔𝗧𝗘𝗦𝗧 𝗩𝗜𝗦𝗜𝗢𝗡 𝟮𝟬𝟮𝟰
 *Song Name:* ${videos[0].title}
 
 *Uploaded:* ${videos[0].ago}
@@ -86,7 +86,7 @@ Views: ${videos[0].views}`,
 zokou({
   nomCom: "song",
   categorie: "Search",
-  reaction: "💿"
+  reaction: "🕷️"
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
      
@@ -160,7 +160,7 @@ _*on downloading...*_\n\n`
 zokou({
   nomCom: "video",
   categorie: "Search",
-  reaction: "🎥"
+  reaction: "🎬"
 }, async (origineMessage, zk, commandeOptions) => {
   const { arg, ms, repondre } = commandeOptions;
 
@@ -179,16 +179,16 @@ zokou({
 
       let InfoMess = {
   image: { url: Element.thumbnail },
-  caption: ` 𝕁𝕆𝔼𝕃 𝕄𝔻 𝕃𝔸𝕋𝔼𝕊𝕋 𝕍𝕀𝕊𝕀𝕆ℕ
+  caption: ` 𝗝𝗢𝗘𝗟 𝗠𝗗 𝗟𝗔𝗧𝗘𝗦𝗧 𝗩𝗜𝗦𝗜𝗢𝗡 𝟮𝟬𝟮𝟰
 *Video Name:* ${Element.title}
 *Uploaded:* ${Element.ago}
 *Author:* ${Element.author.name}
 *URL:* ${Element.url}
 *Views:* ${videos[0].views}
 
-*Choose format:*
-1. MP3
-2. MP4
+*𝗝𝗢𝗘𝗟 𝗠𝗗 𝗟𝗔𝗧𝗘𝗦𝗧 𝗩𝗜𝗦𝗜𝗢𝗡 𝟮𝟬𝟮𝟰:*
+1. ᴊᴏᴇʟ ᴍᴅ
+2. 𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗷𝗼𝗲𝗹 𝗸𝗮𝗻𝗴'𝗼𝗺𝗮
 
 _*Downloading...*_`
 };
