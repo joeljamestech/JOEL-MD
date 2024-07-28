@@ -1,8 +1,8 @@
 {
-  "name":"𝕁𝕆𝔼𝕃 𝕄𝔻 𝕃𝔸𝕋𝔼𝕊𝕋 𝕍𝕀𝕊𝕀𝕆ℕ",
-  "description":"bot whatsapp développéd by joel tech",
+  "name":"𝙟𝙤𝙚𝙡 𝙢𝙙",
+  "description":"𝙖 𝙬𝙝𝙨𝙖𝙖𝙥 𝙗𝙤𝙩 𝙘𝙧𝙚𝙖𝙩𝙚𝙙 𝙗𝙮 𝙟𝙤𝙚𝙡 𝙩𝙚𝙘𝙝",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/c0b64b8b1b74475ef90a5.jpg",
+  "logo":"https://telegra.ph/file/b6d4645722317939b7051.jpg",
   "repository":"",
   "succes_url":"/",
   "stack":"container",
@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"𝕁𝕆𝔼𝕃 𝕄𝔻 𝕃𝔸𝕋𝔼𝕊𝕋 𝕍𝕀𝕊𝕀𝕆ℕ",
+      "value":"𝙟𝙤𝙚𝙡 𝙢𝙙",
       "required":false
 
     } ,
