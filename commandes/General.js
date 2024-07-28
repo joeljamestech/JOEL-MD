@@ -51,16 +51,16 @@ zokou({ nomCom: "owner", categorie: "General", reaction: "🇹🇿" }, async (de
   }
 });
 
-zokou({ nomCom: "dev", categorie: "General", reaction: "💞" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "dev", categorie: "General", reaction: "✨" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
       { nom: "joel", numero: "255714595078" },
-      { nom: "best coder", numero: "255781144539" },
+      { nom: "joel_it", numero: "255781144539" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "👋 welcome to joel md! here is the dev :\n\n";
+    let message = "🕷️ welcome to joel md! here is the dev :\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -99,7 +99,7 @@ zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOpti
 
 })
 
-zokou({ nomCom: "developer", categorie: "General", reaction: "🐐" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "developer", categorie: "General", reaction: "🕷️" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
@@ -108,7 +108,7 @@ zokou({ nomCom: "developer", categorie: "General", reaction: "🐐" }, async (de
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "👋 *Welcome to joel md* here is the developer numbers:\n\n";
+    let message = "🇹🇿 *Welcome to joel md* here is the developer numbers:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
