@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' join joel md channel  https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M. ')
+repondre('you are a gay (bitch) if not why u recommend it *may the fuck be with you*')
 
 }
     });
