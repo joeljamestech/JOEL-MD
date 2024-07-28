@@ -66,7 +66,7 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏⎔𝙟𝙤𝙚𝙡 𝙢𝙙 𝙡𝙖𝙩𝙚𝙨𝙩 𝙫𝙞𝙨𝙞𝙤𝙣 
+┏❏𝙟𝙤𝙚𝙡 𝙢𝙙 𝙡𝙖𝙩𝙚𝙨𝙩 𝙫𝙞𝙨𝙞𝙤𝙣❏ 
 ┃ mode    : ${mode}
 ┃ owner   : ${s.OWNER_NAME}
 ┃ library : bailways
@@ -76,7 +76,7 @@ const date = moment().format('DD/MM/YYYY');
 ┃ plugin  : 900
 ┃ storage : 26.11GB/120.9 GB
 ┃ theme   : joel tech
-┗⎔\n\n`;
+┗❏\n\n`;
 
 
     
