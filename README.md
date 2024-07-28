@@ -65,7 +65,7 @@
 
 <table>
   <tr>
-    <td>joeljames tech</td>
+    <td> joeljames tech</td>
     <td>joe md channel</td>
   </tr>
   <tr>
@@ -75,4 +75,4 @@
 </table>
 
 
- *©joeltech 2024*
+ *©joeltech inc*
