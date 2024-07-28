@@ -9,7 +9,7 @@ const baileys_1 = require("@whiskeysockets/baileys");
 const fs = require('fs-extra');
 const util = require('util');
 let { listall } = require('./stylish-font');
-/*_________by Thomas 
+/*_________by joel tech
 
 fonction zJson:
 récupère un objet json
