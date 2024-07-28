@@ -66,17 +66,17 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏🕷️   𝙅𝙊𝙀𝙇 𝙈𝘿 𝙇𝘼𝙏𝙀𝙎𝙏 𝙑𝙄𝙎𝙄𝙊𝙉
-┃ 🕷️𝙢𝙤𝙙𝙚  : ${mode}
-┃ 🕷️𝙤𝙬𝙣𝙚𝙧 : ${s.OWNER_NAME}
-┃ 🕷️𝙡𝙞𝙗𝙧𝙖𝙧𝙮 : bailways
-️┃ 🕷️𝙥𝙧𝙚𝙛𝙞𝙭  : ${s.PREFIXE}
-️┃ 🕷️𝙙𝙖𝙩𝙚   : ${date}
-┃ 🕷️𝙩𝙞𝙢𝙚   : ${temps}
-┃ 🕷️𝙥𝙡𝙪𝙜𝙞𝙣 : 900
-┃ 🕷️𝙧𝙖𝙢   : 26.11GB/120.9 GB
-┃ 🕷️𝙩𝙝𝙚𝙢𝙚 : joel tech
-┗🕷️\n\n`;
+┏⎔𝙟𝙤𝙚𝙡 𝙢𝙙 𝙡𝙖𝙩𝙚𝙨𝙩 𝙫𝙞𝙨𝙞𝙤𝙣 
+┃ mode    : ${mode}
+┃ owner   : ${s.OWNER_NAME}
+┃ library : bailways
+️┃ stater  : ${s.PREFIXE}
+️┃ date    : ${date}
+┃ time    : ${temps}
+┃ plugin  : 900
+┃ storage : 26.11GB/120.9 GB
+┃ theme   : joel tech
+┗⎔\n\n`;
 
 
     
@@ -133,7 +133,7 @@ let menuMsg = `
 
     try {
 
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TKM-BOT*, déveloper Cod3uchiha" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *JOEL-BOT*, déveloper joel_it" , gifPlayback : true }, { quoted: ms });
 
     }
 
@@ -153,7 +153,7 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
 
     try {
 
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TKM-bot*, déveloper cod3uchiha" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *joel-bot*, déveloper cod3uchiha" }, { quoted: ms });
 
     }
 
