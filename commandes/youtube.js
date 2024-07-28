@@ -187,7 +187,7 @@ zokou({
 *Views:* ${videos[0].views}
 
 *𝗝𝗢𝗘𝗟 𝗠𝗗 𝗟𝗔𝗧𝗘𝗦𝗧 𝗩𝗜𝗦𝗜𝗢𝗡 𝟮𝟬𝟮𝟰:*
-1. ᴊᴏᴇʟ ᴍᴅ
+1. 𝙟𝙤𝙚𝙡 𝙢𝙙 𝙡𝙖𝙩𝙚𝙨𝙩 𝙫𝙞𝙨𝙞𝙤𝙣
 2. 𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗷𝗼𝗲𝗹 𝗸𝗮𝗻𝗴'𝗼𝗺𝗮
 
 _*Downloading...*_`
@@ -211,7 +211,7 @@ _*Downloading...*_`
 
       fileStream.on('finish', () => {
         // Envoi du fichier vidéo en utilisant l'URL du fichier local
-        zk.sendMessage(origineMessage, { video: { url :"./video.mp4"} , caption: "𝕡𝕠𝕨𝕖𝕣𝕖𝕕 𝕓𝕪 𝕛𝕠𝕖𝕝 𝕜𝕒𝕟𝕘'𝕠𝕞𝕒", gifPlayback: false }, { quoted: ms });
+        zk.sendMessage(origineMessage, { video: { url :"./video.mp4"} , caption: "𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗷𝗼𝗲𝗹 𝗸𝗮𝗻𝗴'𝗼𝗺𝗮", gifPlayback: false }, { quoted: ms });
       });
 
       fileStream.on('error', (error) => {
