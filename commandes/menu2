@@ -14,7 +14,7 @@ zokou({ nomCom: "help", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     if (s.MODE_PUBLIC != "oui") {
         mode = "private";
     }
-    var emoji = { "Général": "🇹🇿", "Logo": "😇", "hentai": "🇹🇿", "weeb": "🇹🇿", "Recherche": "🇹🇿", "conversion": "🇹🇿", "groupe": "🇹🇿","Téléchargement":"🇹🇿" };
+    var emoji = { "Général": "🕷️", "Logo": "🕷️", "hentai": "🕷️", "weeb": "🕷️", "Recherche": "🕷️", "conversion": "🕷️", "groupe": "🕷️","Téléchargement":"🕷️" };
     cm.map(async (com, index) => { if (!coms[com.categorie])
         coms[com.categorie] = []; coms[com.categorie].push(com.nomCom); });
     const temps = moment(moment()).format("HH:MM:SS");
@@ -22,7 +22,7 @@ zokou({ nomCom: "help", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     const date = moment.tz("asia/karachi").format("DD/MM/YYYY");
     console.log("date" + date);
     console.log("temps " + temps);
-    let menuMsg = "  𝕁𝕆𝔼𝕃 𝕄𝔻 𝕃𝔸𝕋𝔼𝕊𝕋 𝕍𝕀𝕊𝕀𝕆ℕ \n\n";
+    let menuMsg = "  🕷️ * joel-bot * 🕷️\n\n";
     /*menuMsg+=`
     
     
@@ -39,37 +39,37 @@ zokou({ nomCom: "help", categorie: "Menu" }, async (dest, zk, commandeOptions) =
    
    ||
    ||     Préfixe : ${s.prefixe}
-   ||      Owner : ${s.NOM_OWNER}
-   ||      Commandes : ${cm.length}
+   ||      Owner : ${s.OWNER_NAME}
+   ||      Commandes : 900
    ||      Date : ${date}
    ||      Heure : ${temps}
    ||      Mémoire : ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}                   {Plateforme : ${os.platform()}
-   ||  Développeurs : Djalega++||Luffy
+   ||  Développeurs : joel_it 🕷️
    ||
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
 ╔════---------
 ║    Préfix : ${s.PREFIXE}
-║    Owner : ${s.NOM_OWNER}    
+║    Owner : ${s.NAME_OWNER}    
 ║    Mode : ${mode}
 ║    Plugins :${cm.length}
 ║    Date : ${date}
 ║    Time : ${temps}
-║    Memory : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+║    Memory : 21.1GB/120 GB
 ║    Platform : ${os.platform()}
 ╚════--------------- \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
-            emoji[cat] = "🇹🇿";
+            emoji[cat] = "🕷️";
         }
-        menuMsg += `${emoji[cat]} 🇹🇿*${cat} * 🇹🇿 ${emoji[cat]}\n`;
+        menuMsg += `${emoji[cat]} 🕷️ *${cat} * 🕷️ ${emoji[cat]}\n`;
         for (const cmd of coms[cat]) {
-            menuMsg += "\t  🇹🇿 " + cmd + "" + " \n";
+            menuMsg += "\t  🕷️ " + cmd + "" + " \n";
         }
     }
-    var link = "https://telegra.ph/file/fba4f5f8debd711ef0eb4.jpg";
+    var link = "https://telegra.ph/file/98a8e8aaff05984d25f15.jpg";
     try {
-        zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©JOEL INC" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©TKM INC" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -82,7 +82,7 @@ zokou({ nomCom: "help", categorie: "Menu" }, async (dest, zk, commandeOptions) =
 module.exports.commande =()=>
   {
     var nomCom=["menu","m","fonctions"];
-    var reaction="🐞"
+    var reaction="🕷️"
     var categorie="général"
 
 
