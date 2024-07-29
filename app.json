@@ -1,9 +1,9 @@
 {
-  "name":"𝙟𝙤𝙚𝙡 𝙢𝙙",
-  "description":"𝙖 𝙬𝙝𝙨𝙖𝙖𝙥 𝙗𝙤𝙩 𝙘𝙧𝙚𝙖𝙩𝙚𝙙 𝙗𝙮 𝙟𝙤𝙚𝙡 𝙩𝙚𝙘𝙝",
+  "name":"JOEL-MD",
+  "description":"bot whatsapp développé par joel tech",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/b6d4645722317939b7051.jpg",
-  "repository":"",
+  "logo":"https://telegra.ph/file/c0b64b8b1b74475ef90a5.jpg",
+  "repository":"https://github.com/HACKING995/HACKING956",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -29,13 +29,13 @@
      {
       "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
       "value":"no",
-      "required":true
+      "required":false
     }
     ,
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"𝙟𝙤𝙚𝙡 𝙢𝙙",
+      "value":"JOEL MD WA BOT",
       "required":false
 
     } ,
@@ -50,7 +50,7 @@
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
       "value":"no",
-      "required": true 
+      "required":true
     }
 	,
     "HEROKU_APY_KEY": {
@@ -58,7 +58,7 @@
      "required" :true
     },
   "HEROKU_APP_NAME": {
-    "description": "insert your heroku APP NAME (this is optionnal)",
+    "description": "insert your heroku APP NAME (this is must)",
      "required" :true
     }  
 	  ,
@@ -74,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "joel tech"
+    "value": "joel_it🕷️"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255714595078"
+    "value": "2250545065189"
   },
     "WARN_COUNT":
   {
@@ -97,13 +97,13 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"2",
-    "required": true 
+    "value":"",
+    "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
-    "value": "yes",
-    "required": true 
+    "value": "no",
+    "required": false
   }
   },
 
@@ -119,4 +119,4 @@
       "plan":"heroku-postgresql"
     }
   ]
-  }
+}
