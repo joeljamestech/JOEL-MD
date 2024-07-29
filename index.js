@@ -1,4 +1,31 @@
-"use strict";
+                        } removed from group.`;
+
+                        await zk.sendMessage(origineMessage, {
+                            sticker: fs.readFileSync("st1.webp")
+                        });
+                        (0, baileys_1.delay)(800);
+                        await delay(500);
+                        await zk.sendMessage(
+                            origineMessage,
+                            {
+                                text: txt,
+                                mentions: [auteurMessage]
+                            },
+                            {
+                                quoted: ms
+                            }
+                        );
+                        await delay(500);
+                        try {
+                            await zk.groupParticipantsUpdate(
+                                origineMessage,
+                                [auteurMessage],
+                                "remove"
+                            );
+                            await delay(500);
+                        } catch (e) {
+                            console.log("antibot ") + e;
+                        }"use strict";
 var __createBinding =
     (this && this.__createBinding) ||
     (Object.create
