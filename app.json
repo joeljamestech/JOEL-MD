@@ -1,6 +1,6 @@
 {
-  "name": "joel md",
-  "description": "bot whatsapp développé par joel tech",
+  "name": "𝐉𝐎𝐄𝐋 𝐌𝐃 𝐕𝟐.𝟎.𝟎",
+  "description": "𝐰𝐞𝐥𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐣𝐨𝐞𝐥 𝐦𝐝 𝐚 𝐰𝐚 𝐛𝐨𝐭 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐛𝐲 𝐣𝐨𝐞𝐥 𝐭𝐞𝐜𝐡  𝐚𝐧𝐲 𝐩𝐫𝐨𝐛𝐥𝐞𝐦 𝐰𝐚.𝐦𝐞 +𝟐𝟓𝟓𝟕𝟏𝟒𝟓𝟗𝟓𝟎𝟕𝟖 𝐤𝐞𝐞𝐩 𝐮𝐬𝐢𝐧𝐠 𝐣𝐨𝐞𝐥 𝐦𝐝",
   "keywords": [
     "bot",
     "node",
@@ -8,7 +8,7 @@
     "whatsapp"
   ],
   "logo": "https://raw.gthubusercontent.com/djalega8000/Zokou-2.0/main/Zokou.jpg",
-  "repository": "https://github.com/djalega8000/Zokou-2.0",
+  "repository": "",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -34,7 +34,7 @@
     },
     "BOT_NAME": {
       "description": "put A name for your bot",
-      "value": "joel it🕷️",
+      "value": "𝐉𝐎𝐄𝐋 𝐌𝐃 𝐖𝐀 𝐁𝐎𝐓 𝐕 𝟐.𝟎.𝟎",
       "required": false
     },
     "BOT_MENU_LINKS": {
@@ -45,15 +45,15 @@
     "PUBLIC_MODE": {
       "description": "type yes to put your bot on public mode or no to put it on private mod",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "HEROKU_APY_KEY": {
       "description": "insert your heroku api-key (this is optionnal)",
-      "required": false
+      "required": true
     },
     "HEROKU_APP_NAME": {
       "description": "insert your heroku APP NAME (this is optionnal)",
-      "required": false
+      "required": true
     },
     "SESSION_ID": {
       "description": "put your session ID , the code you receive after scanning Qr code",
@@ -63,7 +63,7 @@
     "OWNER_NAME": {
       "desc": "Your Name",
       "required": false,
-      "value": "joel-it"
+      "value": "joel-it🕷️"
     },
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
