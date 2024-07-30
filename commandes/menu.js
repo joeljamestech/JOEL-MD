@@ -66,25 +66,25 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏❏𝙟𝙤𝙚𝙡 𝙢𝙙 𝙡𝙖𝙩𝙚𝙨𝙩 𝙫𝙞𝙨𝙞𝙤𝙣❏ 
-┃ ⿻mode    : ${mode}
-┃ ⿻owner   : ${s.OWNER_NAME}
-┃ ⿻library : bailways
-️┃ ⿻starter : ${s.PREFIXE}
-️┃ ⿻date    : ${date}
-┃ ⿻time    : ${temps}
-┃ ⿻plugin  : 900
-┃ ⿻storage : 26.11GB/120.9 GB
-┃ ⿻theme   : joel_it🕷️
+┏❏ JOEL MD LATEST VISION❐
+┃ ⿻Mode: ${mode}
+┃ ⿻User : ${s.OWNER_NAME}
+┃ ⿻Library : Baileys
+️┃ ⿻Prefix : ${s.PREFIXE}
+️┃ ⿻Date : ${date}
+┃ ⿻Time : ${temps}
+┃ ⿻Tools : ${cm.length}
+┃ ⿻Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┃ ⿻theme : joel_it🕷️
 ┗❏\n\n`;
 
 
     
 
 let menuMsg = `
-┏━━━━━━━━━━━━━━┓
-┣𝙟𝙤𝙚𝙡 𝙢𝙙 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨
-┗━━━━━━━━━━━━━━┛\n
+┏━━━━━━━━━━━━━━━┓
+┣joel md commands
+┗━━━━━━━━━━━━━━━┛\n
 
 
 `;
@@ -112,13 +112,13 @@ let menuMsg = `
     menuMsg += `
 
 
-︎┏━━━━━━━━━━━━━━━━━━┓
-️┃𝙟𝙤𝙚𝙡 𝙢𝙙 𝙡𝙖𝙩𝙚𝙨𝙩 𝙫𝙞𝙨𝙞𝙤𝙣
-┃𝙥𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝙟𝙤𝙚𝙡 𝙠𝙖𝙣𝙜'𝙤𝙢𝙖
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃𝙩𝙝𝙖𝙣𝙠𝙨 𝙛𝙤𝙧 𝙘𝙝𝙤𝙤𝙨𝙞𝙣𝙜 𝙟𝙤𝙚𝙡 𝙢𝙙
-┗━━━━━━━━━━━━━━━━━━┛\n
+︎┏━━━━━━━━━━━━━━━┓
+️┣❏joel md 2025
+┣❏happy new year 
+┗━━━━━━━━━━━━━━━┛
+┏━━━━━━━━━━━━━━━━┓
+┃powered by joel tech
+┗━━━━━━━━━━━━━━━━┛\n
 
 
 `;
@@ -133,7 +133,7 @@ let menuMsg = `
 
     try {
 
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *JOEL-BOT*, déveloper joel_it" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *JOEL-BOT*, déveloper Cod3uchiha" , gifPlayback : true }, { quoted: ms });
 
     }
 
@@ -153,7 +153,7 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
 
     try {
 
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *joel-bot*, déveloper cod3uchiha" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *JOEL-bot*, déveloper joeltech" }, { quoted: ms });
 
     }
 
