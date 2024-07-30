@@ -66,7 +66,7 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏❏ JOEL MD LATEST VISION❐
+┏❏ 𝐉𝐎𝐄𝐋 𝐌𝐃 𝐖𝐀 𝐁𝐎𝐓 ❐
 ┃ ⿻Mode: ${mode}
 ┃ ⿻User : ${s.OWNER_NAME}
 ┃ ⿻Library : Baileys
@@ -75,7 +75,7 @@ const date = moment().format('DD/MM/YYYY');
 ┃ ⿻Time : ${temps}
 ┃ ⿻Tools : ${cm.length}
 ┃ ⿻Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃ ⿻theme : joel_it🕷️
+┃ ⿻theme : 𝚓𝚘𝚎𝚕_𝚒𝚝🕷️
 ┗❏\n\n`;
 
 
@@ -83,7 +83,7 @@ const date = moment().format('DD/MM/YYYY');
 
 let menuMsg = `
 ┏━━━━━━━━━━━━━━━┓
-┣joel md commands
+┣𝚓𝚘𝚎𝚕 𝚖𝚍 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜
 ┗━━━━━━━━━━━━━━━┛\n
 
 
@@ -113,11 +113,11 @@ let menuMsg = `
 
 
 ︎┏━━━━━━━━━━━━━━━┓
-️┣❏joel md 2025
-┣❏happy new year 
+️┣❏𝚓𝚘𝚎𝚕 𝚖𝚍 𝚟 𝟸.𝟶.𝟶
+┣❏𝚔𝚎𝚎𝚙 𝚞𝚜𝚒𝚗𝚐 𝚓𝚘𝚎𝚕 𝚖𝚍
 ┗━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
-┃powered by joel tech
+┃𝚙𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚓𝚘𝚎𝚕_𝚝𝚎𝚌𝚑
 ┗━━━━━━━━━━━━━━━━┛\n
 
 
