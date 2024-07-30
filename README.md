@@ -1,10 +1,10 @@
-**JOEL MD WA BOT V 1.0.0**
+ 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐉𝐎𝐄𝐋 𝐌𝐃 𝐕 𝟐. 𝟎. 𝟎
  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=red&size=25&center=true&vCenter=true&width=600&height=100&lines=I'm+joel+md+Created+by+joelkang'oma.&heart;++;Self-taught+Back-Created+By,;Ibrahim+Adams+Am+The,;Best+Is+Bot+For+You+To,;Deploy..<3"></a>
  <a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M">
  <img alt="JOEL BUG BOT" height="300" src="https://telegra.ph/file/2a16b681b860b18295a64.jpg">
   
 </h1> 
-<p align="center">l introduce <b>ᴊᴏᴇʟ ᴍᴅ</b>, a powerful simple WhatsApp bot </p>
+<p align="center">𝐢𝐧𝐭𝐨𝐝𝐮𝐜𝐢𝐧𝐠 <b>𝐉𝐎𝐄𝐋 𝐌𝐃</b>, 𝐚 𝐩𝐨𝐰𝐞𝐫𝐟𝐮𝐥 𝐬𝐢𝐦𝐩𝐥𝐞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐛𝐨𝐭 </p>
 
 
     
@@ -19,10 +19,12 @@
 
 
 
-**HOW TO DEPLOY JOEL MD**
+ 𝐇𝐎𝐖 𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘 𝐉𝐎𝐄𝐋 𝐌𝐃 𝐕 𝟐.𝟎.𝟎
+
+ 
 
 
-**1.FIRST STEP**
+ 𝟏. 𝐅𝐈𝐑𝐒𝐓 𝐒𝐓𝐄𝐏
 
 
 <a href="https://github.com/joeljamestech/JOEL-MD/fork"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/FORK THIS REPO-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
@@ -30,10 +32,12 @@
 **star✨ my repo if you like this bot🤖**
 
 
- **2.SECOND STEP** 
+  𝟐. 𝐒𝐄𝐂𝐎𝐍𝐃 𝐒𝐓𝐄𝐏
+
+  
 
 
- **GET SESSION ID BY**
+   𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 𝐁𝐘
  
 
 <a href="https://joelsession1-4a8c04ad2935.herokuapp.com/qr"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR CODE-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
@@ -43,10 +47,11 @@
 <a href="https://joelsession1-4a8c04ad2935.herokuapp.com/pair"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
 
-**3.THIRD STEP** 
+ 𝟑.𝐓𝐇𝐈𝐑𝐃 𝐒𝐓𝐄𝐏 
+ 
 
 
-**DEPLOY ON**
+ 𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 
 
 <a
       href='https://dashboard.heroku.com/new?template=https://github.com/joeljamestech/JOEL-MD/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-H EROKU-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
@@ -61,7 +66,8 @@
 
 
 
-**CONTACT OWNER**
+
+𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐎𝐖𝐍𝐄𝐑
 
 <table>
   <tr>
@@ -76,3 +82,12 @@
 
 
  *©joeltech inc*
+
+
+
+
+
+
+  𝐤𝐞𝐞𝐩 𝐮𝐬𝐢𝐧𝐠 𝐣𝐨𝐞𝐥 𝐦𝐝 𝐰𝐚 𝐛𝐨𝐭
+
+   
