@@ -4,7 +4,7 @@ const { zokou } = require("../framework/zokou");
 
 zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
   const githubRepo = 'https://api.github.com/repos/joeljamestech/JOEL-MD';
-  const img = 'https://telegra.ph/file/d65e03cbad4fb1fe35228.jpg';
+  const img = 'https://telegra.ph/file/e07a3d933fb4cad0b3791.jpg';
 
   try {
     const response = await fetch(githubRepo);
@@ -21,17 +21,14 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
       const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
-      const gitdata = HELLOW WHATSAAP USER WELCOME TO JOEL MD SCRIPT 
-JOEL WA BOT*2024*\n GET SESSION ID *BY*, *PAIRING CODE*  https://joelsession1-4a8c04ad2935.herokuapp.com/pair/
-
-🕷️ *REPOSITORY:* ${data.html_url}
-🕷️ *STARS:* ${repoInfo.stars}
-🕷️ *FORKS:* ${repoInfo.forks}
-🕷️ *RELEASE DATE:* ${releaseDate}
-🕷️ *UPDATE ON:* ${repoInfo.lastUpdate}
-🕷️ *OWNER:* *joel tech*
-__________________________________
-   𝙥𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝙟𝙤𝙚𝙡 𝙠𝙖𝙣𝙜'𝙤𝙢𝙖`;
+      const gitdata = `┏❏ ⌜ JOEL-MD REPO ⌟ ❐
+┃🗼 *REPOSITORY:* ${data.html_url}
+┃✨ *STARS:* ${repoInfo.stars}
+┃🧧 *FORKS:* ${repoInfo.forks}
+┃📅 *RELEASE DATE:* ${releaseDate}
+┃🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
+┃👨‍💻 *OWNER* :joel_tech
+┗❏`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
     } else {
