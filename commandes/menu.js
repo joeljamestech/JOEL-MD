@@ -81,7 +81,7 @@ const date = moment().format('DD/MM/YYYY');
 
     
 
-let menuMsg = `%readmore`.trimStart()
+let menuMsg = `
 ┏━━━━━━━━━━━━━━━┓
 ┣𝚓𝚘𝚎𝚕 𝚖𝚍 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜
 ┗━━━━━━━━━━━━━━━┛\n
