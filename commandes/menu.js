@@ -76,8 +76,7 @@ const date = moment().format('DD/MM/YYYY');
 ┃ ⿻Tools : ${cm.length}
 ┃ ⿻Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ┃ ⿻theme : 𝚓𝚘𝚎𝚕_𝚒𝚝🕷️
-┗❏\n\n`;
-        %readmore`.trimStart(),
+┗❏%readmore`.trimStart(),
 
 
     
