@@ -24,7 +24,7 @@
     },
     "AUTO_DOWNLOAD_STATUS": {
       "description": "Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "PM_PERMIT": {
@@ -44,7 +44,7 @@
     },
     "PUBLIC_MODE": {
       "description": "type yes to put your bot on public mode or no to put it on private mod",
-      "value": "yes",
+      "value": "no",
       "required": true
     },
     "HEROKU_APY_KEY": {
@@ -98,7 +98,7 @@
       "ANTI_COMMAND_SPAM" : {
         "description":"active a cooldown of 10sec to every-user after a command to avoid spamming unless owner and mods",
         "required":false,
-        "value" :"no"
+        "value" :"yes"
       }
   },
   "formation": {
