@@ -76,12 +76,12 @@ const date = moment().format('DD/MM/YYYY');
 ┃ ⿻Tools : ${cm.length}
 ┃ ⿻Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ┃ ⿻theme : 𝚓𝚘𝚎𝚕_𝚒𝚝🕷️
-┗❏%readmore`.trimStart(),
+┗❏\n\n`;
 
 
     
 
-let menuMsg = `
+let menuMsg = `%readmore`.trimStart()
 ┏━━━━━━━━━━━━━━━┓
 ┣𝚓𝚘𝚎𝚕 𝚖𝚍 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜
 ┗━━━━━━━━━━━━━━━┛\n
