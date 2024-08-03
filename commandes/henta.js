@@ -1,188 +1,103 @@
+const util = require('util');
+const fs = require('fs-extra');
+const { zokou } = require(__dirname + "/../framework/zokou");
+const { format } = require(__dirname + "/../framework/mesfonctions");
+const os = require("os");
+const moment = require("moment-timezone");
+const s = require(__dirname + "/../set");
+const more = String.fromCharCode(8206)
+const Taphere = more.repeat(4001)
 
-const {zokou } = require("../framework/zokou");
-const axios = require('axios');
-const cheerio = require('cheerio');
-let func = require('../framework/mesfonctions') ;
-let hdb = require('../bdd/hentai') ;
-
-
-zokou({
-  nomCom: "hwaifu",
-  categorie: "Hentai",
-  reaction: "🍑"
-},
-async (origineMessage, zk, commandeOptions) => {
-  const { repondre, ms ,verifGroupe , superUser} = commandeOptions;
-
-   if (!verifGroupe && !superUser ) { repondre(`This command is reserved for groups only.`) ; return ;}
-   
-    let isHentaiGroupe = await hdb.checkFromHentaiList(origineMessage) ;
-
-    if(!isHentaiGroupe && !superUser) { repondre(`This group is not a group of perverts, calm down my friend.`) ; return ;}
-
-  const url = 'https://api.waifu.pics/nsfw/waifu'; // Remplace avec ton lien réel
-
-  try { for (let i = 0 ; i < 5 ; i++ ) {
-    const response = await axios.get(url);
-    const imageUrl = response.data.url;
-
-    zk.sendMessage(origineMessage, { image: { url: imageUrl } }, { quoted: ms }); }
-  } catch (error) {
-    repondre('Error occurred while retrieving the data. : ' +error);
-  }
-});
+zokou({ nomCom: "bugmenu", categorie: "General" }, async (dest, zk, commandeOptions) => {
+    let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
+    let { cm } = require(__dirname + "/../framework//zokou");
+    var coms = {};
+    var mode = "public";
+    
+    if ((s.MODE).toLocaleLowerCase() != "yes") {
+        mode = "private";
+    }
 
 
-  /////////////// hneko //////////
-zokou({
-  nomCom: "trap",
-  categorie: "Hentai",
-  reaction: "🍑"
-},
-async (origineMessage, zk, commandeOptions) => {
-  
-  const { repondre, ms ,verifGroupe , superUser} = commandeOptions;
+    
 
-   if (!verifGroupe && !superUser ) { repondre(`This command is reserved for groups only.`) ; return ;}
-   
-  let isHentaiGroupe = await hdb.checkFromHentaiList(origineMessage) ;
+    cm.map(async (com, index) => {
+        if (!coms[com.categorie])
+            coms[com.categorie] = [];
+        coms[com.categorie].push(com.nomCom);
+    });
 
-  if(!isHentaiGroupe && !superUser) { repondre(`This group is not a group of perverts, calm down my friend.`) ; return ;}
+    moment.tz.setDefault("Africa/Nairobi");
 
+// Créer une date et une heure en GMT
+const temps = moment().format('HH:mm:ss');
+const date = moment().format('DD/MM/YYYY');
 
-  const url = 'https://api.waifu.pics/nsfw/trap'; // Remplace avec ton lien réel
+let infoMsg =  `
+┏❏𝙹𝙾𝙴𝙻 𝚆𝙰 𝙲𝚁𝙰𝚂𝙷𝙴𝚁 𝙼𝙴𝙽𝚄
+❐ bug
+❐ crash
+❐ loccrash
+❐ amountbug <amount>
+❐ crashbug 25XXXX
+❐ pmbug 255XXXX
+❐ delaybug 255XXXX
+❐ trollybug 255XXXX
+❐ docubug 255XXXX
+❐ unlimitedbug 255XXXX
+❐ bombug 255XXXX
+❐ lagbug 255XXXX
+❐ gcbug <grouplink>
+❐ delaygcbug <grouplink>
+❐ trollygcbug <grouplink>
+❐ laggcbug <grouplink>
+❐ bomgcbug <grouplink>
+❐ unlimitedgcbug <grouplink>
+❐ docugcbug <grouplink>
 
-  try { for (let i = 0 ; i < 5 ; i++ ) {
-    const response = await axios.get(url);
-    const imageUrl = response.data.url;
+> ⏲️ *TIME* : ${temps}
+> 📅 *DATE* : ${date} `;
+    
+let menuMsg = `
+‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎
 
-    zk.sendMessage(origineMessage, { image: { url: imageUrl } }, { quoted: ms }); }
-  } catch (error) {
-    repondre('Error occurred while retrieving the data. :', error);
-  }
-});
-
-zokou({
-  nomCom: "hneko",
-  categorie: "Hentai",
-  reaction: "🍑"
-},
-async (origineMessage, zk, commandeOptions) => {
-  
-  const { repondre, ms ,verifGroupe , superUser} = commandeOptions;
-
-  if (!verifGroupe && !superUser ) { repondre(`This command is reserved for groups only.`) ; return ;}
-   
-  let isHentaiGroupe = await hdb.checkFromHentaiList(origineMessage) ;
-
-  if(!isHentaiGroupe && !superUser) { repondre(`This group is not a group of perverts, calm down my friend.`) ; return ;}
-
-  const url = 'https://api.waifu.pics/nsfw/neko'//apiWaifu("neko"); // Remplace avec ton lien réel
-
-  try { for (let i = 0 ;i < 5 ; i++) {
-    const response = await axios.get(url);
-    const imageUrl = response.data.url;
-
-    zk.sendMessage(origineMessage, { image: { url: imageUrl } }, { quoted: ms }); }
-  } catch (error) {
-    repondre('Error occurred while retrieving the data. :', error);
-  }
-});
+  𝚓𝚘𝚎𝚕 𝚖𝚍 𝚠𝚊 𝚌𝚛𝚊𝚜𝚑𝚎𝚛 𝚖𝚎𝚗𝚞 𝚋𝚢 𝚓𝚘𝚎𝚕_𝚒𝚝
 
 
-zokou({
-  nomCom: "blowjob",
-  categorie: "Hentai",
-  reaction: "🍑"
-},
-async (origineMessage, zk, commandeOptions) => {
-  
-  const { repondre, ms ,verifGroupe , superUser} = commandeOptions;
+▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
 
-  if (!verifGroupe && !superUser ) { repondre(`This command is reserved for groups only.`) ; return ;}
-   
-  let isHentaiGroupe = await hdb.checkFromHentaiList(origineMessage) ;
+> ©joel tech projects
 
-  if(!isHentaiGroupe && !superUser) { repondre(`This group is not a group of perverts, calm down my friend.`) ; return ;}
+ `;
 
-  const url = 'https://api.waifu.pics/nsfw/blowjob'; // Remplace avec ton lien réel
+   var lien = mybotpic();
 
-  try { for (let i = 0 ; i < 5 ; i++ ) {
-    const response = await axios.get(url);
-    const imageUrl = response.data.url;
-
-    zk.sendMessage(origineMessage, { image: { url: imageUrl } }, { quoted: ms }); }
-  } catch (error) {
-    repondre('Error occurred while retrieving the data. :', error);
-  }
-});
-
-
-
-zokou({
-  nomCom: "hentaivid",
-  categorie: "Hentai",
-  reaction: "🍑"
-},
-async (origineMessage, zk, commandeOptions) => {
-  const { repondre, ms ,verifGroupe , superUser} = commandeOptions;
-
-  if (!verifGroupe && !superUser ) { repondre(`This command is reserved for groups only.`) ; return ;}
-   
-  let isHentaiGroupe = await hdb.checkFromHentaiList(origineMessage) ;
-
-  if(!isHentaiGroupe && !superUser) { repondre(`This group is not a group of perverts, calm down my friend.`) ; return ;}
-
-  try {
-
-      let videos = await hentai()
-
-       let length ;
-
-        if (videos.length > 10) {
-            length = 10
-        } else {
-            length = videos.length ;
-        }
-
-      
-
-       let i = Math.floor(Math.random() * length) ;
-
-      zk.sendMessage(origineMessage,{video :{url : videos[i].video_1}, caption : `*Title :* ${videos[i].title} \n *Category :* ${videos[i].category}`},{quoted : ms})
-
-
-  } catch (error) {
-    console.log(error)
-  }
-});
-
-
-
-
-
-
-
-async function hentai() {	
-  return new Promise((resolve, reject) => {	
-      const page = Math.floor(Math.random() * 1153)	
-      axios.get('https://sfmcompile.club/page/'+page)	
-      .then((data) => {	
-          const $ = cheerio.load(data.data)	
-          const hasil = []	
-          $('#primary > div > div > ul > li > article').each(function (a, b) {	
-              hasil.push({	
-                  title: $(b).find('header > h2').text(),	
-                  link: $(b).find('header > h2 > a').attr('href'),	
-                  category: $(b).find('header > div.entry-before-title > span > span').text().replace('in ', ''),	
-                  share_count: $(b).find('header > div.entry-after-title > p > span.entry-shares').text(),	
-                  views_count: $(b).find('header > div.entry-after-title > p > span.entry-views').text(),	
-                  type: $(b).find('source').attr('type') || 'image/jpeg',	
-                  video_1: $(b).find('source').attr('src') || $(b).find('img').attr('data-src'),	
-                   video_2: $(b).find('video > a').attr('href') || ''	
-              })	
-          })	
-          resolve(hasil) 	
-      })	
-  })	
+   if (lien.match(/\.(mp4|gif)$/i)) {
+    try {
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" , gifPlayback : true }, { quoted: ms });
+    }
+    catch (e) {
+        console.log("🥵🥵 Menu erreur " + e);
+        repondre("🥵🥵 Menu erreur " + e);
+    }
+} 
+// Vérification pour .jpeg ou .png
+else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
+    try {
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" }, { quoted: ms });
+    }
+    catch (e) {
+        console.log("🥵🥵 Menu erreur " + e);
+        repondre("🥵🥵 Menu erreur " + e);
+    }
+} 
+else {
+    
+    repondre(infoMsg + menuMsg);
+    
 }
+
+}); 
