@@ -102,7 +102,7 @@ docugcbug <grouplink>${mono}`;
             Abhinail: {url: tumbUrl},
             AbhinailUrl: tumbUrl,
             previewType: 'PHOTO',
-            sourceUrl: 'https://whatsapp.com/channel/0029VaKjSra9WtC0kuJqvl0g',
+            sourceUrl: 'https://wa.link/e9lbut',
             mediaType: 1,
             renderLargerAbhinail: true
           }
