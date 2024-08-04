@@ -4,7 +4,7 @@ const yts = require("yt-search");
 const ytdl = require('ytdl-core');
 const fs = require('fs');
   
-zokou({ nomCom: "yts", categorie: "Search", reaction: "🐅" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "yts", categorie: "Search", reaction: "🌐" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
   const query = arg.join(" ");
 
@@ -19,7 +19,7 @@ zokou({ nomCom: "yts", categorie: "Search", reaction: "🐅" }, async (dest, zk,
 
     let captions = "";
 for (let i = 0; i < 15; i++) {
-  captions += ` 𝗝𝗢𝗘𝗟 𝗠𝗗 𝗟𝗔𝗧𝗘𝗦𝗧 𝗩𝗜𝗦𝗜𝗢𝗡 𝟮𝟬𝟮𝟰\n${i + 1}. Title: ${resultat[i].title}\nTime : ${resultat[i].timestamp}\nUrl: ${resultat[i].url}\n`;
+  captions += ` 𝙹𝙾𝙴𝙻 𝙼𝙳 𝚆𝙰 𝙱𝙾𝚃\n${i + 1}. Title: ${resultat[i].title}\nTime : ${resultat[i].timestamp}\nUrl: ${resultat[i].url}\n`;
 }
     captions += "\n======\n𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗷𝗼𝗲𝗹 𝗸𝗮𝗻𝗴'𝗼𝗺𝗮";
 
