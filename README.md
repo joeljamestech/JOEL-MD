@@ -71,8 +71,8 @@
 
 <table>
   <tr>
-    <td> joeljames tech</td>
-    <td>joe md channel</td>
+    <td> joel_tech</td>
+    <td>joel wa channel</td>
   </tr>
   <tr>
     <td><a href="https://wa.link/e9lbut"><img src="https://telegra.ph/file/179fe48ce0290c09d75a6.jpg" width="180"</td>
