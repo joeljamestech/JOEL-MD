@@ -1,53 +1,63 @@
-const util = require('util');
-const fs = require('fs-extra');
-const { zokou } = require(__dirname + "/../framework/zokou");
-const { format } = require(__dirname + "/../framework/mesfonctions");
-const os = require("os");
+const { zokou } = require('../framework/zokou');
+const {addOrUpdateDataInAlive , getDataFromAlive} = require('../bdd/alive')
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
 
-zokou({ nomCom: "deployer", categorie: "General" }, async (dest, zk, commandeOptions) => {
-    let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
-    let { cm } = require(__dirname + "/../framework//zokou");
-    var coms = {};
-    var mode = "public";
+zokou(
+    {
+        nomCom : 'deployer',
+        categorie : 'General'
+        
+    },async (dest,zk,commandeOptions) => {
+
+ const {ms , arg, repondre,superUser} = commandeOptions;
+
+ const data = await getDataFromAlive();
+
+ if (!arg || !arg[0] || arg.join('') === '') {
+
+    if(data) {
+       
+        const {message , lien} = data;
+
+
+        var mode = "public";
+        if ((s.MODE).toLocaleLowerCase() != "yes") {
+            mode = "private";
+        }
+      
     
-    if ((s.MODE).toLocaleLowerCase() != "yes") {
-        mode = "private";
-    }
-
-
-    
-
-    cm.map(async (com, index) => {
-        if (!coms[com.categorie])
-            coms[com.categorie] = [];
-        coms[com.categorie].push(com.nomCom);
-    });
-
+     
     moment.tz.setDefault('Etc/GMT');
 
 // Créer une date et une heure en GMT
 const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
-  let infoMsg =  `> Hello ${nomAuteurMessage} you requested for my deployer😌\n *${s.OWNER_NAME}* is my Charming good looking deployer🍂💋.\n\n> Powered by joel tech `;
+    const alivemsg = `
+*Owner* : ${s.OWNER_NAME}
+*Mode* : ${mode}
+*Date* : ${date}
+*Hours(GMT)* : ${temps}
 
-   var lien = mybotpic();
+ ${message}
+ 
+ 
+ *JOEL-MD-WABOT*`
 
-   if (lien.match(/\.(mp4|gif)$/i)) {
+ if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *bst coder md*, déveloper joel Tech" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption: alivemsg }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
         repondre("🥵🥵 Menu erreur " + e);
     }
 } 
-// Vérification pour .jpeg ou .png
+// Checking for .jpeg or .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Best coder md*, déveloper joelTech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption: alivemsg }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -56,9 +66,30 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
 } 
 else {
     
-    repondre(infoMsg + menuMsg);
+    repondre(alivemsg);
     
 }
 
-}); 
-       
+    } else {
+        if(!superUser) { repondre("my cute deployer is") ; return};
+
+      await   repondre("loading........ complitated");
+         repondre("joel md deployer is: ${s.OWNER_NAME}")
+     }
+ } else {
+
+    if(!superUser) { repondre ("𝕁𝕆𝔼𝕃 𝕄𝔻 𝕃𝔸𝕋𝔼𝕊𝕋 𝕍𝕀𝕊𝕀𝕆ℕ") ; return};
+
+  
+    const texte = arg.join(' ').split(';')[0];
+    const tlien = arg.join(' ').split(';')[1]; 
+
+
+    
+await addOrUpdateDataInAlive(texte , tlien)
+
+repondre('joel md deployer is: ${s.OWNER_NAME}')
+
+}
+    });
+    
