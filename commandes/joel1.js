@@ -111,7 +111,7 @@ _CPU Core(s) Usage (12 Core CPU)_
 - *idle* : 4.54%
 - *irq*  : 0.00%';
     let varmess = z + d;
-    var img = 'https://telegra.ph/file/8db6837e13d245b863961.jpg';
+    var img = 'https://telegra.ph/file/e8311b969d1cb5ce67da8.jpg';
     await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
     //console.log("montest")
 });
