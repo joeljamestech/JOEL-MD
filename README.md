@@ -54,7 +54,7 @@
   *𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐇𝐄𝐑𝐎𝐊𝐔*
 
 <a
-      href='heroku.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-CREAT -purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+      href='https://signup.heroku.com/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-CREAT -purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 
 
