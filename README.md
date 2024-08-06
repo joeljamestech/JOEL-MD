@@ -19,12 +19,12 @@
 
 
 
- 𝐇𝐎𝐖 𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘 𝐉𝐎𝐄𝐋 𝐌𝐃 𝐕 𝟐.𝟎.𝟎
+ **𝐇𝐎𝐖 𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘 𝐉𝐎𝐄𝐋 𝐌𝐃 𝐕 𝟐.𝟓.𝟎**
 
  
 
 
- 𝟏. 𝐅𝐈𝐑𝐒𝐓 𝐒𝐓𝐄𝐏
+ **𝟏. 𝐅𝐈𝐑𝐒𝐓 𝐒𝐓𝐄𝐏**
 
 
 <a href="https://github.com/joeljamestech/JOEL-MD/fork"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/FORK THIS REPO-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
@@ -32,12 +32,12 @@
 **star✨ my repo if you like this bot🤖**
 
 
-  𝟐. 𝐒𝐄𝐂𝐎𝐍𝐃 𝐒𝐓𝐄𝐏
+  **𝟐. 𝐒𝐄𝐂𝐎𝐍𝐃 𝐒𝐓𝐄𝐏**
 
   
 
 
-   𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 𝐁𝐘
+   **𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 𝐁𝐘**
  
 
 <a href="https://joelsessi2-19bad0ef98e6.herokuapp.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR CODE-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
@@ -47,11 +47,11 @@
 <a href="https://joelsessi2-19bad0ef98e6.herokuapp.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
 
- 𝟑.𝐓𝐇𝐈𝐑𝐃 𝐒𝐓𝐄𝐏 
+ **𝟑.𝐓𝐇𝐈𝐑𝐃 𝐒𝐓𝐄𝐏** 
  
 
 
- 𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 
+ **𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍**
 
 <a
       href='https://dashboard.heroku.com/new?template=https://github.com/joeljamestech/JOEL-MD/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-H EROKU-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
@@ -67,7 +67,7 @@
 
 
 
-𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐎𝐖𝐍𝐄𝐑
+**𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐎𝐖𝐍𝐄𝐑**
 
 <table>
   <tr>
@@ -88,6 +88,6 @@
 
 
 
-  𝐤𝐞𝐞𝐩 𝐮𝐬𝐢𝐧𝐠 𝐣𝐨𝐞𝐥 𝐦𝐝 𝐰𝐚 𝐛𝐨𝐭
+  **𝐤𝐞𝐞𝐩 𝐮𝐬𝐢𝐧𝐠 𝐣𝐨𝐞𝐥 𝐦𝐝 𝐰𝐚 𝐛𝐨𝐭*
 
    
