@@ -51,17 +51,26 @@
  
 
 
-  *𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍*
+  *𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐇𝐄𝐑𝐎𝐊𝐔*
 
 <a
       href='https://dashboard.heroku.com/new?template=https://github.com/joeljamestech/JOEL-MD/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-H EROKU-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 
+
+
+*𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐑𝐄𝐍𝐃𝐄𝐑*
+
+
+<a href='https://dashboard.render.com/register' target="_blank"><img alt='Render' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
+
+
+
+<a href='https://dashboard.render.com/select-repo?type=web' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
+
+
  
-<a href='https://telegra.ph/file/0c439ed8471e41499854d.jpg' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/- RAILWAY -purple?style=for-the-badge&logo=railway&logoColor=white'/></a>
 
-
-<a href='https://telegra.ph/file/0c439ed8471e41499854d.jpg' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-   K O Y E B  -red?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
 
 
 
