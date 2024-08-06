@@ -19,7 +19,7 @@ zokou({ nomCom: "yts", categorie: "Search", reaction: "🌐" }, async (dest, zk,
 
     let captions = "";
 for (let i = 0; i < 15; i++) {
-  captions += ` 𝙹𝙾𝙴𝙻 𝙼𝙳 𝚆𝙰 𝙱𝙾𝚃\n${i + 1}. Title: ${resultat[i].title}\nTime : ${resultat[i].timestamp}\nUrl: ${resultat[i].url}\n`;
+  captions += ` 𝐉𝐎𝐄𝐋 𝐌𝐃 𝐖𝐀 𝐁𝐎𝐓 𝐕 𝟐.𝟓.𝟎\n${i + 1}. Title: ${resultat[i].title}\nTime : ${resultat[i].timestamp}\nUrl: ${resultat[i].url}\n`;
 }
     captions += "\n======\n𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗷𝗼𝗲𝗹 𝗸𝗮𝗻𝗴'𝗼𝗺𝗮";
 
@@ -77,7 +77,7 @@ _*En cours de téléchargement...*_\n\n`
 
     fileStream.on('finish', () => {
       // Envoi du fichier vidéo en utilisant l'URL du fichier local
-      zk.sendMessage(origineMessage, { video: { url: `./${filename}` }, caption: "Powered by *Zokou-Md*", gifPlayback: false }, { quoted: ms });
+      zk.sendMessage(origineMessage, { video: { url: `./${filename}` }, caption: "𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐣𝐨𝐞𝐥 𝐤𝐚𝐧𝐠'𝐨𝐦𝐚", gifPlayback: false }, { quoted: ms });
 
     });
 
