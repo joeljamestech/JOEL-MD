@@ -1,13 +1,13 @@
 {
-  "name": "𝐉𝐎𝐄𝐋 𝐌𝐃 𝐕𝟐.𝟎.𝟎",
-  "description": "𝐰𝐞𝐥𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐣𝐨𝐞𝐥 𝐦𝐝 𝐚 𝐰𝐚 𝐛𝐨𝐭 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐛𝐲 𝐣𝐨𝐞𝐥 𝐭𝐞𝐜𝐡  𝐚𝐧𝐲 𝐩𝐫𝐨𝐛𝐥𝐞𝐦 𝐰𝐚.𝐦𝐞 +𝟐𝟓𝟓𝟕𝟏𝟒𝟓𝟗𝟓𝟎𝟕𝟖 𝐤𝐞𝐞𝐩 𝐮𝐬𝐢𝐧𝐠 𝐣𝐨𝐞𝐥 𝐦𝐝",
+  "name": "joel bot v 2.5.0",
+  "description": "a WhatsApp bot developed by joel_tech any problem wa.me 255714595878,255781144539,255767570963",
   "keywords": [
     "bot",
     "node",
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://telegra.ph/file/b1a02de288117184c2727.jpg",
+  "logo": "https://telegra.ph/file/179fe48ce0290c09d75a6.jpg",
   "repository": "https://github.com/joeljamestech/JOEL-MD/tree/main?tab=readme-ov-file",
   "succes_url": "/",
   "stack": "container",
@@ -34,12 +34,12 @@
     },
     "BOT_NAME": {
       "description": "put A name for your bot",
-      "value": "𝐉𝐎𝐄𝐋 𝐌𝐃 𝐖𝐀 𝐁𝐎𝐓 𝐕 𝟐.𝟎.𝟎",
+      "value": "joel wa bot",
       "required": false
     },
     "BOT_MENU_LINKS": {
       "description": "add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value": "https://telegra.ph/file/16ff69f5e36d90a851f1a.mp4,https://telegra.ph/file/38a8b94f795e41d68c5c1.mp4",
+      "value": "https://telegra.ph/file/179fe48ce0290c09d75a6.jpg,https://telegra.ph/file/16ff69f5e36d90a851f1a.mp4,https://telegra.ph/file/38a8b94f795e41d68c5c1.mp4",
       "required": false
     },
     "PUBLIC_MODE": {
@@ -48,11 +48,11 @@
       "required": true
     },
     "HEROKU_APY_KEY": {
-      "description": "insert your heroku api-key (this is optionnal)",
+      "description": "insert your heroku api-key (must)",
       "required": true
     },
     "HEROKU_APP_NAME": {
-      "description": "insert your heroku APP NAME (this is optionnal)",
+      "description": "insert your heroku APP NAME (must)",
       "required": true
     },
     "SESSION_ID": {
