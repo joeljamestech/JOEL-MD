@@ -5,7 +5,7 @@ const s = require(__dirname + "/../set");
 
 zokou(
     {
-        nomCom : 'deployer',
+        nomCom : 'alive',
         categorie : 'General'
         
     },async (dest,zk,commandeOptions) => {
@@ -74,7 +74,7 @@ else {
         if(!superUser) { repondre("my cute deployer is") ; return};
 
       await   repondre("loading........ complitated");
-         repondre("joel md deployer is: ${s.OWNER_NAME}")
+         repondre("joel wa bot is online)
      }
  } else {
 
