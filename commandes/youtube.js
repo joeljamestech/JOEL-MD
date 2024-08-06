@@ -30,7 +30,7 @@ zokou({
        
       let infoMess = {
   image: { url: videos[0].thumbnail },
-  caption: `𝙹𝙾𝙴𝙻 𝙼𝙳 𝚆𝙰 𝙱𝙾𝚃
+  caption: `𝐉𝐎𝐄𝐋 𝐌𝐃 𝐖𝐀 𝐁𝐎𝐓 𝐕 𝟐.𝟓.Œ
 *Song Name:* ${videos[0].title}
 
 *Uploaded:* ${videos[0].ago}
@@ -179,16 +179,16 @@ zokou({
 
       let InfoMess = {
   image: { url: Element.thumbnail },
-  caption: ` 𝙹𝙾𝙴𝙻 𝙼𝙳 𝚆𝙰 𝙱𝙾𝚃
+  caption: ` 𝐉𝐎𝐄𝐋 𝐌𝐃 𝐖𝐀 𝐁𝐎𝐓 𝐕 𝟐.𝟓.𝟎
 *Video Name:* ${Element.title}
 *Uploaded:* ${Element.ago}
 *Author:* ${Element.author.name}
 *URL:* ${Element.url}
 *Views:* ${videos[0].views}
 
-*❤❤❤❤❤❤❤❤❤❤❤❤:*
-1. 𝚝𝚑𝚊𝚗𝚔𝚜 𝚏𝚘𝚛 𝚌𝚑𝚘𝚘𝚜𝚒𝚗𝚐 𝙹𝚘𝚎𝚕 𝚠𝚊𝚜 𝚋𝚘𝚝
-2. 𝗽𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗷𝗼𝗲𝗹 𝗸𝗮𝗻𝗴'𝗼𝗺𝗮
+*𝐣𝐨𝐢𝐧 𝐰𝐚 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M*
+1. 𝐤𝐞𝐞𝐩 𝐮𝐬𝐢𝐧𝐠 𝐣𝐨𝐞𝐥 𝐦𝐝
+2. 𝐩𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐣𝐨𝐞𝐥 𝐭𝐞𝐜𝐡
 
 _*Downloading...*_`
 };
