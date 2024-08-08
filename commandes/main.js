@@ -66,7 +66,7 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏❏  𝙹𝙾𝙴𝙻 𝙼𝙳 𝚆𝙰 𝙱𝙾𝚃
+┏❏ ⌜ ᴊᴏᴇʟ ᴍᴅ ⌟ ❐
 ┃ ⿻Mode: ${mode}
 ┃ ⿻User : ${s.OWNER_NAME}
 ┃ ⿻Library : Baileys
@@ -75,8 +75,9 @@ const date = moment().format('DD/MM/YYYY');
 ┃ ⿻Time : ${temps}
 ┃ ⿻Tools : ${cm.length}
 ┃ ⿻Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃ ⿻𝚝𝚑𝚎𝚖𝚎 : 𝚓𝚘𝚎𝚕-𝚒𝚝
-┗❏\n${readmore}`;
+┃ ⿻Host : ${os.platform()}\n${readmore}`;
+
+┗❏\n\n`;
 
 
     
