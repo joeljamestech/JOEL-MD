@@ -1,8 +1,8 @@
 {
   "name":"JOEL-MD",
-  "description":"",
+  "description":"A WhatsApp bot developed by joel_tech any problem wa.me  255714595078,255767570963,255781144539",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"",
+  "logo":"https://telegra.ph/file/1fdd87f6182dac91694eb.jpg",
   "repository":"https://github.com/joeljamestech/JOEL-MD",
   "succes_url":"/",
   "stack":"container",
@@ -35,7 +35,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"",
+      "value":"https://telegra.ph/file/1fdd87f6182dac91694eb.jpg,https://telegra.ph/file/77c997f862f05eeb716d7.jpg",
       "required":false
        
      },
@@ -69,7 +69,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Thomas"
+    "value": "joel_tech"
   },
     "NUMERO_OWNER":
   {
