@@ -1,9 +1,9 @@
 {
-  "name":"HACKING-MD",
-  "description":"bot whatsapp développé par thomas",
+  "name":"JOEL-MD",
+  "description":"",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/b8e378f61794498c29c34.jpg",
-  "repository":"https://github.com/HACKING995/HACKING956",
+  "logo":"",
+  "repository":"https://github.com/joeljamestech/JOEL-MD",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -30,36 +30,31 @@
       "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
       "value":"no",
       "required":false
-    }
-    ,
-    "BOT_NAME" : {
-       
-      "description":"put A name for your bot",
-      "value":"HACKING-MD",
-      "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/b8e378f61794498c29c34.jpg",
+      "value":"",
       "required":false
        
      },
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"yes",
+      "value":"no",
       "required":false
     }
 	,
-    "HEROKU_APY_KEY": {
-    "description": "insert your heroku api-key (this is optionnal)",
-     "required" :false
+    "HEROKU_APY_KEY":{
+    "description": "insert your heroku api-key ",
+     "value":"",
+     "required" :true
     },
-  "HEROKU_APP_NAME": {
-    "description": "insert your heroku APP NAME (this is optionnal)",
-     "required" :false
+  "HEROKU_APP_NAME": { 
+    "description": "insert your heroku APP NAME ",
+     "value":"joel",
+     "required" :true
     }  
 	  ,
     "SESSION_ID":
@@ -79,9 +74,9 @@
     "NUMERO_OWNER":
   {
     
-    "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
+    "desc": "Your number , dont put '+' and put you area code(exemple of Tanzania '255')",
     "required":false,
-    "value": "2250545065189"
+    "value": "255714595078"
   },
     "WARN_COUNT":
   {
@@ -102,8 +97,8 @@
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
-    "value": "no",
-    "required": false
+    "value": "yes",
+    "required": true
   }
   },
 
