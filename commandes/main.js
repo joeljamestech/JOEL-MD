@@ -66,7 +66,7 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏❏ ⌜ ᴊᴏᴇʟ ᴍᴅ ⌟ ❐
+┏❏ 𝙹𝙾𝙴𝙻 𝙼𝙳 𝚆𝙰 𝙱𝙾𝚃 ❐
 ┃ ⿻Mode: ${mode}
 ┃ ⿻User : ${s.OWNER_NAME}
 ┃ ⿻Library : Baileys
@@ -75,17 +75,16 @@ const date = moment().format('DD/MM/YYYY');
 ┃ ⿻Time : ${temps}
 ┃ ⿻Tools : ${cm.length}
 ┃ ⿻Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃ ⿻Host : ${os.platform()}\n${readmore}`;
-
+┃ ⿻theme : 𝚓𝚘𝚎𝚕_𝚒𝚝🕷️
 ┗❏\n\n`;
 
 
     
 
 let menuMsg = `
-┏━━━━━━━━━┓
-┣joel cmds
-┗━━━━━━━━━┛\n
+┏━━━━━━━━━━━━━━━┓
+┣𝚓𝚘𝚎𝚕 𝚖𝚍 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜
+┗━━━━━━━━━━━━━━━┛\n
 
 
 `;
@@ -113,13 +112,13 @@ let menuMsg = `
     menuMsg += `
 
 
-︎┏━━━━━━━━━━━━━━┓
-️┣❏joel md 2025
-┣❏happy new year 
-┗┳━━━━━━━━━━━━┳┛
-┏┻━━━━━━━━━━━━┻┓
-┃powered by joel tech
-┗━━━━━━━━━━━━━━┛\n
+︎┏━━━━━━━━━━━━━━━┓
+️┣❏𝚓𝚘𝚎𝚕 𝚖𝚍 𝚟 𝟸.𝟶.𝟶
+┣❏𝚔𝚎𝚎𝚙 𝚞𝚜𝚒𝚗𝚐 𝚓𝚘𝚎𝚕 𝚖𝚍
+┗━━━━━━━━━━━━━━━┛
+┏━━━━━━━━━━━━━━━━┓
+┃𝚙𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚓𝚘𝚎𝚕_𝚝𝚎𝚌𝚑
+┗━━━━━━━━━━━━━━━━┛\n
 
 
 `;
@@ -134,7 +133,7 @@ let menuMsg = `
 
     try {
 
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TKM-BOT*, déveloper Cod3uchiha" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *JOEL-BOT*, déveloper Cod3uchiha" , gifPlayback : true }, { quoted: ms });
 
     }
 
@@ -154,7 +153,7 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
 
     try {
 
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TKM-bot*, déveloper cod3uchiha" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *JOEL-bot*, déveloper joeltech" }, { quoted: ms });
 
     }
 
@@ -181,3 +180,4 @@ else {
 
 
 });
+    
