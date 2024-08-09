@@ -1,4 +1,4 @@
-const { zokou } = require('../framework/zokou');
+const { zokou } = require('../framework/bugs');
 const { delay, loading, react } = require("../bdd/utils")
 const moment = require('moment-timezone');
 const conf = require('../set.js');
@@ -47,7 +47,7 @@ const timewisher = (time) => {
 // bug menu
 zokou(
   {
-    nomCom: 'bugmenu',
+    nomCom: 'bmenu',
     categorie: category,
     reaction: reaction
   },
