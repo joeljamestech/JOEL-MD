@@ -66,38 +66,34 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
- 𝙥𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝙟𝙤𝙚𝙡 𝙠𝙖𝙣𝙜'𝙤𝙢𝙖
-┃   Mode: ${mode}
-┃   User : ${s.OWNER_NAME}
-┃
- 𝙥𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝙟𝙤𝙚𝙡 𝙠𝙖𝙣𝙜'𝙤𝙢𝙖
- 𝙥𝙤𝙬𝙚𝙧𝙚𝙙 𝙗𝙮 𝙟𝙤𝙚𝙡 𝙠𝙖𝙣𝙜'𝙤𝙢𝙖\n\n`;
+┏━━━◈𝙹𝙾𝙴𝙻 𝙼𝙳 𝙱𝙾𝚃◈
+┃ ⿻Mode: ${mode}
+┃ ⿻User : ${s.OWNER_NAME}
+┃ ⿻Library : Baileys
+️┃ ⿻Prefix : ${s.PREFIXE}
+️┃ ⿻Date : ${date}
+┃ ⿻Time : ${temps}
+┃ ⿻Tools : ${cm.length}
+┃ ⿻Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┃ ⿻Host : ${os.platform()}
+┃ ⿻𝚝𝚑𝚎𝚖𝚎: 𝚓𝚘𝚎𝚕_𝚝𝚎𝚌𝚑
+┗━━━◈𝙹𝙾𝙴𝙻 𝙼𝙳 𝙱𝙾𝚃 ◈ \n\n`;
 
-
-    
 
 let menuMsg = `
-┏━━━━━━━━━━━━━━┓
-┣❏joel md bot 
-┣❏©joel _it🕷️
-┗━━━━━━━━━━━━━━┛\n
-
-
-
-
-𒈒joel md cmds𒈒
+  ◈𝚓𝚘𝚎𝚕 𝚖𝚍 𝚋𝚘𝚝 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜
 `;
 
 
 
     for (const cat in coms) {
 
-        menuMsg += `┏━━━━━⚼ ${cat}`;
+        menuMsg += `┏━━━━━◈ ${cat}`;
 
         for (const cmd of coms[cat]) {
 
             menuMsg += `
-┃🕷️ ${cmd}`;
+┃◈ ${cmd}`;
 
         }
 
@@ -106,19 +102,17 @@ let menuMsg = `
 
     }
 
-
-
     menuMsg += `
+︎
+️┏━━━━━━━━━━━━━━┓
+┃ ◈𝚓𝚘𝚎𝚕 𝚖𝚍 𝚠𝚊 𝚋𝚘𝚝
+┃ ◈𝚋𝚢 𝚓𝚘𝚎𝚕 𝚝𝚎𝚌𝚑
+┗━━━━━━━━━━━━━━┛
 
-
-︎┏━━━━━━━━━━━━━━┓
-️┣❏joel md bot 
-┣❏© by joel tech 
-┗━━━━━━━━━━━━━━┛\n
 
 
 ┏━━━━━━━━━━━━━━┓
-┃regards to joel_it
+┃◈𝚔𝚎𝚎𝚙 𝚞𝚜𝚒𝚗𝚐 𝚓𝚘𝚎𝚕 𝚖𝚍
 ┗━━━━━━━━━━━━━━┛\n
 
 
@@ -134,7 +128,7 @@ let menuMsg = `
 
     try {
 
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *JOEL-BOT*, déveloper joel james" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *𝑩𝑼𝑮𝑨𝑻𝑻𝑰*, déveloper 𝑴𝒂𝒓𝒊𝒔𝒆𝒍" , gifPlayback : true }, { quoted: ms });
 
     }
 
@@ -154,7 +148,7 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
 
     try {
 
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TKM-bot*, déveloper cod3uchiha" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *𝑩𝑼𝑮𝑨𝑻𝑻𝑰*, déveloper cod3uchiha" }, { quoted: ms });
 
     }
 
@@ -181,3 +175,5 @@ else {
 
 
 });
+
+                         
