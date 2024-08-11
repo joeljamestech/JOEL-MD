@@ -66,7 +66,8 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏❏ 𝙹𝙾𝙴𝙻 𝙼𝙳 𝚆𝙰 𝙱𝙾𝚃 ❐
+┏❏ hellow : ${ms.pushName}
+┃ ⿻welcome to joel md 
 ┃ ⿻Mode: ${mode}
 ┃ ⿻User : ${s.OWNER_NAME}
 ┃ ⿻Library : Baileys
