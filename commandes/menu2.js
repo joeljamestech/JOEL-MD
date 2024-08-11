@@ -48,12 +48,25 @@ zokou({ nomCom: "help", categorie: "Menu" }, async (dest, zk, commandeOptions) =
    ||
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
-░█ █▀█ █▀▀ █░░░█▀▄▀█ █▀▄
-▄█ █▄█ ██▄ █▄░░█░▀░█ █▄▀
+Hello ${ms.pushName}
+welcome to 
 
-░█▄▄ █▀█ ▀█▀
-░█▄█ █▄█ ░█░
-╚════--------------- \n\n`;
+≡ 𝙹𝙾𝙴𝙻 𝙱𝙾𝚃 𝙼𝙴𝙽𝚄
+docbug
+loccrash
+amountbug <amount>
+pmbug <number>
+delaybug <number>
+trollybug <number>
+docubug <number>
+unlimitedbug <number>
+bombug <number>
+lagbug <number>
+gcbug <grouplink>
+delaygcbug <grouplink>
+trollygcbug <grouplink>
+laggcbug <grouplink>
+--------------------- \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
             emoji[cat] = "";
