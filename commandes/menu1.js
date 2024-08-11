@@ -66,17 +66,18 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏━━━◈𝙹𝙾𝙴𝙻 𝙼𝙳 𝙱𝙾𝚃◈
-┃ ⿻Mode: ${mode}
-┃ ⿻User : ${s.OWNER_NAME}
-┃ ⿻Library : Baileys
-️┃ ⿻Prefix : ${s.PREFIXE}
-️┃ ⿻Date : ${date}
-┃ ⿻Time : ${temps}
-┃ ⿻Tools : ${cm.length}
-┃ ⿻Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃ ⿻Host : ${os.platform()}
-┃ ⿻𝚝𝚑𝚎𝚖𝚎: 𝚓𝚘𝚎𝚕_𝚝𝚎𝚌𝚑
+┏━━━◈𝙹𝙾𝙴𝙻 𝙼𝙳 𝙱𝙾𝚃
+┃ ◈hellow : ${ms.pushName}
+┃ ◈Mode: ${mode}
+┃ ◈User : ${s.OWNER_NAME}
+┃ ◈Library : Baileys
+️┃ ◈Prefix : ${s.PREFIXE}
+️┃ ◈Date : ${date}
+┃ ◈Time : ${temps}
+┃ ◈Tools : ${cm.length}
+┃ ◈Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┃ ◈Host : ${os.platform()}
+┃ ◈𝚝𝚑𝚎𝚖𝚎: 𝚓𝚘𝚎𝚕_𝚝𝚎𝚌𝚑
 ┗━━━◈𝙹𝙾𝙴𝙻 𝙼𝙳 𝙱𝙾𝚃 ◈ \n\n`;
 
 
