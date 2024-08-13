@@ -8,7 +8,7 @@ Created By joel tech
 Don't claim, okey 
 */
 
-zokou({nomCom:"bot",reaction:"❄️",categorie:"IA"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"bot",reaction:"🪰",categorie:"IA"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,ms,arg}=commandeOptions;
   
