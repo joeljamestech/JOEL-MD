@@ -1,6 +1,6 @@
 /*
-ZeroTwo-MD V1.0 
- Coded By VihangaYT
+joel md V1.0 
+ Coded By joel it
 
 Modified File : tiktok.js
 Modified Date : 8/23/2023
