@@ -1,5 +1,5 @@
 {
-  "name": "joel bot",
+  "name": "joel md",
   "version": "3.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
   "keywords": [
     "bot",
     "Baileys",
-    "joel",
+    "Zokou",
     "whatsapp",
     "whatsapp-bot",
     "Faouz995"
@@ -65,9 +65,9 @@
     "types": "^0.1.1",
     "typescript": "^5.1.6",
     "wa-sticker-formatter": "^4.4.4",
-    "youtube-yts": "",
-    "youtubedl-core": "",
-    "yt-search": "",
-    "ytdl-core": ""
+    "youtube-yts": "^2.0.0",
+    "youtubedl-core": "^4.11.7",
+    "yt-search": "^2.10.4",
+    "ytdl-core": "^4.10.0"
   }
   }
