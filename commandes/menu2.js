@@ -49,7 +49,7 @@ zokou({ nomCom: "help", categorie: "Menu" }, async (dest, zk, commandeOptions) =
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
 Hello ${ms.pushName}
-welcome to 
+welcome to
 
 ≡ 𝙹𝙾𝙴𝙻 𝙱𝙾𝚃 𝙼𝙴𝙽𝚄
 docbug
@@ -65,7 +65,7 @@ lagbug <number>
 gcbug <grouplink>
 delaygcbug <grouplink>
 trollygcbug <grouplink>
-laggcbug <grouplink>
+laggcbug <grouplink>\n${readmore}`;
 --------------------- \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
