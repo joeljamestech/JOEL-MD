@@ -5,7 +5,7 @@ const {zokou} = require("../framework/zokou");
 zokou({
   nomCom: "stickersearch",
   categorie: 'Search',
-  reaction: "🍁"
+  reaction: "❄️"
 },
 async (dest, zk, commandeOptions) => {
   const { repondre, ms, arg, nomAuteurMessage } = commandeOptions;
@@ -33,9 +33,9 @@ async (dest, zk, commandeOptions) => {
 
     const stickerMess = new Sticker(gifUrl, {
       pack: packname,
-      author: 'Zokou-MD',
+      author: 'joel bot',
       type: StickerTypes.FULL,
-      categories: ["🤩", "🎉"],
+      categories: ["❄️", "🕷️"],
       id: "12345",
       quality: 60,
       background: "transparent",
