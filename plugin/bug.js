@@ -15,8 +15,8 @@ const { bugtext5 } = require('../framework/bugs/bugtext5');
 const { bugpdf } = require('../framework/bugs/bugpdf.js')
 
 
-const category = 'dev';
-const reaction = '👾';
+const category = 'menu';
+const reaction = '❄️';
 
 const mess = {};
 mess.prem = "You are not authorised to use this  command !!!";
