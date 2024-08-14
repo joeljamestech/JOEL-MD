@@ -1,7 +1,7 @@
  ### WELCOME TO JOEL MD V 3. 0. 0
  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=red&size=25&center=true&vCenter=true&width=600&height=100&lines=𝚒𝚖+𝚓𝚘𝚎𝚕+𝚖𝚍+𝚌𝚛𝚎𝚊𝚝𝚎𝚍+𝚋𝚢+𝚓𝚘𝚎𝚕_𝚝𝚎𝚌𝚑_.&heart;++;Self-taught+Back-Created+By,;Ibrahim+Adams+Am+The,;Best+Is+Bot+For+You+To,;Deploy..<3"></a>
  <a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M">
- <img alt="JOEL BUG BOT" height="300" src="https://telegra.ph/file/179fe48ce0290c09d75a6.jpg">
+ <img alt="JOEL BUG BOT" height="300" src="https://telegra.ph/file/bc8a842dccfd0cf387297.jpg">
   
 </h1> 
 <p align="center">𝚒𝚗𝚝𝚛𝚘𝚍𝚞𝚌𝚒𝚗𝚐<b> 𝚓𝚘𝚎𝚕  𝚖𝚍 </b>, 𝚊 𝚙𝚘𝚠𝚎𝚛𝚏𝚞𝚕 𝚠𝚊 𝚋𝚘𝚝 </p>
