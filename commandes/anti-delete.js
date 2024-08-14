@@ -5,7 +5,7 @@ const fs = require('fs');
 let antiDeleteActive = false; // Variable pour stocker l'état de la commande anti-delete
 
 zokou({
-  nomCom: "anti-delete",
+  nomCom: "antidelete",
   categorie: "General",
   reaction: "🍑"
 }, async (origineMessage, zk, commandeOptions) => {
