@@ -13,14 +13,14 @@ zokou({ nomCom: 'quote', categorie: 'Fun' }, async (dest, zk, commandeOptions) =
         .then((response) => response.json())
         .then(async (quote) => {
           repondre(`╔══════════════════════════╗
-║   Hacking-md               ║
+║  joel-md               ║
 ╚══════════════════════════╝
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by Hacking-MD`);
+Powered by joel-it`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
@@ -33,14 +33,14 @@ Powered by Hacking-MD`);
         .then((response) => response.json())
         .then(async (quote) => {
           repondre(`╔══════════════════════════╗
-║   Hacking-md               ║
+║   joel-md               ║
 ╚══════════════════════════╝
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by Hacking-MD`);
+Powered by joel-it`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
