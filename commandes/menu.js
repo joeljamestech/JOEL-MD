@@ -14,7 +14,7 @@ const s = require(__dirname + "/../set");
 
 
 
-zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "m", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
 
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
 
@@ -67,9 +67,8 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 
 ┏━━━◈ 𝙹𝙾𝙴𝙻 𝙼𝙳 𝚅 𝟹
-┃   hellow : ${ms.pushName}
-┃   wish you : ${timewisher(time)}
-┃ ⿻Mode: ${mode}
+┃ ⎔ hellow : ${ms.pushName}
+┃ Mode: ${mode}
 ┃ ⿻User : ${s.OWNER_NAME}
 ┃ ⿻Library : Baileys
 ️┃ ⿻Prefix : ${s.PREFIXE}
