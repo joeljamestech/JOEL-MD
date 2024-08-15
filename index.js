@@ -428,7 +428,7 @@ function mybotpic() {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'Beltah-Md',
+                                        pack: 'joel-Md',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -442,7 +442,7 @@ function mybotpic() {
 
                                       if (action === 'remove') {
 
-                                        txt += `message deleted \n @${auteurMessage.split("@")[0]} removed from group by Beltah.`;
+                                        txt += `message deleted \n @${auteurMessage.split("@")[0]} removed from group by joel_tech.`;
 
                                     await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") });
                                     (0, baileys_1.delay)(800);
@@ -848,7 +848,7 @@ ${metadata.desc}\n\n> JOEL MD V 3 BY JOEL TECH.`;
                 else {
                     md = "undefined";
                 }
-                console.log("Scene md successfully connected✅");
+                console.log("joel md successfully connected✅");
 
                 await activateCrons();
                 
