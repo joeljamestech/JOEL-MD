@@ -8,7 +8,7 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 
-zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "help", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -27,27 +27,26 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
         coms[com.categorie].push(com.nomCom);
     });
 
-    moment.tz.setDefault('Etc/GMT');
-
+    moment.tz.setDefault('Etc/GMT'
 // Créer une date et une heure en GMT
 const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭━━〔 *${s.BOT}* 〕━━┈⊷
+╭━━━━┈⊷𝙹𝙾𝙴𝙻 𝙼𝙳 𝚆𝙰 𝙱𝙾𝚃
 ┃๏╭───────────
-┃๏│▸ 𝗢𝘄𝗻𝗲𝗿 : ${s.OWNER_NAME}
-┃๏│▸ 𝗣𝗿𝗲𝗳𝗶𝘅 : [ ${s.PREFIXE} ] 
-┃๏│▸ 𝗠𝗼𝗱𝗲 : *${mode}*
-┃๏│▸ 𝗥𝗮𝗺  : 𝟲𝟴/𝟭𝟯𝟮 𝗚𝗕
-┃๏│▸ 𝗗𝗮𝘁𝗲  : *${date}* 
-┃๏│▸ 𝗥𝗮𝗺 : 𝟲𝟴/𝟭𝟯𝟮 𝗚𝗕
-┃๏│▸ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗖𝗵𝗿𝗼𝗺𝗲 𝗟𝗶𝗻𝘂𝘅
-┃๏│▸ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : 𝗕𝗲𝗹𝘁𝗮𝗵-𝗧𝗲𝗰𝗵-𝟮𝟱𝟰
+┃๏│▸ 𝚘𝚠𝚗𝚎𝚛 : ${s.OWNER_NAME}
+┃๏│▸ 𝚙𝚛𝚎𝚏𝚒𝚡 : [ ${s.PREFIXE} ] 
+┃๏│▸ 𝚖𝚘𝚍𝚎 : *${mode}*
+┃๏│▸ 𝚝𝚘𝚘𝚕𝚜  : 𝟸𝟶𝟶+𝚏𝚎𝚊𝚝𝚞𝚛𝚎𝚜
+┃๏│▸ 𝚍𝚊𝚝𝚎  : *${date}* 
+┃๏│▸ 𝚛𝚊𝚖 : 𝟸𝟷/𝟼𝟷 𝙶𝙱
+┃๏│▸ 𝚙𝚕𝚊𝚝𝚒𝚏𝚘𝚛𝚖 : 𝚌𝚑𝚛𝚘𝚖𝚎 𝚕𝚒𝚗𝚞𝚡
+┃๏│▸ 𝚝𝚑𝚎𝚖𝚎 : 𝚓𝚘𝚎𝚕_𝚒𝚝
 ┃๏└───────────···▸
 ╰──────────────┈⊷\n${readmore}`;
 
-    let menuMsg = `𝐒𝐂𝐄𝐍𝐄-𝐌𝐃-𝐕𝟐 𝐏𝐋𝐔𝐆𝐈𝐍𝐒
+    let menuMsg = `𝚓𝚘𝚎𝚕 𝚖𝚍 𝚌𝚖𝚍𝚜
 `;
     for (const cat in coms) {
         menuMsg += `
@@ -56,7 +55,7 @@ const date = moment().format('DD/MM/YYYY');
 ┌┤ `;
         for (const cmd of coms[cat]) {
             menuMsg += `          
-┃│➛  ${cmd}`    
+┃│  ${cmd}`    
         } 
         menuMsg +=`
 ┌┤
@@ -65,7 +64,7 @@ const date = moment().format('DD/MM/YYYY');
     }
   
     menuMsg += `
-> 𝐒𝐂𝐄𝐍𝐄-𝐌𝐃-𝐕𝟐 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇\n
+> 𝚓𝚘𝚎𝚕 𝚖𝚍 𝚟𝟹 𝚋𝚢 𝚓𝚘𝚎𝚕_𝚒𝚝\n
 `;
 
    var lien = mybotpic();
