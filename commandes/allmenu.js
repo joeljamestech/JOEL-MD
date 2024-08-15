@@ -66,7 +66,7 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏⎔ JOEL MD WA BOT
+┏⎔ 𝐉𝐎𝐄𝐋 𝐌𝐃 𝐕 𝟑
 ️┃ ◈hellow: ${ms.pushName} 
 ️┃ ◈Mode: ${mode}
 ┃ ◈owner : ${s.OWNER_NAME}
@@ -114,7 +114,7 @@ let menuMsg = `
 
 
 ︎┏━━━━━━━━━━━━━━━┓
-️┣◈𝚓𝚘𝚎𝚕 𝚖𝚍 𝚟 𝟸.𝟶.𝟶
+️┣◈𝚓𝚘𝚎𝚕 𝚖𝚍 𝚟 𝟹.𝟶.𝟶
 ┣◈𝚔𝚎𝚎𝚙 𝚞𝚜𝚒𝚗𝚐 𝚓𝚘𝚎𝚕 𝚖𝚍
 ┗━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
