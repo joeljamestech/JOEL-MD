@@ -66,23 +66,23 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏━━━◈ 𝙹𝙾𝙴𝙻 𝙼𝙳 𝚅 𝟹
+┏━━━⎔𝙹𝙾𝙴𝙻 𝙼𝙳 𝚅 𝟹
 ┃ ⎔ hellow : ${ms.pushName}
-┃ Mode: ${mode}
-┃ ⿻User : ${s.OWNER_NAME}
-┃ ⿻Library : Baileys
-️┃ ⿻Prefix : ${s.PREFIXE}
-️┃ ⿻Date : ${date}
-┃ ⿻Time : ${temps}
-┃ ⿻Tools : ${cm.length}
-┃ ⿻Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃ ⿻Host : heroku 
-┃ ⿻theme: joel_it
+┃ ⎔Mode: ${mode}
+┃ ⎔User : ${s.OWNER_NAME}
+┃ ⎔Library : Baileys
+️┃ ⎔Prefix : ${s.PREFIXE}
+️┃ ⎔Date : ${date}
+┃ ⎔Time : ${temps}
+┃ ⎔Tools : ${cm.length}
+┃ ⎔Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┃ ⎔Host : heroku 
+┃ ⎔theme: joel_it
 ┗━━━◈𝙱𝚈 𝙹𝙾𝙴𝙻 𝚃𝙴𝙲𝙷◈━━ \n\n`;
 
 
 let menuMsg = `
-  ◈𝚓𝚘𝚎𝚕𝚖𝚍  𝚌𝚖𝚍𝚜
+  ⎔𝚓𝚘𝚎𝚕𝚖𝚍  𝚌𝚖𝚍𝚜
 `;
 
 
@@ -94,7 +94,7 @@ let menuMsg = `
         for (const cmd of coms[cat]) {
 
             menuMsg += `
-┃◈ ${cmd}`;
+┃⎔ ${cmd}`;
 
         }
 
@@ -109,7 +109,7 @@ let menuMsg = `
   𝚋𝚢 𝚓𝚘𝚎𝚕 𝚝𝚎𝚌𝚑
 
 ┏━━━━━━━━━━━━━━┓
-┃◈𝚔𝚎𝚎𝚙 𝚞𝚜𝚒𝚗𝚐 𝚓𝚘𝚎𝚕 𝚖𝚍.
+┃⎔𝚔𝚎𝚎𝚙 𝚞𝚜𝚒𝚗𝚐 𝚓𝚘𝚎𝚕 𝚖𝚍.
 ┗━━━━━━━━━━━━━━┛\n
 
 
