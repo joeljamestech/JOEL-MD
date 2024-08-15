@@ -9,7 +9,7 @@ const yts1 = require("youtube-yts");
 //var fs =require("fs-extra")
 
 zokou({
-  nomCom: "mp3",
+  nomCom: "play ",
   categorie: "Search",
   reaction: "🎶"
 }, async (origineMessage, zk, commandeOptions) => {
@@ -30,14 +30,14 @@ zokou({
           
        let infoMess = {
           image: {url : videos[0]. thumbnail},
-         caption : `𝗦𝗖𝗘𝗡𝗘-𝗠𝗗-𝗩𝟮 𝗔𝗨𝗗𝗜𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥\n
+         caption : `𝐉𝐎𝐄𝐋-𝗠𝗗-𝗩𝟮 𝗔𝗨𝗗𝗜𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥\n
          
 𝐀𝐮𝐝𝐢𝐨 𝐍𝐚𝐦𝐞 : ${videos[0].title}
 𝐃𝐮𝐫𝐚𝐭𝐢𝐨𝐧 : ${videos[0].timestamp}
 𝐘.𝐓 𝐋𝐢𝐧𝐤 : ${videos[0].url}
-𝐒𝐚𝐯𝐞𝐫 :   𝐁𝐞𝐥𝐭𝐚𝐡 𝐓𝐞𝐜𝐡
+𝐒𝐚𝐯𝐞𝐫 :   𝐉𝐨𝐞𝐥 𝐓𝐞𝐜𝐡
 
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐒𝐂𝐄𝐍𝐄-𝐌𝐃-𝐕𝟐\n\n`
+> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐉𝐎𝐄𝐋-𝐌𝐃-𝐕𝟑\n\n`
        }
 
       
@@ -83,7 +83,7 @@ zokou({
   
 
 zokou({
-  nomCom: "mp4",
+  nomCom: "video",
   categorie: "Search",
   reaction: "🎥"
 }, async (origineMessage, zk, commandeOptions) => {
@@ -104,14 +104,14 @@ zokou({
 
       let InfoMess = {
         image: { url: videos[0].thumbnail },
-        caption: `𝗦𝗖𝗘𝗡𝗘-𝗠𝗗-𝗩𝟮 𝗩𝗜𝗗𝗘𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥\n
+        caption: `𝐉𝐎𝐄𝐋-𝗠𝗗-𝗩𝟑 𝗩𝗜𝗗𝗘𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥\n
 
 𝐕𝐢𝐝𝐞𝐨 𝐍𝐚𝐦𝐞 : ${Element.title}
 𝐃𝐮𝐫𝐚𝐭𝐢𝐨𝐧 : ${Element.timestamp}
 𝐘.𝐓 𝐋𝐢𝐧𝐤 : ${Element.url}
-𝐒𝐚𝐯𝐞𝐫 : 𝐁𝐞𝐥𝐭𝐚𝐡 𝐓𝐞𝐜𝐡
+𝐒𝐚𝐯𝐞𝐫 : 𝐣𝐨𝐞𝐥 𝐢𝐭
 
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐒𝐂𝐄𝐍𝐄-𝐌𝐃-𝐕𝟐`
+> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐉𝐎𝐄𝐋-𝐌𝐃-𝐕𝟑`
       };
 
       zk.sendMessage(origineMessage, InfoMess, { quoted: ms });
