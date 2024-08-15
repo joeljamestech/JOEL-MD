@@ -86,7 +86,7 @@
     <td>𝚠𝚊 𝚌𝚑𝚊𝚗𝚗𝚎𝚕</td>
   </tr>
   <tr>
-    <td><a href="https://wa.link/e9lbut"><img src="https://telegra.ph/file/179fe48ce0290c09d75a6.jpg" width="180"</td>
+    <td><a href="https://wa.link/e9lbut"><img src="https://telegra.ph/file/7cbfc792540bfb6f974f6.jpg" width="180"</td>
     <td><a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M"><img src="https://telegra.ph/file/074fda0c9cc17c420cf3d.jpg" width="180"</td>
   </tr>
 </table>
