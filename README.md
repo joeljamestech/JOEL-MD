@@ -1,5 +1,6 @@
  ### WELCOME TO JOEL MD V 3. 0. 0
- <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=red&size=25&center=true&vCenter=true&width=600&height=100&lines=𝚒𝚖+𝚓𝚘𝚎𝚕+𝚖𝚍+𝚌𝚛𝚎𝚊𝚝𝚎𝚍+𝚋𝚢+𝚓𝚘𝚎𝚕_𝚝𝚎𝚌𝚑_.&heart;++;Self-taught+Back-Created+By,;Ibrahim+Adams+Am+The,;Best+Is+Bot+For+You+To,;Deploy..<3"></a>
+ 
+ <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=JOEL THE BOT +WHATSAPP; MULTI+SERVICE+REVOLUTIONIZES;CREATE+BY+JOEL+TECH;BOT DATED+06.6.2024" alt="Typing SVG" /></a>
  <a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M">
  <img alt="JOEL BUG BOT" height="300" src="https://telegra.ph/file/bc8a842dccfd0cf387297.jpg">
   
