@@ -1,9 +1,9 @@
 {
-  "name":"HACKING-MD",
-  "description":"bot whatsapp développé par thomas",
+  "name":"joel-md",
+  "description":"a WhatsApp bot developed by joel",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/b8e378f61794498c29c34.jpg",
-  "repository":"https://github.com/HACKING995/HACKING956",
+  "repository":"https://github.com/joeljamestech/JOEL-MD",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,21 +35,21 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"HACKING-MD",
+      "value":"JOEL-MD",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/b8e378f61794498c29c34.jpg",
+      "value":"",
       "required":false
        
      },
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"yes",
+      "value":"no",
       "required":false
     }
 	,
@@ -74,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Thomas"
+    "value": "joel_it"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "2250545065189"
+    "value": "255714595078"
   },
     "WARN_COUNT":
   {
@@ -102,7 +102,7 @@
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
-    "value": "no",
+    "value": "yes",
     "required": false
   }
   },
