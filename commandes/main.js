@@ -14,7 +14,7 @@ const s = require(__dirname + "/../set");
 
 
 
-zokou({ nomCom: "m", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "n", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
 
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
 
@@ -66,18 +66,18 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏❏ ⌜ ᴊᴏᴇʟ ᴍᴅ ⌟ ❐
-┃ ⿻Mode: ${mode}
-┃ ⿻User : ${s.OWNER_NAME}
-┃ ⿻Library : Baileys
-️┃ ⿻Prefix : ${s.PREFIXE}
-️┃ ⿻Date : ${date}
-┃ ⿻Time : ${temps}
-┃ ⿻Tools : ${cm.length}
-┃ ⿻Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃ ⿻Host : ${os.platform()}
-┗❏\n\n`;
-
+╭━━━━┈⊷
+┃๏╭───────────
+┃๏│▸ 𝗢𝘄𝗻𝗲𝗿 : ${s.OWNER_NAME}
+┃๏│▸ 𝗣𝗿𝗲𝗳𝗶𝘅 : [ ${s.PREFIXE} ] 
+┃๏│▸ 𝗠𝗼𝗱𝗲 : *${mode}*
+┃๏│▸ 𝗥𝗮𝗺  : 𝟲𝟴/𝟭𝟯𝟮 𝗚𝗕
+┃๏│▸ 𝗗𝗮𝘁𝗲  : *${date}* 
+┃๏│▸ 𝗥𝗮𝗺 : 𝟲𝟴/𝟭𝟯𝟮 𝗚𝗕
+┃๏│▸ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗖𝗵𝗿𝗼𝗺𝗲 𝗟𝗶𝗻𝘂𝘅
+┃๏│▸ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : joel_it
+┃๏└───────────···▸
+╰──────────────┈⊷\n${readmore}`;
 
     
 
