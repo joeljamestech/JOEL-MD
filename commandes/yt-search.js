@@ -19,9 +19,9 @@ zokou({ nomCom: "yts", categorie: "Search", reaction: "💎" }, async (dest, zk,
 
     let captions = "";
 for (let i = 0; i < 15; i++) {
-  captions += `╭━━LUCKY MD V5 YOUTUBE MENU━━╮\n${i + 1}. Title: ${resultat[i].title}\nTime : ${resultat[i].timestamp}\nUrl: ${resultat[i].url}\n`;
+  captions += `𝙹𝙾𝙴𝙻 𝙼𝙳 𝚅 𝟹.𝟶.𝟶\n${i + 1}. Title: ${resultat[i].title}\nTime : ${resultat[i].timestamp}\nUrl: ${resultat[i].url}\n`;
 }
-    captions += "\n======\n*powered by Fredie Tech*";
+    captions += "\n======\n𝚙𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚓𝚘𝚎𝚕 𝚔𝚊𝚗𝚐'𝚘𝚖𝚊";
 
     // repondre(captions)
     zk.sendMessage(dest, { image: { url: resultat[0].thumbnail }, caption: captions }, { quoted: ms });
@@ -33,7 +33,7 @@ for (let i = 0; i < 15; i++) {
 zokou({
   nomCom: "ytmp4",
   categorie: "Download",
-  reaction: "🍑"
+  reaction: "👌"
 }, async (origineMessage, zk, commandeOptions) => {
   const { arg, ms, repondre } = commandeOptions;
 
@@ -77,7 +77,7 @@ _*En cours de téléchargement...*_\n\n`
 
     fileStream.on('finish', () => {
       // Envoi du fichier vidéo en utilisant l'URL du fichier local
-      zk.sendMessage(origineMessage, { video: { url: `./${filename}` }, caption: "Powered by *Zokou-Md*", gifPlayback: false }, { quoted: ms });
+      zk.sendMessage(origineMessage, { video: { url: `./${filename}` }, caption: "𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚓𝚘𝚎𝚕 𝚔𝚊𝚗𝚐'𝚘𝚖𝚊", gifPlayback: false }, { quoted: ms });
 
     });
 
