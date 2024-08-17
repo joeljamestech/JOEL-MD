@@ -1,5 +1,5 @@
 {
-  "name": "mod-beltah",
+  "name": "joel md",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -12,12 +12,12 @@
   "keywords": [
     "bot",
     "Baileys",
-    "mod-beltah",
+    "joel-md",
     "whatsapp",
     "whatsapp-bot",
     "zokou"
   ],
-  "author": "Beltah",
+  "author": "joel",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
