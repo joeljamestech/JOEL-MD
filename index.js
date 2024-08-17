@@ -165,7 +165,7 @@ setTimeout(() => {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{Scene-Md}...[][]");
+            console.log("\t [][]...{joel-Md}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
                 console.log("message sent from : " + nomGroupe);
@@ -286,7 +286,7 @@ function mybotpic() {
         
                                     if(msg === null || !msg ||msg === 'undefined') {console.log('Message non trouver') ; return } 
         
-                                await zk.sendMessage(idBot,{ image : { url : './media/deleted-message.jpg'},caption : `        😈JOEL-MD DELETED INFORMATION😈\n Message from @${msg.key.participant.split('@')[0]}​` , mentions : [msg.key.participant]},)
+                                await zk.sendMessage(idBot,{ image : { url : './media/deleted-message.jpg'},caption : `        JOEL-MD DELETED INFORMATION\n Message from @${msg.key.participant.split('@')[0]}​` , mentions : [msg.key.participant]},)
                                 .then( () => {
                                     zk.sendMessage(idBot,{forward : msg},{quoted : msg}) ;
                                 })
@@ -812,7 +812,7 @@ ${metadata.desc}\n\n> JOEL MD V 3 BY JOEL TECH.`;
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ Scene md connecting in your account...");
+                console.log("ℹ️ joel md connecting in your account...");
             }
             else if (connection === 'open') {
                 console.log("✅ joel md connected successfully☺️");
@@ -860,9 +860,9 @@ ${metadata.desc}\n\n> JOEL MD V 3 BY JOEL TECH.`;
     𝗣𝗹𝘂𝗴𝗶𝗻𝘀 : 245
     𝗥𝗮𝗺 : 𝟲𝟴/𝟭𝟯𝟮 𝗚𝗕
     𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗖𝗵𝗿𝗼𝗺𝗲 𝗟𝗶𝗻𝘂𝘅
-    𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : 𝐣𝐨𝐞𝐥_𝐭𝐞𝐜𝐡  
+    𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : 𝗷𝗼𝗲𝗹 𝘁𝗲𝗰𝗵  
 
-> 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐃𝐞𝐩𝐥𝐨𝐲𝐢𝐧𝐠 𝐣𝐨𝐞𝐥 𝐦𝐝 𝐯 𝟑`;
+> 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐃𝐞𝐩𝐥𝐨𝐲𝐢𝐧𝐠 𝗷𝗼𝗲𝗹 𝗺𝗱 𝘃 𝟯`;
                     
                 await zk.sendMessage( zk.user.id, { text: cmsg });
                 }
