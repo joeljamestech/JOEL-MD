@@ -66,17 +66,17 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏⎔ 𝐉𝐎𝐄𝐋 𝐌𝐃 𝐕 𝟑
-️┃ ◈hellow: ${ms.pushName} 
-️┃ ◈Mode: ${mode}
-┃ ◈owner : ${s.OWNER_NAME}
-┃ ◈Library : Baileys
-️┃ ◈Prefix : ${s.PREFIXE}
-️┃ ◈Date : ${date}
-┃ ◈Time : ${temps}
-┃ ◈Tools : ${cm.length}
-┃ ◈Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃ ◈theme : 𝚓𝚘𝚎𝚕_𝚒𝚝🕷️
+┏⎔ 𝙹𝙾𝙴𝙻 𝙼𝙳 𝚅 𝟹
+️┃◈𝐡𝐞𝐥𝐥𝐨𝐰: ${ms.pushName} 
+️┃◈𝐌𝐨𝐝𝐞: ${mode}
+┃◈𝐨𝐰𝐧𝐞𝐫 : ${s.OWNER_NAME}
+┃◈𝐋𝐢𝐛𝐫𝐚𝐫𝐲 : Baileys
+️┃◈𝐏𝐫𝐞𝐟𝐢𝐱 : ${s.PREFIXE}
+️┃◈𝐃𝐚𝐭𝐞 : ${date}
+┃◈𝐓𝐢𝐦𝐞 : ${temps}
+┃◈𝐓𝐨𝐨𝐥𝐬 : ${cm.length}
+┃◈𝐑𝐚𝐦 : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┃◈𝐭𝐡𝐞𝐦𝐞 : 𝚓𝚘𝚎𝚕_𝚒𝚝🕷️
 ┗⎔\n\n`;
 
 
@@ -84,7 +84,7 @@ const date = moment().format('DD/MM/YYYY');
 
 let menuMsg = `
 ┏━━━━━━━━━━━━━━━┓
-┣◈𝚓𝚘𝚎𝚕 𝚖𝚍 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜
+┣◈𝗷𝗼𝗲𝗹 𝗺𝗱 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀
 ┗━━━━━━━━━━━━━━━┛\n
 
 
@@ -94,12 +94,12 @@ let menuMsg = `
 
     for (const cat in coms) {
 
-        menuMsg += `┏⎔ *${cat}*`;
+        menuMsg += `┏⎔  ${cat} `;
 
         for (const cmd of coms[cat]) {
 
             menuMsg += `
-┃ ◈ *${cmd}*`;
+┃◈ *${cmd}*`;
 
         }
 
