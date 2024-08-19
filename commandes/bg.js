@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
-┏❏ ⌜ *BMW MD CRASHER* ⌟  ❐
+┏❏ ⌜ *JOEL MD CRASHER* ⌟  ❐
 ❐ bug
 ❐ crash
 ❐ loccrash
