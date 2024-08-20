@@ -17,7 +17,7 @@ const sleep =  (ms) =>{
     const { ms, repondre, arg, nomAuteurMessage, superUser } = commandeOptions;
   
     if (!superUser) {
-      repondre('Only Mods can use this command'); return;
+      repondre('Only joel can use this command'); return;
     }
     //const apikey = conf.APILOLHUMAIN
   
@@ -70,7 +70,7 @@ const sleep =  (ms) =>{
   
           const sticker = new Sticker(buffer.data, {
             pack: nomAuteurMessage,
-            author: "Zokou-md",
+            author: "joel-md",
             type: StickerTypes.FULL,
             categories: ['🤩', '🎉'],
             id: '12345',
@@ -145,7 +145,7 @@ zokou({ nomCom: "jid", categorie: "Mods" }, async (dest, zk, commandeOptions) =>
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage,auteurMsgRepondu } = commandeOptions;
 
          if (!superUser) {
-    repondre("command reserved for the bot owner");
+    repondre("command reserved for joel md owner");
     return;
   }
               if(!msgRepondu) {
@@ -249,7 +249,7 @@ zokou({
     const { ms, arg, auteurMsgRepondu, msgRepondu , repondre,prefixe,superUser } = commandeOptions;
 
     
-  if (!superUser) {repondre('This command is only allowed to the bot owner') ; return}
+  if (!superUser) {repondre('This command is only allowed to the joel md owner') ; return}
     if (!arg[0]) {
         // Function 'reply' must be defined to send a response.
         repondre(`mention the victim by typing ${prefixe}ban add/del to ban/unban the victim`);
@@ -393,7 +393,7 @@ zokou({
   const { ms, arg, auteurMsgRepondu, msgRepondu , repondre,prefixe,superUser } = commandeOptions;
 
   
-if (!superUser) {repondre('This command is only allowed to the bot owner') ; return}
+if (!superUser) {repondre('This command is only allowed to the joel md owner') ; return}
   if (!arg[0]) {
       // Function 'reply' must be defined to send a response.
       repondre(`mention the person by typing ${prefix}sudo add/del`);
