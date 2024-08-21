@@ -71,8 +71,8 @@ const date = moment().format('DD/MM/YYYY');
 > ⎔Mode: ${mode}
 > ⎔User : ${s.OWNER_NAME}
 > ⎔Library : Baileys
- > ⎔Prefix : ${s.PREFIXE}
- > ⎔Date : ${date}
+> ⎔Prefix : ${s.PREFIXE}
+> ⎔Date : ${date}
 > ⎔Time : ${temps}
 > ⎔Tools : ${cm.length}
 > ⎔Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
@@ -89,7 +89,7 @@ let menuMsg = `
 
     for (const cat in coms) {
 
-        menuMsg += `━━━━⚼ ${cat}`;
+        menuMsg += `> ⚼ ${cat}`;
 
         for (const cmd of coms[cat]) {
 
@@ -99,7 +99,7 @@ let menuMsg = `
         }
 
         menuMsg += `
-━━━━━━━━━━━━━━┛\n`
+> ━━━━━━━━━━┛\n`
 
     }
 
