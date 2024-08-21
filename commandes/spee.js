@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
-zokou({ nomCom: "ping", reaction: "😌", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "ping", reaction: "speed", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
     let z = '𝐣𝐨𝐞𝐥 𝐦𝐝  \n\n ' + "𝐫𝐞𝐬𝐩𝐨𝐧𝐬𝐞 𝐬𝐩𝐞𝐞𝐝 𝐢𝐬";
     let d = ' 𝐚𝐛𝐨𝐮𝐭 𝟏𝟎𝟖𝟎.𝟗𝟏 𝐦/𝐬';
