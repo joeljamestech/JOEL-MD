@@ -1,7 +1,7 @@
 
 
 {
-    "name": "BMW-MD",
+    "name": "joel inc",
   "version": "2.0.0",
   "description": "",
   "main": "body.js",
@@ -18,7 +18,7 @@
     "whatsapp-bot",
     "ibrahimtech"
   ],
-  "author": "Ibrahim Adams",
+  "author": "joel james",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
