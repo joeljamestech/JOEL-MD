@@ -8,7 +8,7 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const Taphere = more.repeat(4001)
 
-zokou({ nomCom: "bgmenu", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -40,6 +40,7 @@ let infoMsg =  `
 
 *𝚑𝚎𝚛𝚎 𝚊𝚛𝚎 𝚖𝚢 𝚘𝚠𝚗𝚎𝚛 𝚒𝚗𝚏𝚘𝚛𝚖𝚊𝚝𝚒𝚘𝚗*
 𝚋𝚘𝚝 𝚗𝚊𝚖𝚎 : 𝚓𝚘𝚎𝚕 𝚖𝚍 𝚠𝚊 𝚋𝚘𝚝
+𝚟𝚒𝚜𝚒𝚘𝚗 : 𝟹.𝟻.𝟶
 𝚙𝚛𝚎𝚏𝚒𝚡 : ${s.PREFIXE}
 𝚖𝚘𝚍𝚎 : ${mode}
 𝚘𝚠𝚗𝚎𝚛 : ${s.OWNER_NAME}
