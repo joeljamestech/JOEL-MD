@@ -14,7 +14,7 @@ const s = require(__dirname + "/../set");
 
 
 
-zokou({ nomCom: "m", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "allmenu", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
 
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
 
@@ -65,18 +65,18 @@ const date = moment().format('DD/MM/YYYY');
 
 
   let infoMsg =  `
-   > 𝙹𝙾𝙴𝙻 𝙼𝙳 𝙰𝙻𝙻 𝙼𝙴𝙽𝚄\n\n`;
+  𝙹𝙾𝙴𝙻 𝙼𝙳 𝙰𝙻𝙻 𝙼𝙴𝙽𝚄\n\n`;
 
 
 let menuMsg = `
-> ⎔𝚓𝚘𝚎𝚕𝚖𝚍  𝚌𝚖𝚍𝚜
+> ❏𝚓𝚘𝚎𝚕𝚖𝚍  𝚌𝚖𝚍𝚜
 `;
 
 
 
     for (const cat in coms) {
 
-        menuMsg += `> ⚼ ${cat}`;
+        menuMsg += `> ❏❏ ${cat}`;
 
         for (const cmd of coms[cat]) {
 
@@ -86,15 +86,11 @@ let menuMsg = `
         }
 
         menuMsg += `
-> ━━━━━━━━━━┛\n`
+> ━━━━━━━━━━\n`
 
     }
 
     menuMsg += `
-🄹🄾🄴🄻 🄼🄳 🄱🄾🅃
-🄱🅈 🄹🄾🄴🄻 🄹🄰🄼🄴🅂
-🅇🅇🅇🅇🅇🅇🅇🅇🅇🅇🅇🅇
-
 > ━━━━━━━━━━━━━━┓
 > ⎔𝚔𝚎𝚎𝚙 𝚞𝚜𝚒𝚗𝚐 𝚓𝚘𝚎𝚕 𝚖𝚍.
 > ━━━━━━━━━━━━━━┛\n
