@@ -61,7 +61,7 @@ zokou({ nomCom: 'video',
  zokou({ nomCom: 'play',
     desc: 'To check runtime',
     Categorie: 'General',
-    reaction: '🎼', 
+    reaction: '🎧', 
     fromMe: 'true', 
 
 
