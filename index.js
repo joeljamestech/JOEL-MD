@@ -179,7 +179,7 @@ setTimeout(() => {
             
             var dev = [danny,tkm].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{TKM-bot}...[][]");
+            console.log("\t [][]...{joel-md}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
                 console.log("message comming from the group : " + nomGroupe);
@@ -839,7 +839,7 @@ ${metadata.desc}`;
 
                  
                 },{
-                    timezone: "Africa/Harare"
+                    timezone: "Africa/Tanzania"
                   });
               }
         
@@ -914,22 +914,14 @@ ${metadata.desc}`;
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `╔───⬡
-┃ ┃⬡naruto bot⬡┃
+┃ ┃⬡joel md⬡┃
 ┃    Prefix : [ ${prefixe} ]
 ┃    Mode :${md}
 ┃    Total Commandes : ${evt.cm.length}︎
 ╚─────────────────···▸▸
 
 ╔───⬡
-
-
- report any. problems to the devs:)
- Thanks for supporting
- this project
- property of joel tech 
- property of joel_it
- © 255714595078
- © 255767570963
+|wa channel: "https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M"
 ╚─────────────────···▸▸`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
