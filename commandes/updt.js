@@ -69,14 +69,14 @@ const date = moment().format('DD/MM/YYYY');
 
 
 let menuMsg = `
-*𝚓𝚘𝚎𝚕𝚖𝚍  𝚌𝚖𝚍𝚜*
+> *𝚓𝚘𝚎𝚕𝚖𝚍  𝚌𝚖𝚍𝚜*
 `;
 
 
 
     for (const cat in coms) {
 
-        menuMsg += ` *--${cat}*`;
+        menuMsg += ` *✺${cat}*`;
 
         for (const cmd of coms[cat]) {
 
