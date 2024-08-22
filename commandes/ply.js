@@ -28,7 +28,7 @@ zokou({ nomCom: 'play',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`loading ....`) 
+                 await repondre(`click to search and listen musics https://www.msn.com/en-us/music`) 
 
    
 
@@ -48,7 +48,7 @@ zokou({ nomCom: 'video',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`loading...`) 
+                 await repondre(`click to search and listen musics https://www.msn.com/en-us/music`) 
 
    
 
@@ -69,7 +69,7 @@ zokou({ nomCom: 'video',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`loading...`) 
+                 await repondre(`click to search and listen musics https://www.msn.com/en-us/music`) 
 
    
 
