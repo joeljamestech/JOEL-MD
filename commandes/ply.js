@@ -57,3 +57,22 @@ zokou({ nomCom: 'video',
 );
 
 
+
+ zokou({ nomCom: 'play',
+    desc: 'To check runtime',
+    Categorie: 'General',
+    reaction: '🎼', 
+    fromMe: 'true', 
+
+
+  },
+  async (dest, zk, commandeOptions) => {
+    const { ms, arg, repondre } = commandeOptions;
+
+                 await repondre(`loading...`) 
+
+   
+
+
+  }
+);
