@@ -40,7 +40,7 @@ zokou({ nomCom: 'play',
 zokou({ nomCom: 'video',
     desc: 'To check runtime',
     Categorie: 'General',
-    reaction: '🎞️', 
+    reaction: '🎬', 
     fromMe: 'true', 
 
 
@@ -90,7 +90,7 @@ zokou({ nomCom: 'vision',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*joel md is running on its latest vision (3.5.0)`) 
+                 await repondre(`*joel md is running on its latest vision (3.5.0)*`) 
 
    
 
