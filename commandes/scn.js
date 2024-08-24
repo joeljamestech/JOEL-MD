@@ -52,9 +52,8 @@ zokou({ nomCom: "deploy", categorie: "deploy" }, async (dest, zk, commandeOption
 *𝙳𝙴𝙿𝙻𝙾𝚈 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙹𝙾𝙴𝙻 𝙼𝙳 𝙼𝙳 𝙷𝙴𝚁𝙴*
 𝚈𝙾𝚄𝚁 𝙳𝙴𝙿𝙻𝙾𝚈𝙴𝚁 : ${s.OWNER_NAME}
 𝚈𝙾𝚄𝚁 𝙽𝙰𝙼𝙴 : ${ms.pushName}
-𝚃𝙾𝙳𝙰𝚈'𝚂 𝙳𝙴𝙿𝙻𝙾𝚈𝙼𝙴𝙽𝚃 : ${ping} 𝙱𝚘𝚝𝚜 𝚍𝚎𝚙𝚕𝚘𝚢𝚎𝚍 𝚝𝚘𝚍𝚊𝚢 
 *𝚃𝙾𝚃𝙰𝙻 𝙹𝙾𝙴𝙻 𝙼𝙳 𝚄𝚂𝙴𝚁𝚂 : 𝟷𝟶𝟾𝟿+𝚄𝚜𝚎𝚛𝚜*
-
+𝙱𝙾𝚃 𝙳𝙴𝙾𝙻𝙾𝚈𝙴𝙳 : 𝟷𝟹𝟿+ 𝚊𝚙𝚙𝚜 𝚍𝚎𝚙𝚕𝚘𝚢𝚎𝚍 𝚝𝚘𝚍𝚊𝚢
 *𝚃𝙾𝙿 𝙾𝙽 𝚃𝙷𝙴 𝙻𝙸𝙽𝙺 𝚃𝙾 𝙶𝙴𝚃 𝚂𝙴𝚂𝚂𝙸𝙾𝙽*
 
 https://joelsession-c9b0319b1478.herokuapp.com/pair
