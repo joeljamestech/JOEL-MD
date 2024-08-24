@@ -49,12 +49,12 @@ zokou({ nomCom: "cpu", categorie: "deploy" }, async (dest, zk, commandeOptions) 
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
 𝙷𝚎𝚕𝚕𝚘𝚠 : ${ms.pushName}
-*𝙹𝙾𝙴𝙻 𝙼𝙳 𝙼𝙳 𝙷𝙴𝚁𝙴 𝙲𝙿𝚄*
+*𝙹𝙾𝙴𝙻 𝙼𝙳 𝙼𝙳  𝙲𝙿𝚄*
 𝙹𝙾𝙴𝙻 𝙼𝙳 𝙾𝚆𝙽𝙴𝚁 : ${s.OWNER_NAME}
 𝚈𝙾𝚄𝚁 𝙽𝙰𝙼𝙴 : ${ms.pushName}
 𝚃𝙾𝙳𝙰𝚈'𝚂 𝙳𝙴𝙿𝙻𝙾𝚈𝙼𝙴𝙽𝚃 : ${ping} 𝙱𝚘𝚝𝚜 𝚍𝚎𝚙𝚕𝚘𝚢𝚎𝚍 𝚝𝚘𝚍𝚊𝚢 
 *𝚃𝙾𝚃𝙰𝙻 𝙹𝙾𝙴𝙻 𝙼𝙳 𝚄𝚂𝙴𝚁𝚂 : 𝟷𝟶𝟾𝟿+𝚄𝚜𝚎𝚛𝚜*
-𝚁𝚄𝙽𝚃𝙸𝙼𝙴 : 
+𝚁𝚄𝙽𝚃𝙸𝙼𝙴 𝚓𝚘𝚎𝚕 𝚖𝚍 𝚑𝚊𝚜 𝚛𝚞𝚗𝚗𝚒𝚗𝚐 𝚏𝚘𝚛 : ${runtime(process.uptime())}
 𝚁𝙴𝚂𝙿𝙾𝙽𝚂𝙴 𝚂𝙿𝙴𝙴𝙳 : ${ping}ms
 𝙳𝙰𝚃𝙴 : ${date}
 𝚃𝙾𝙾𝙻𝚂 : ${cm.length}
