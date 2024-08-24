@@ -22,7 +22,7 @@ zokou({ nomCom: "cpu", categorie: "deploy" }, async (dest, zk, commandeOptions) 
     const date = moment.tz("asia/karachi").format("DD/MM/YYYY");
     console.log("date" + date);
     console.log("temps " + temps);
-    let menuMsg = " *𝙳𝙴𝙿𝙻𝙾𝚈 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙹𝙾𝙴𝙻 𝙼𝙳*\n\n";
+    let menuMsg = " *𝙹𝙾𝙴𝙻 𝙼𝙳 𝙲𝙿𝚄 𝙼𝙴𝙽𝚄*\n\n";
     /*menuMsg+=`
     
     
@@ -50,13 +50,15 @@ zokou({ nomCom: "cpu", categorie: "deploy" }, async (dest, zk, commandeOptions) 
     menuMsg += `
 𝙷𝚎𝚕𝚕𝚘𝚠 : ${ms.pushName}
 *𝙹𝙾𝙴𝙻 𝙼𝙳 𝙼𝙳  𝙲𝙿𝚄*
-𝙹𝙾𝙴𝙻 𝙼𝙳 𝙾𝚆𝙽𝙴𝚁 : ${s.OWNER_NAME}
-𝚈𝙾𝚄𝚁 𝙽𝙰𝙼𝙴 : ${ms.pushName}
+*𝙹𝙾𝙴𝙻 𝙼𝙳 𝙾𝚆𝙽𝙴𝚁* : ${s.OWNER_NAME}
+*𝚈𝙾𝚄𝚁 𝙽𝙰𝙼𝙴* : ${ms.pushName}
 *𝚃𝙾𝚃𝙰𝙻 𝙹𝙾𝙴𝙻 𝙼𝙳 𝚄𝚂𝙴𝚁𝚂 : 𝟷𝟶𝟾𝟿+𝚄𝚜𝚎𝚛𝚜*
- 𝚁𝙰𝙼  : 𝟸𝟷.𝟹/𝟼𝟷.𝟾𝙶𝙱
-𝚃𝙾𝙾𝙻𝚂 : ${cm.length}
+*𝚁𝙰𝙼*  : 𝟸𝟷.𝟹/𝟼𝟷.𝟾𝙶𝙱*
+*𝚃𝙾𝙾𝙻𝚂* : ${cm.length}
+*𝚁𝚎𝚜𝚙𝚘𝚗𝚍 𝚜𝚙𝚎𝚎𝚍 : 𝟷𝟶𝟾𝚖𝚜*
+*𝙲𝚁𝙴𝙰𝚃𝙾𝚁* : 𝙹𝙾𝚎𝚕 𝚝𝚎𝚌𝚑
 
- > keep using joel md\n\n`;
+> keep using joel md\n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
             emoji[cat] = "";
