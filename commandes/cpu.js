@@ -69,7 +69,7 @@ zokou({ nomCom: "cpu", categorie: "deploy" }, async (dest, zk, commandeOptions) 
             menuMsg += "";
         }
     }
-    var link = "https://telegra.ph/file/9abaed401147a21799f1d.jpg";
+    var link = "https://telegra.ph/file/517b32aafd990bc642ec3.jpg";
     try {
         zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©TKM INC" }, { quoted: ms });
     }
