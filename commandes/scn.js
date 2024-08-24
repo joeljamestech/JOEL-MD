@@ -6,7 +6,7 @@ const { format, styletext } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
-zokou({ nomCom: "scan", categorie: "deploy" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "deploy", categorie: "deploy" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre } = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -48,26 +48,42 @@ zokou({ nomCom: "scan", categorie: "deploy" }, async (dest, zk, commandeOptions)
    ||
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
-╔════---------
-║    Préfix : ${s.PREFIXE}
-║    Owner : ${s.NOM_OWNER}    
-║    Mode : ${mode}
-║    Plugins :${cm.length}
-║    Date : ${date}
-║    Time : ${temps}
-║    Memory : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-║    Platform : ${os.platform()}
-╚════--------------- \n\n`;
+𝙷𝙴𝙻𝙻𝙾𝚆 :
+𝙳𝙴𝙿𝙻𝙾𝚈 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙹𝙾𝙴𝙻 𝙼𝙳 𝙼𝙳 𝙷𝙴𝚁𝙴
+𝚈𝙾𝚄𝚁 𝙳𝙴𝙿𝙻𝙾𝚈𝙴𝚁 : 
+𝚈𝙾𝚄𝚁 𝙽𝙰𝙼𝙴 : 
+𝚃𝙾𝚃𝙰𝙻 𝙹𝙾𝙴𝙻 𝙼𝙳 𝚄𝚂𝙴𝚁𝚂 : 𝟽𝟾𝟿+𝚄𝚜𝚎𝚛𝚜
+
+*𝚃𝙾𝙿 𝙾𝙽 𝚃𝙷𝙴 𝙻𝙸𝙽𝙺 𝚃𝙾 𝙶𝙴𝚃 𝚂𝙴𝚂𝚂𝙸𝙾𝙽*
+
+https://joelsession-c9b0319b1478.herokuapp.com/pair
+
+
+*𝚂𝚃𝙴𝙿𝚂 𝚃𝙾 𝙶𝙴𝚃 𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝙸𝙳*
+𝟷.𝙾𝙿𝙴𝙽 𝙻𝙸𝙽𝙺 𝙰𝙱𝙾𝚅𝙴
+𝟸.𝙸𝙽𝚃𝙴𝚁 𝚈𝙾𝚄𝚁 𝚆𝙷𝙰𝚃𝚂𝙰𝙰𝙿 𝙽𝚄𝙼𝙱𝙴𝚁 𝚆𝙸𝚃𝙷
+𝙲𝙾𝚄𝙽𝚃𝚈 𝙲𝙾𝙳𝙴 𝙴𝚐. 𝟸𝟻𝟻𝟽𝟷𝟺𝟻𝟿𝚡𝚡𝚡
+𝟹.𝙹𝙾𝙴𝙻 𝚆𝙸𝙻𝙻 𝚂𝙴𝙽𝙳 𝚈𝙾𝚄 𝙰 𝙲𝙾𝙳𝙴 𝙲𝙾𝙿𝚈
+ 𝚃𝙷𝙰𝚃 𝙲𝙾𝙳𝙴. 𝚃𝙷𝙴𝙽 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝚆𝙸𝙻𝙻 𝚂𝙴𝙽𝚃
+ 𝙽𝙾𝚃𝙸𝙵𝙸𝙲𝙰𝚃𝙸𝙾𝙽.
+𝟺.𝚃𝙾𝙿 𝙾𝙽 𝚃𝙷𝙰𝚃 𝙽𝙾𝚃𝙸𝙵𝙸𝙲𝙰𝚃𝙸𝙾𝙽 𝚃𝙷𝙴𝙽 𝙸𝙽𝚃𝙴𝚁 
+  𝚃𝙷𝙴 𝙲𝙾𝙳𝙴 𝚃𝙷𝙰𝚃 𝙹𝙾𝙴𝙻 𝙼𝙳 𝚂𝙴𝙽𝚃 𝚈𝙾𝚄
+𝟻.𝙸𝚃 𝚆𝙸𝙻𝙻 𝙻𝙾𝙰𝙳 𝙵𝙾𝚁 𝚂𝙾𝙼𝙴𝚃𝙸𝙼𝙴 𝚃𝙷𝙴𝙽 𝙹𝙾𝙴𝙻 𝙼𝙳 
+  𝚆𝙸𝙻𝙻 𝚂𝙴𝙽𝙳 𝚈𝙾𝚄 𝙰 𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝙸𝙳 𝙸𝙽 𝚈𝙾𝚄𝚁 
+  𝙸𝙽𝙱𝙾𝚇 𝙸𝙽 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙰𝚃 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙽𝚄𝙼𝙱𝙴𝚁
+  𝙲𝙾𝙿𝚈 𝚃𝙷𝙴 𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝙸𝙳 𝙰𝙽𝙳 𝚂𝙴𝙽𝙳 𝚃𝙾 𝚈𝙾𝚄𝚁
+  𝙳𝙴𝙿𝙻𝙾𝚈𝙴𝚁
+ keep using joel md wa bot\n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
             emoji[cat] = "";
         }
-        menuMsg += `${emoji[cat]}  joel md ${emoji[cat]}\n`;
+        menuMsg += `${emoji[cat]}  ${emoji[cat]}\n`;
         for (const cmd of coms[cat]) {
-            menuMsg += "\t  keep using joel md\n";
+            menuMsg += "\t  \n";
         }
     }
-    var link = "https://telegra.ph/file/e07a3d933fb4cad0b3791.jpg";
+    var link = "https://telegra.ph/file/9abaed401147a21799f1d.jpg";
     try {
         zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©TKM INC" }, { quoted: ms });
     }
