@@ -135,7 +135,7 @@ zokou(
         );
         const tumbUrl =
             "https://telegra.ph/file/4f0f61f0e5d851daf40ab.jpg";
-        let menu = `${mono}Hello ${ms.pushName}
+        let menu = `Hello ${ms.pushName}
 ${timewisher(time)}
 
 ┏❏ ⌜ *JOEL BUG* ⌟  ❐
