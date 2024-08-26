@@ -100,8 +100,8 @@
     <td>𝚃𝚒𝚔 𝚝𝚘𝚔</td>
   </tr>
   <tr>
-    <td><a href="https://wa.link/e9lbut"><img src="https://telegra.ph/file/7cbfc792540bfb6f974f6.jpg" width="180"</td>
-    <td><a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M"><img src="https://telegra.ph/file/dd9036cd4a22846c6e2a5.jpg" width="180"</td>
+    <td><a href="https://wa.link/e9lbut"><img src="https://telegra.ph/file/864b974e301ccac54c793.jpg" width="180"</td>
+    <td><a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M"><img src="https://telegra.ph/file/89750a960df185dcf5fd9.jpg" width="180"</td>
   </tr>
 </table>
 
@@ -109,14 +109,13 @@
 
 
 
- *©joeltech inc*
+ *𝚔𝚎𝚎𝚙 𝚞𝚜𝚒𝚗𝚐 𝚓𝚘𝚎𝚕 𝚖𝚍 𝚋𝚘𝚝*
 
 
 
 
 
 
-   *𝐤𝐞𝐞𝐩 𝐮𝐬𝐢𝐧𝐠 𝐣𝐨𝐞𝐥 𝐦𝐝 𝐰𝐚 𝐛𝐨𝐭*
 
-
+*𝙽𝚘𝚝𝚎* :*𝚓𝚘𝚎𝚕 𝚖𝚍 𝚒𝚜 𝚜𝚊𝚏𝚎 𝚘𝚗 𝚑𝚎𝚛𝚘𝚔𝚞 𝚌𝚘𝚗𝚝𝚊𝚌𝚝 𝚘𝚠𝚗𝚎𝚛 𝚏𝚘𝚛 𝚖𝚘𝚛𝚎 𝚒𝚗𝚏𝚘*
    
