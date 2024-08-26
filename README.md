@@ -93,6 +93,22 @@
 </table>
 
 
+
+<table>
+  <tr>
+    <td>𝚢𝚘𝚞 𝚝𝚞𝚋𝚎</td>
+    <td>𝚃𝚒𝚔 𝚝𝚘𝚔</td>
+  </tr>
+  <tr>
+    <td><a href="https://wa.link/e9lbut"><img src="https://telegra.ph/file/7cbfc792540bfb6f974f6.jpg" width="180"</td>
+    <td><a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M"><img src="https://telegra.ph/file/dd9036cd4a22846c6e2a5.jpg" width="180"</td>
+  </tr>
+</table>
+
+
+
+
+
  *©joeltech inc*
 
 
