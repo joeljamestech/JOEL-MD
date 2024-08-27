@@ -1,41 +1,229 @@
+const util = require('util');
+const fs = require('fs-extra');
+const { zokou } = require(__dirname + "/../framework/zokou");
+const { format, styletext } = require(__dirname + "/../framework/mesfonctions");
+//const {police}=require(__dirname+"/../framework/mesfonctions")
+const os = require("os");
+const moment = require("moment-timezone");
+const s = require(__dirname + "/../set");
+zokou({ nomCom: "deploy", categorie: "deploy" }, async (dest, zk, commandeOptions) => {
+    let { ms, repondre } = commandeOptions;
+    let { cm } = require(__dirname + "/../framework//zokou");
+    var coms = {};
+    var mode = "public";
+    if (s.MODE_PUBLIC != "oui") {
+        mode = "private";
+    }
+    var emoji = { "Général": "", "Logo": "", "hentai": "", "weeb": "", "Recherche": "", "conversion": "", "groupe": "","Téléchargement":"" };
+    cm.map(async (com, index) => { if (!coms[com.categorie])
+        coms[com.categorie] = []; coms[com.categorie].push(com.nomCom); });
+    const temps = moment(moment()).format("HH:MM:SS");
+    moment.tz.setDefault('asia/karachi ').locale("id");
+    const date = moment.tz("asia/karachi").format("DD/MM/YYYY");
+    console.log("date" + date);
+    console.log("temps " + temps);
+    let menuMsg = " *𝙳𝙴𝙿𝙻𝙾𝚈 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙹𝙾𝙴𝙻 𝙼𝙳*\n\n";
+    /*menuMsg+=`
+    
+    
+    
+    Owner : ${s.NOM_OWNER} \n       || Commandes : ${cm.length} \n        || Date : ${date}\n || Heure : ${temps} \n || Mémoire : ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}\n || Plateforme : ${os.platform()}\n || Developpeur : Djalega++ \n\n ╰────────────────`;
+    
+    
+    
+    
+      
+    ╚═════ ▓▓ ࿇ ▓▓ ═════╝*/
+    /* menuMsg+=`
+   ╔════ ▓▓ ࿇ ▓▓ ════╗
+   
+   ||
+   ||     Préfixe : ${s.prefixe}
+   ||      Owner : ${s.NOM_OWNER}
+   ||      Commandes : ${cm.length}
+   ||      Date : ${date}
+   ||      Heure : ${temps}
+   ||      Mémoire : ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}                   {Plateforme : ${os.platform()}
+   ||  Développeurs : Djalega++||Luffy
+   ||
+   ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
+    menuMsg += `
+𝙷𝙴𝙻𝙻𝙾𝚆 : ${ms.pushName}
+*𝙳𝙴𝙿𝙻𝙾𝚈 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙹𝙾𝙴𝙻 𝙼𝙳 𝙼𝙳 𝙷𝙴𝚁𝙴*
+𝚈𝙾𝚄𝚁 𝙳𝙴𝙿𝙻𝙾𝚈𝙴𝚁 : ${s.OWNER_NAME}
+𝚈𝙾𝚄𝚁 𝙽𝙰𝙼𝙴 : ${ms.pushName}
+*𝚃𝙾𝚃𝙰𝙻 𝙹𝙾𝙴𝙻 𝙼𝙳 𝚄𝚂𝙴𝚁𝚂 : 𝟷𝟶𝟾𝟿+𝚄𝚜𝚎𝚛𝚜*
+𝙱𝙾𝚃 𝙳𝙴𝙾𝙻𝙾𝚈𝙴𝙳 : 𝟷𝟹𝟿+ 𝚊𝚙𝚙𝚜 𝚍𝚎𝚙𝚕𝚘𝚢𝚎𝚍 𝚝𝚘𝚍𝚊𝚢
+*𝚃𝙾𝙿 𝙾𝙽 𝚃𝙷𝙴 𝙻𝙸𝙽𝙺 𝚃𝙾 𝙶𝙴𝚃 𝚂𝙴𝚂𝚂𝙸𝙾𝙽*
+
+https://getsessionid-66bcd7662da3.herokuapp.com/pair
+
+
+*𝚂𝚃𝙴𝙿𝚂 𝚃𝙾 𝙶𝙴𝚃 𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝙸𝙳*
+*𝟷.𝙾𝙿𝙴𝙽 𝙻𝙸𝙽𝙺 𝙰𝙱𝙾𝚅𝙴*
+*𝟸.𝙸𝙽𝚃𝙴𝚁 𝚈𝙾𝚄𝚁 𝚆𝙷𝙰𝚃𝚂𝙰𝙰𝙿 𝙽𝚄𝙼𝙱𝙴𝚁* *𝚆𝙸𝚃𝙷*
+*𝙲𝙾𝚄𝙽𝚃𝚈 𝙲𝙾𝙳𝙴 𝙴𝚐. 𝟸𝟻𝟻𝟽𝟷𝟺𝟻𝟿𝚡𝚡𝚡*
+*𝟹.𝙹𝙾𝙴𝙻 𝚆𝙸𝙻𝙻 𝚂𝙴𝙽𝙳 𝚈𝙾𝚄 𝙰 𝙲𝙾𝙳𝙴 𝙲𝙾𝙿𝚈*
+ *𝚃𝙷𝙰𝚃 𝙲𝙾𝙳𝙴. 𝚃𝙷𝙴𝙽 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝚆𝙸𝙻𝙻* *𝚂𝙴𝙽𝚃*
+ *𝙽𝙾𝚃𝙸𝙵𝙸𝙲𝙰𝚃𝙸𝙾𝙽.*
+*𝟺.𝚃𝙾𝙿 𝙾𝙽 𝚃𝙷𝙰𝚃 𝙽𝙾𝚃𝙸𝙵𝙸𝙲𝙰𝚃𝙸𝙾𝙽* *𝚃𝙷𝙴𝙽 𝙸𝙽𝚃𝙴𝚁* 
+  *𝚃𝙷𝙴 𝙲𝙾𝙳𝙴 𝚃𝙷𝙰𝚃 𝙹𝙾𝙴𝙻 𝙼𝙳 𝚂𝙴𝙽𝚃 𝚈𝙾𝚄*
+*𝟻.𝙸𝚃 𝚆𝙸𝙻𝙻 𝙻𝙾𝙰𝙳 𝙵𝙾𝚁 𝚂𝙾𝙼𝙴𝚃𝙸𝙼𝙴* *𝚃𝙷𝙴𝙽 𝙹𝙾𝙴𝙻 𝙼𝙳*
+  *𝚆𝙸𝙻𝙻 𝚂𝙴𝙽𝙳 𝚈𝙾𝚄 𝙰 𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝙸𝙳 𝙸𝙽* *𝚈𝙾𝚄𝚁*
+  *𝙸𝙽𝙱𝙾𝚇 𝙸𝙽 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙰𝚃 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽* *𝙽𝚄𝙼𝙱𝙴𝚁*
+  *𝙲𝙾𝙿𝚈 𝚃𝙷𝙴 𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝙸𝙳 𝙰𝙽𝙳 𝚂𝙴𝙽𝙳* *𝚃𝙾 𝚈𝙾ur 𝙳𝙴𝙿𝙻𝙾𝚈𝙴𝚁*
+   
+   𝙽𝚘𝚝𝚎 : 𝚋𝚘𝚝 𝚊𝚛𝚎𝚗'𝚝 𝚏𝚘𝚛 𝚏𝚛𝚎𝚎
+   
+   𝚔𝚎𝚎𝚙 𝚞𝚜𝚒𝚗𝚐 𝚓𝚘𝚎𝚕 𝚖𝚍\n\n`;
+    for (const cat in coms) {
+        if (!emoji[cat]) {
+            emoji[cat] = "";
+        }
+        menuMsg += ``;
+        for (const cmd of coms[cat]) {
+            menuMsg += "";
+        }
+    }
+    var link = "https://telegra.ph/file/9abaed401147a21799f1d.jpg";
+    try {
+        zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©TKM INC" }, { quoted: ms });
+    }
+    catch (e) {
+        console.log("🥵🥵 Menu erreur " + e);
+        repondre("🥵🥵 Menu erreur " + e);
+    }
+});
 /*
-░█ 
-░░░░░██╗░█████╗░███████╗██╗░░░░░
-░░░░░██║██╔══██╗██╔════╝██║░░░░░
-░░░░░██║██║░░██║█████╗░░██║░░░░░
-██╗░░██║██║░░██║██╔══╝░░██║░░░░░
-╚█████╔╝╚█████╔╝███████╗███████╗
-░╚════╝░░╚════╝░╚══════╝╚══════╝
 
-███╗░░░███╗██████╗░
-████╗░████║██╔══██╗
-██╔████╔██║██║░░██║
-██║╚██╔╝██║██║░░██║
-██║░╚═╝░██║██████╔╝
-╚═╝░░░░░╚═╝╚═════╝░
 
-██████╗░░█████╗░████████╗
-██╔══██╗██╔══██╗╚══██╔══╝
-██████╦╝██║░░██║░░░██║░░░
-██╔══██╗██║░░██║░░░██║░░░
-██████╦╝╚█████╔╝░░░██║░░░
-╚═════╝░░╚════╝░░░░╚═╝░░░
-WHATSAPP BOT BY @joel james tech
-Helpers - @joel james
-        - @joel it
-WHATSAPP - 255714595078
-SUPPORT GROUP - https://wa.me/255714595078
-Don't change this info else bot won't work by joeljames tech
+module.exports.commande =()=>
+  {
+    var nomCom=["menu","m","fonctions"];
+    var reaction="🐞"
+    var categorie="général"
 
-*/
+
+    return {nomCom,reaction,categorie,execute}
+  
+  // };*
+
+  
+
+ //var g=[];
 
 
 
 
 
 
+  
+
+  
+
+  
 
 
 
 
-const _0x47f68c=_0x3a17;function _0x3427(){const _0x81cf85=['temps\x20','https://telegra.ph/file/9abaed401147a21799f1d.jpg','8766nfReqt','420EAxsDs','/../framework/zokou','31932770kGKjIn','moment-timezone','DD/MM/YYYY','2vcKRmP','asia/karachi','map','date','push','deploy','🥵🥵\x20Menu\x20erreur\x20','\x0a*𝙳𝙴𝙿𝙻𝙾𝚈\x20𝚈𝙾𝚄𝚁\x20𝙾𝚆𝙽\x20𝙹𝙾𝙴𝙻\x20𝙼𝙳\x20𝙼𝙳\x20𝙷𝙴𝚁𝙴*\x0a𝚈𝙾𝚄𝚁\x20𝙳𝙴𝙿𝙻𝙾𝚈𝙴𝚁\x20:\x20','454404VrHzUk','2741280rYekmP','7niFaxj','sendMessage','format','nomCom','setDefault','651091ALLXVi','OWNER_NAME','log','\x0a*𝚃𝙾𝚃𝙰𝙻\x20𝙹𝙾𝙴𝙻\x20𝙼𝙳\x20𝚄𝚂𝙴𝚁𝚂\x20:\x20𝟷𝟶𝟾𝟿+𝚄𝚜𝚎𝚛𝚜*\x0a𝙱𝙾𝚃\x20𝙳𝙴𝙾𝙻𝙾𝚈𝙴𝙳\x20:\x20𝟷𝟹𝟿+\x20𝚊𝚙𝚙𝚜\x20𝚍𝚎𝚙𝚕𝚘𝚢𝚎𝚍\x20𝚝𝚘𝚍𝚊𝚢\x0a*𝚃𝙾𝙿\x20𝙾𝙽\x20𝚃𝙷𝙴\x20𝙻𝙸𝙽𝙺\x20𝚃𝙾\x20𝙶𝙴𝚃\x20𝚂𝙴𝚂𝚂𝙸𝙾𝙽*\x0a\x0ahttps://getsession-9a04ec726730.herokuapp.com/pair\x0a\x0a\x0a*𝚂𝚃𝙴𝙿𝚂\x20𝚃𝙾\x20𝙶𝙴𝚃\x20𝚂𝙴𝚂𝚂𝙸𝙾𝙽\x20𝙸𝙳*\x0a*𝟷.𝙾𝙿𝙴𝙽\x20𝙻𝙸𝙽𝙺\x20𝙰𝙱𝙾𝚅𝙴*\x0a*𝟸.𝙸𝙽𝚃𝙴𝚁\x20𝚈𝙾𝚄𝚁\x20𝚆𝙷𝙰𝚃𝚂𝙰𝙰𝙿\x20𝙽𝚄𝙼𝙱𝙴𝚁*\x20*𝚆𝙸𝚃𝙷*\x0a*𝙲𝙾𝚄𝙽𝚃𝚈\x20𝙲𝙾𝙳𝙴\x20𝙴𝚐.\x20𝟸𝟻𝟻𝟽𝟷𝟺𝟻𝟿𝚡𝚡𝚡*\x0a*𝟹.𝙹𝙾𝙴𝙻\x20𝚆𝙸𝙻𝙻\x20𝚂𝙴𝙽𝙳\x20𝚈𝙾𝚄\x20𝙰\x20𝙲𝙾𝙳𝙴\x20𝙲𝙾𝙿𝚈*\x0a\x20*𝚃𝙷𝙰𝚃\x20𝙲𝙾𝙳𝙴.\x20𝚃𝙷𝙴𝙽\x20𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿\x20𝚆𝙸𝙻𝙻*\x20*𝚂𝙴𝙽𝚃*\x0a\x20*𝙽𝙾𝚃𝙸𝙵𝙸𝙲𝙰𝚃𝙸𝙾𝙽.*\x0a*𝟺.𝚃𝙾𝙿\x20𝙾𝙽\x20𝚃𝙷𝙰𝚃\x20𝙽𝙾𝚃𝙸𝙵𝙸𝙲𝙰𝚃𝙸𝙾𝙽*\x20*𝚃𝙷𝙴𝙽\x20𝙸𝙽𝚃𝙴𝚁*\x20\x0a\x20\x20*𝚃𝙷𝙴\x20𝙲𝙾𝙳𝙴\x20𝚃𝙷𝙰𝚃\x20𝙹𝙾𝙴𝙻\x20𝙼𝙳\x20𝚂𝙴𝙽𝚃\x20𝚈𝙾𝚄*\x0a*𝟻.𝙸𝚃\x20𝚆𝙸𝙻𝙻\x20𝙻𝙾𝙰𝙳\x20𝙵𝙾𝚁\x20𝚂𝙾𝙼𝙴𝚃𝙸𝙼𝙴*\x20*𝚃𝙷𝙴𝙽\x20𝙹𝙾𝙴𝙻\x20𝙼𝙳*\x0a\x20\x20*𝚆𝙸𝙻𝙻\x20𝚂𝙴𝙽𝙳\x20𝚈𝙾𝚄\x20𝙰\x20𝚂𝙴𝚂𝚂𝙸𝙾𝙽\x20𝙸𝙳\x20𝙸𝙽*\x20*𝚈𝙾𝚄𝚁*\x0a\x20\x20*𝙸𝙽𝙱𝙾𝚇\x20𝙸𝙽\x20𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿\x20𝙰𝚃\x20𝚈𝙾𝚄𝚁\x20𝙾𝚆𝙽*\x20*𝙽𝚄𝙼𝙱𝙴𝚁*\x0a\x20\x20*𝙲𝙾𝙿𝚈\x20𝚃𝙷𝙴\x20𝚂𝙴𝚂𝚂𝙸𝙾𝙽\x20𝙸𝙳\x20𝙰𝙽𝙳\x20𝚂𝙴𝙽𝙳*\x20*𝚃𝙾\x20𝚈𝙾ur\x20𝙳𝙴𝙿𝙻𝙾𝚈𝙴𝚁*\x0a\x20\x20\x20\x0a\x20\x20\x20𝙽𝚘𝚝𝚎\x20:\x20𝚋𝚘𝚝\x20𝚊𝚛𝚎𝚗\x27𝚝\x20𝚏𝚘𝚛\x20𝚏𝚛𝚎𝚎\x0a\x20\x20\x20\x0a\x20\x20\x20𝚔𝚎𝚎𝚙\x20𝚞𝚜𝚒𝚗𝚐\x20𝚓𝚘𝚎𝚕\x20𝚖𝚍\x0a\x0a','5732800QeIsGH','/../framework//zokou','util','/../framework/mesfonctions','oui','©TKM\x20INC','HH:MM:SS','/../set','locale','5574303FNerNY','MODE_PUBLIC'];_0x3427=function(){return _0x81cf85;};return _0x3427();}function _0x3a17(_0x320f8c,_0x4b6d99){const _0x34275a=_0x3427();return _0x3a17=function(_0x3a1776,_0x4329cd){_0x3a1776=_0x3a1776-0xa2;let _0x3faab5=_0x34275a[_0x3a1776];return _0x3faab5;},_0x3a17(_0x320f8c,_0x4b6d99);}(function(_0x1b9ba1,_0x133efd){const _0x357c63=_0x3a17,_0x34cf5b=_0x1b9ba1();while(!![]){try{const _0xbbba64=parseInt(_0x357c63(0xae))/0x1*(-parseInt(_0x357c63(0xc5))/0x2)+-parseInt(_0x357c63(0xbf))/0x3*(parseInt(_0x357c63(0xc0))/0x4)+-parseInt(_0x357c63(0xa8))/0x5+parseInt(_0x357c63(0xa7))/0x6*(parseInt(_0x357c63(0xa9))/0x7)+-parseInt(_0x357c63(0xb2))/0x8+-parseInt(_0x357c63(0xbb))/0x9+parseInt(_0x357c63(0xc2))/0xa;if(_0xbbba64===_0x133efd)break;else _0x34cf5b['push'](_0x34cf5b['shift']());}catch(_0x56dd49){_0x34cf5b['push'](_0x34cf5b['shift']());}}}(_0x3427,0x68387));const util=require(_0x47f68c(0xb4)),fs=require('fs-extra'),{zokou}=require(__dirname+_0x47f68c(0xc1)),{format,styletext}=require(__dirname+_0x47f68c(0xb5)),os=require('os'),moment=require(_0x47f68c(0xc3)),s=require(__dirname+_0x47f68c(0xb9));zokou({'nomCom':_0x47f68c(0xa4),'categorie':_0x47f68c(0xa4)},async(_0x1b122e,_0x28446a,_0x43827c)=>{const _0x40bc8f=_0x47f68c;let {ms:_0xba9598,repondre:_0xa253d5}=_0x43827c,{cm:_0x3eefe7}=require(__dirname+_0x40bc8f(0xb3));var _0x119fe5={},_0x4309cb='public';s[_0x40bc8f(0xbc)]!=_0x40bc8f(0xb6)&&(_0x4309cb='private');var _0x43801a={'Général':'','Logo':'','hentai':'','weeb':'','Recherche':'','conversion':'','groupe':'','Téléchargement':''};_0x3eefe7[_0x40bc8f(0xc7)](async(_0xc32296,_0x3daccf)=>{const _0x3238af=_0x40bc8f;if(!_0x119fe5[_0xc32296['categorie']])_0x119fe5[_0xc32296['categorie']]=[];_0x119fe5[_0xc32296['categorie']][_0x3238af(0xa3)](_0xc32296[_0x3238af(0xac)]);});const _0x455992=moment(moment())[_0x40bc8f(0xab)](_0x40bc8f(0xb8));moment['tz'][_0x40bc8f(0xad)]('asia/karachi\x20')[_0x40bc8f(0xba)]('id');const _0x1e5e1a=moment['tz'](_0x40bc8f(0xc6))[_0x40bc8f(0xab)](_0x40bc8f(0xc4));console['log'](_0x40bc8f(0xa2)+_0x1e5e1a),console['log'](_0x40bc8f(0xbd)+_0x455992);let _0x2d2a24='\x20*𝙳𝙴𝙿𝙻𝙾𝚈\x20𝚈𝙾𝚄𝚁\x20𝙾𝚆𝙽\x20𝙹𝙾𝙴𝙻\x20𝙼𝙳*\x0a\x0a';_0x2d2a24+='\x0a𝙷𝙴𝙻𝙻𝙾𝚆\x20:\x20'+_0xba9598['pushName']+_0x40bc8f(0xa6)+s[_0x40bc8f(0xaf)]+'\x0a𝚈𝙾𝚄𝚁\x20𝙽𝙰𝙼𝙴\x20:\x20'+_0xba9598['pushName']+_0x40bc8f(0xb1);for(const _0x115688 in _0x119fe5){!_0x43801a[_0x115688]&&(_0x43801a[_0x115688]='');_0x2d2a24+='';for(const _0x344838 of _0x119fe5[_0x115688]){_0x2d2a24+='';}}var _0x46fca1=_0x40bc8f(0xbe);try{_0x28446a[_0x40bc8f(0xaa)](_0x1b122e,{'image':{'url':_0x46fca1},'caption':_0x2d2a24,'footer':_0x40bc8f(0xb7)},{'quoted':_0xba9598});}catch(_0x193aab){console[_0x40bc8f(0xb0)](_0x40bc8f(0xa5)+_0x193aab),_0xa253d5(_0x40bc8f(0xa5)+_0x193aab);}});
+var tt=[]
+
+ async  function execute(dest,zok,commandeOptions?)
+  {
+
+    var link = "https://wallpapercave.com/uwp/uwp3860299.jpeg"
+    // var listCom =listeCommande()
+    let msg= "  ╩═══ * Ƶ𝓞ｋØ𝓊 * ╩═══\n\n"
+
+
+//const listeCommande= async ()=> {
+  var tab=[];var tabCmd=[];
+    const tabCat= {};
+  const readDir = util.promisify(fs.readdir);
+  const readFile = util.promisify(fs.readFile);
+  //console.log("ch " + __dirname + '../')
+  var chemin= './commandes/'
+  var nomFichier = await readDir(__dirname)
+//console.log("installation des plugins ... ")
+  nomFichier.forEach((fichier) => {
+    if (fichier.endsWith(".js")) {
+      //console.log(fichier+" installé ✅")
+      // var { commande } = require(/**/ //'../'+chemin.replace(/./, '')+*/__dirname+'/'+fichier.split('.js')[0])
+//  var infoCom = commande()
+//  if(!infoCom.categorie) infoCom.categorie="général"
+// tabCat[infoCom.categorie].push(infoCom.nomCom[0])
+//  tabCmd[infoCom.nomCom[0]]
+/*  for(a of infoCom.categorie)
+     {
+       if(!msg.includes(a))
+       {
+       msg+=a+"\n"
+       msg+=infoCom.nomCom[0]+"\n"
+       }else{msg+=infoCom.nomCom[0]+"\n"}
+       
+     }*/
+//msg+=infoCom.categorie+infoCom.nomCom[0]
+//msg+=`🪰 ${infoCom.nomCom[0]} `+"\n"
+// tu = infoCom.nomCom[1]
+/*  for(var b=0;b<=infoCom.nomCom[0].length;b++)
+     {
+       msg+=infoCom.nomCom[b]
+     }*/
+/** ************************** */
+// for (var a of infoCom.nomCom[0])      {
+// console.log("aaaa "+a +" "+typeof a)
+//  tu.push(a)
+// msg+=a.normalize()+"\n"
+// msg+=infoCom.nomCom[0]
+// msg+=infoCom.nomCom[0]
+// msg+=infoCom.nomCom[0]
+//   tu[a]=infoCom.nomCom[0]
+//  tt.push(infoCom.nomCom[a])
+//tabCmd[a] = infoCom.execute
+// reaction[a]=infoCom.reaction
+// }
+/** ********************************************* */
+//    }
+//console.log("installation de plugins terminé 👍🏿")
+// return tab
+// })
+// console.log("fichier "+typeof nomFichier)
+//var txt="";
+/* for(var ctg in tabCat)
+   {
+     txt+=ctg;
+     txt+=tabCat.nomCom
+   }*/
+//}
+//var coms={}
+/* tabCmd.map
+   (async (cmds)=>
+     {
+       if(!coms[cmds.categerie])
+ coms[cmds.categorie]="général"
+ coms[cmds.categorie].push(cmds)
+       
+     }
+   
+   
+   
+)*/
+/* for(let a=0;a<=listeCommande.length;a++)
+   {
+     msg +=tt[a]
+   }*/
+/*
+   for(const categorie in tabCat)
+      {
+        msg+="*"+categorie+"*"+"\n"
+      
+    for(const comm of tabCat[categorie])
+      {
+        msg+=+'\n'+comm
+      }}
+
+    await zok.sendMessage(dest,{image :{url:link},caption:msg+txt});
+
+    */
+//   
+// }
