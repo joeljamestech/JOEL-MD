@@ -1,5 +1,5 @@
  </h1> 
-<p align="center">𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐉𝐎𝐄𝐋 𝐌𝐃 𝐕 𝟑.𝟎.𝟎
+<p align="center">𝙹𝚘𝚎𝚕 𝚖𝚍 𝚅 𝟹.𝟻.𝟶
  
  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=JOEL THE BOT +WHATSAPP; MULTI+SERVICE+REVOLUTIONIZES;CREATE+BY+JOEL+TECH;BOT DATED+06.6.2024" alt="Typing SVG" /></a>
  <a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M">
@@ -118,4 +118,3 @@
 
 
 *𝙽𝚘𝚝𝚎* :*𝚓𝚘𝚎𝚕 𝚖𝚍 𝚒𝚜 𝚜𝚊𝚏𝚎 𝚘𝚗 𝚑𝚎𝚛𝚘𝚔𝚞 𝚌𝚘𝚗𝚝𝚊𝚌𝚝 𝚘𝚠𝚗𝚎𝚛 𝚏𝚘𝚛 𝚖𝚘𝚛𝚎 𝚒𝚗𝚏𝚘*
-   
