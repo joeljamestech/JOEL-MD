@@ -1,5 +1,5 @@
 {
-  "name": "zokou-2.0",
+  "name": "joel suspend Heroku",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -14,7 +14,7 @@
   "keywords": [
     "bot",
     "Baileys",
-    "Zokou",
+    "zokou",
     "whatsapp",
     "whatsapp-bot",
     "Fedora",
