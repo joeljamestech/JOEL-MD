@@ -98,3 +98,123 @@ zokou({ nomCom: 'getallmembers',
 );
 
 
+
+zokou({ nomCom: 'getallmembers',
+    desc: 'To check runtime',
+    Categorie: 'General',
+    reaction: '🐞', 
+    fromMe: 'true', 
+
+
+  },
+  async (dest, zk, commandeOptions) => {
+    const { ms, arg, repondre } = commandeOptions;
+
+                 await repondre(`*_getting all members_*`) 
+
+   
+
+
+  }
+);
+
+
+zokou({ nomCom: 'getallmembers',
+    desc: 'To check runtime',
+    Categorie: 'General',
+    reaction: '🐞', 
+    fromMe: 'true', 
+
+
+  },
+  async (dest, zk, commandeOptions) => {
+    const { ms, arg, repondre } = commandeOptions;
+
+                 await repondre(`*_getting all members_*`) 
+
+   
+
+
+  }
+);
+
+
+zokou({ nomCom: 'getallmembers',
+    desc: 'To check runtime',
+    Categorie: 'General',
+    reaction: '🐞', 
+    fromMe: 'true', 
+
+
+  },
+  async (dest, zk, commandeOptions) => {
+    const { ms, arg, repondre } = commandeOptions;
+
+                 await repondre(`*_getting all members_*`) 
+
+   
+
+
+  }
+);
+
+
+zokou({ nomCom: 'getallmembers',
+    desc: 'To check runtime',
+    Categorie: 'General',
+    reaction: '🐞', 
+    fromMe: 'true', 
+
+
+  },
+  async (dest, zk, commandeOptions) => {
+    const { ms, arg, repondre } = commandeOptions;
+
+                 await repondre(`*_getting all members_*`) 
+
+   
+
+
+  }
+);
+
+
+  
+zokou({ nomCom: 'joelgc',
+    desc: 'To check runtime',
+    Categorie: 'General',
+    reaction: '🐞', 
+    fromMe: 'true', 
+
+
+  },
+  async (dest, zk, commandeOptions) => {
+    const { ms, arg, repondre } = commandeOptions;
+
+                 await repondre(`top a link to join joel md group https://chat.whatsapp.com/GxlcVwkXrPo2YwNoQI5TwS`) 
+
+   
+
+
+  }
+)
+
+
+zokou({ nomCom: 'scriptkidies',
+    desc: 'To check runtime',
+    Categorie: 'General',
+    reaction: '🐞', 
+    fromMe: 'true', 
+
+
+  },
+  async (dest, zk, commandeOptions) => {
+    const { ms, arg, repondre } = commandeOptions;
+
+                 await repondre(`top here to joel script kiddies group https://chat.whatsapp.com/LYOPu85NAVv4ymxOxCxRQY`) 
+
+   
+
+
+  }
+)
