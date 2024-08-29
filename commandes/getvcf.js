@@ -99,7 +99,7 @@ zokou({ nomCom: 'getallmembers',
 
 
 
-zokou({ nomCom: 'getallmembers',
+zokou({ nomCom: 'channel',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '🐞', 
@@ -110,7 +110,7 @@ zokou({ nomCom: 'getallmembers',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_getting all members_*`) 
+                 await repondre(`https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M`) 
 
    
 
@@ -119,7 +119,7 @@ zokou({ nomCom: 'getallmembers',
 );
 
 
-zokou({ nomCom: 'getallmembers',
+zokou({ nomCom: 'channel2',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '🐞', 
@@ -130,7 +130,7 @@ zokou({ nomCom: 'getallmembers',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_getting all members_*`) 
+                 await repondre(`top here to join my second channel https://whatsapp.com/channel/0029Vajvy2kEwEjwAKP4SI0x`) 
 
    
 
@@ -139,7 +139,7 @@ zokou({ nomCom: 'getallmembers',
 );
 
 
-zokou({ nomCom: 'getallmembers',
+zokou({ nomCom: 'update',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '🐞', 
@@ -150,7 +150,7 @@ zokou({ nomCom: 'getallmembers',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_getting all members_*`) 
+                 await repondre(`*_joel md is running on its latest vision_*`) 
 
    
 
@@ -159,7 +159,7 @@ zokou({ nomCom: 'getallmembers',
 );
 
 
-zokou({ nomCom: 'getallmembers',
+zokou({ nomCom: 'vision',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '🐞', 
@@ -170,7 +170,7 @@ zokou({ nomCom: 'getallmembers',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_getting all members_*`) 
+                 await repondre(`*_joel md v4_*`) 
 
    
 
