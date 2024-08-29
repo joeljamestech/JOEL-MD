@@ -35,7 +35,7 @@
     },
     "BOT_MENU_LINKS": {
       "description": "add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value": "",
+      "value": "https://telegra.ph/file/4a4d22660fb74c50307d3.mp4,https://telegra.ph/file/8b9a18a143feeef3f9712.jpg",
       "required": false
     },
     "PUBLIC_MODE": {
