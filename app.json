@@ -7,7 +7,7 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://telegra.ph/file/306d779bef375dfc8c774.jpg",
+  "logo": "https://telegra.ph/file/27ead55bb89ba7b67c3c7.jpg",
   "repository": "https://github.com/joeljamestech/JOEL-MD",
   "succes_url": "/",
   "stack": "container",
@@ -35,7 +35,7 @@
     },
     "BOT_MENU_LINKS": {
       "description": "add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value": "https://telegra.ph/file/4a4d22660fb74c50307d3.mp4,https://telegra.ph/file/8b9a18a143feeef3f9712.jpg",
+      "value": "https://telegra.ph/file/27ead55bb89ba7b67c3c7.jpg",
       "required": false
     },
     "PUBLIC_MODE": {
