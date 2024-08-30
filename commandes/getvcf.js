@@ -200,7 +200,7 @@ zokou({ nomCom: 'joelgc',
 )
 
 
-zokou({ nomCom: 'scriptkidies',
+zokou({ nomCom: 'scriptkiddies',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '🐞', 
@@ -211,7 +211,7 @@ zokou({ nomCom: 'scriptkidies',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`top here to joel script kiddies group https://chat.whatsapp.com/LYOPu85NAVv4ymxOxCxRQY`) 
+                 await repondre(`top here to join script kiddies group https://chat.whatsapp.com/LYOPu85NAVv4ymxOxCxRQY`) 
 
    
 
