@@ -3,7 +3,7 @@
   "description":"Deploy your naruto bot now.Brought to you by the joel_tech.Make sure you fill all valuables to avoid bot from sleeping. ",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/c932c8ed4daf0c8b5137c.jpg",
-  "repository":"https://github.com/jokathanjoka/NARUTO-BOT",
+  "repository":"https://github.com/joeljamestech/JOEL-MD",
   "succes_url":"/",
   "stack":"container",
   "env":{
