@@ -610,7 +610,7 @@ function mybotpic() {
                          /******************* PM_PERMT***************/
 
             if (!superUser && origineMessage === auteurMessage&& conf.PM_PERMIT === "yes" ) {
-                repondre(".ban add 🤣\n\nYou have been banned from bot commands+reported due to dm the bot") ; return }
+                repondre("hellow\n\ndon't dm the bot 😁 else i shall ban you from bot commands") ; return }
             ///////////////////////////////
 
              
