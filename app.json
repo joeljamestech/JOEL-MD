@@ -1,91 +1,75 @@
 {
-  "name": "JOEL V4",
-  "description": "A WhatsApp bot developed by joel tech",
-  "keywords": [
-    "bot",
-    "node",
-    "baileys",
-    "whatsapp"
-  ],
-  "logo": "https://telegra.ph/file/27ead55bb89ba7b67c3c7.jpg",
-  "repository": "https://github.com/joeljamestech/JOEL-MD",
-  "succes_url": "/",
-  "stack": "container",
-  "env": {
-    "PREFIX": {
-      "description": "choose your prefix of bot",
-      "value": ".",
-      "required": true
-    },
-    "AUTO_READ_STATUS": {
-      "description": "Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value": "yes",
-      "required": false
-    },
-    "AUTO_DOWNLOAD_STATUS": {
-      "description": "Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value": "no",
-      "required": false
-    },
-    "PM_PERMIT": {
-      "description": "Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
-      "value": "no",
-      "required": false
-
-    },
-    "BOT_MENU_LINKS": {
-      "description": "add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value": "https://telegra.ph/file/27ead55bb89ba7b67c3c7.jpg",
-      "required": false
-    },
-    "PUBLIC_MODE": {
-      "description": "type yes to put your bot on public mode or no to put it on private mod",
-      "value": "no",
-      "required": false
-    },
-    "HEROKU_APY_KEY": {
-      "description": "insert your heroku api-key (this is optionnal)",
-      "required": false
-    },
-    "HEROKU_APP_NAME": {
-      "description": "insert your heroku APP NAME (this is optionnal)",
-      "required": false
-    },
-    "SESSION_ID": {
-      "description": "put your session ID , the code you receive after scanning Qr code",
-      "value": "",
-      "required": true
-    },
-    "OWNER_NAME": {
-      "desc": "Your Name",
-      "required": false,
-      "value": "joel tech"
-    },
-    "NUMERO_OWNER": {
-      "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
-      "required": false,
-      "value": "255714595078"
-    
-    
-    },
-    "PRESENCE": {
-      "description": "Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-      "value": "",
-      "required": false
-    
- 
-    
-      }
-  },
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "standard-2x"
-    }
-  },
-  "addons": [
+  "name":"naruto-bot",
+  "description":"Deploy your naruto bot now.Brought to you by the joel_tech.Make sure you fill all valuables to avoid bot from sleeping. ",
+  "keywords":["bot","node","baileys","whatsapp"],
+  "logo":"https://telegra.ph/file/c932c8ed4daf0c8b5137c.jpg",
+  "repository":"https://github.com/jokathanjoka/NARUTO-BOT",
+  "succes_url":"/",
+  "stack":"container",
+  "env":{
+    "PREFIX":
     {
-      "plan": "heroku-postgresql:essential-0"
+      "description":"choose your prefix of bot",
+      "value":".",
+      "required":true
+    },
+    "AUTO_READ_STATUS":
+    {
+      "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "value":"yes",
+      "required":false
+    }, "AUTO_DOWNLOAD_STATUS":
+    {
+      "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
+      "value":"no",
+      "required":false
+    }
+    ,
+     "PM_PERMIT" :
+     {
+      "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
+      "value":"no",
+      "required":false
+   
+     },
+    "PUBLIC_MODE":
+    {
+      "description":"type yes to put your bot on public mode or no to put it on private mod",
+      "value":"yes",
+      "required":false
+
+    }  
+	  ,
+    "SESSION_ID":
+    {
+      "description":"put your session ID, the code you received after pairing code",   
+      "value":"",
+      "required":true
+
+
+  },
+  "PRESENCE":{
+    "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
+    "value":"",  
+    "required": false
+  },
+  "ANTI_DELETE_MESSAGE" : {
+    "description": "if you want to enable anti delete message put yes else put no",
+    "value": "no",
+    "required": false
+  }
+  },
+
+  "formation": {
+		"worker": {
+			"quantity": 1,
+			"size": "basic"
+		}
+	},
+
+  "addons":[
+    {
+      "plan":"heroku-postgresql"
     }
   ]
-}
+     }
