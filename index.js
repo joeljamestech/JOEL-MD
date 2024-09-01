@@ -855,16 +855,17 @@ ${metadata.desc}\n\nsupport by subscribe my YouTube channel https://youtube.com/
                 await activateCrons();
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
-                let cmsg = `
-    joel  md is online 
-    prefix : [ ${prefixe} ]
-    mode :${md} mode
-    tools : 245
-    ram : 21/62Gb
-    platiform: chrome linux
-    keep using joel md  
+                let cmsg = `╔───⬡
+┃ ┃⬡joel bot is online⬡┃
+┃  Prefix : [ ${prefixe} ]
+┃  Mode :${md}
+┃  Commandes : ${evt.cm.length}︎
+╚─────────────────···▸▸
 
-> 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐃𝐞𝐩𝐥𝐨𝐲𝐢𝐧𝐠 𝐒𝐂𝐄𝐍𝐄-𝐌𝐃-𝐕𝟐`;
+╔───⬡
+ support by subscribe my YouTube channel 
+ https://youtube.com/@joeltech255?si=nz0lAq6fuXu4dGgi
+╚─────────────`;
                     
                 await zk.sendMessage( zk.user.id, { text: cmsg });
                 }
