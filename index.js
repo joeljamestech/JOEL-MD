@@ -855,17 +855,16 @@ ${metadata.desc}\n\nsupport by subscribe my YouTube channel https://youtube.com/
                 await activateCrons();
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
-                let cmsg = `╔───⬡
-┃ ┃⬡joel bot is online⬡┃
-┃  Prefix : [ ${prefixe} ]
-┃  Mode :${md}
-┃  Commandes : ${evt.cm.length}︎
-╚─────────────────···▸▸
+                let cmsg = `╔────────⬡
+┃⬡joel md bot is online
+┃⬡Prefix : [ ${prefixe} ]
+┃⬡Mode :${md}
+┃⬡Commandes : ${evt.cm.length}︎
+╚───────────────────────
 
 ╔───⬡
- support by subscribe my YouTube channel 
- https://youtube.com/@joeltech255?si=nz0lAq6fuXu4dGgi
-╚─────────────`;
+┃⬡https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M
+╚────────────────────────`;
                     
                 await zk.sendMessage( zk.user.id, { text: cmsg });
                 }
