@@ -31,24 +31,10 @@
       "description": "Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
       "value": "no",
       "required": false
-
-    },
-    "BOT_MENU_LINKS": {
-      "description": "add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value": "https://telegra.ph/file/27ead55bb89ba7b67c3c7.jpg",
-      "required": false
     },
     "PUBLIC_MODE": {
       "description": "type yes to put your bot on public mode or no to put it on private mod",
       "value": "no",
-      "required": false
-    },
-    "HEROKU_APY_KEY": {
-      "description": "insert your heroku api-key (this is optionnal)",
-      "required": false
-    },
-    "HEROKU_APP_NAME": {
-      "description": "insert your heroku APP NAME (this is optionnal)",
       "required": false
     },
     "SESSION_ID": {
@@ -59,7 +45,7 @@
     "OWNER_NAME": {
       "desc": "Your Name",
       "required": false,
-      "value": "joel tech"
+      "value": "Lord joel"
     },
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
