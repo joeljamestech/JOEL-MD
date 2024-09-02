@@ -17,8 +17,8 @@ module.exports = { session: process.env.SESSION_ID || 'eyJub2lzZUtleSI6eyJwcml2Y
     URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/27ead55bb89ba7b67c3c7.jpg',
     MODE: process.env.PUBLIC_MODE || "no",
     PM_PERMIT: process.env.PM_PERMIT || 'no',
-    HEROKU_APP_NAME : process.env.HEROKU_APP_NAME || 'Lord joel'
-    HEROKU_APY_KEY : process.env.HEROKU_APY_KEY || 'no'
+    HEROKU_APP_NAME : process.env.HEROKU_APP_NAME ,
+    HEROKU_APY_KEY : process.env.HEROKU_APY_KEY ,
     WARN_COUNT : process.env.WARN_COUNT || '3' ,
     ETAT : process.env.PRESENCE || '1',
     //GPT : process.env.OPENAI_API_KEY || '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',
