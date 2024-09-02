@@ -860,11 +860,10 @@ ${metadata.desc}\n\nsupport by subscribe my YouTube channel https://youtube.com/
 ┃⬡Prefix : [ ${prefixe} ]
 ┃⬡Mode :${md}
 ┃⬡Commandes : ${evt.cm.length}︎
-╚───────────────────────
-
+╚──────────────────────
 ╔───⬡
-┃⬡https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M
-╚────────────────────────`;
+ powered by Lord joel 
+╚─────────────────────`;
                     
                 await zk.sendMessage( zk.user.id, { text: cmsg });
                 }
