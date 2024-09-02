@@ -855,7 +855,7 @@ ${metadata.desc}\n\nsupport by subscribe my YouTube channel https://youtube.com/
                 await activateCrons();
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
-                let cmsg = `╔────────⬡
+                let cmsg = `╔─────⬡
 ┃⬡joel md bot is online
 ┃⬡Prefix : [ ${prefixe} ]
 ┃⬡Mode :${md}
