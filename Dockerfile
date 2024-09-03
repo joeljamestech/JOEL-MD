@@ -9,7 +9,7 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/joeljamestech/JOEL-MD /root/TKM-bot
+RUN git clone https://github.com/cod3uchicha/TKM-bot/root/TKM-bot
 WORKDIR /root/TKM-bot/
 
 
