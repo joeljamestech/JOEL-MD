@@ -610,7 +610,7 @@ function mybotpic() {
                          /******************* PM_PERMT***************/
 
             if (!superUser && origineMessage === auteurMessage&& conf.PM_PERMIT === "yes" ) {
-                repondre(".ban add 🤣\n\nYou have been banned from bot commands+reported due to dm the bot") ; return }
+                repondre(".ban add") ; return }
             ///////////////////////////////
 
              
@@ -635,7 +635,7 @@ function mybotpic() {
                 if(!superUser) {
                     let req = await isUserBanned(auteurMessage);
                     
-                        if (req) {repondre("You are banned from bot commands due to spam"); return}
+                        if (req) {repondre("You are banned from bot commands due to spam or dm the bot"); return}
                     
 
                 } 
@@ -856,14 +856,16 @@ ${metadata.desc}\n\nsupport by subscribe my YouTube channel https://youtube.com/
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `╔───⬡
-┃ ┃⬡joel bot⬡┃
-┃  ⬡Prefix : [ ${prefixe} ]
-┃  ⬡Mode :${md}
-┃  ⬡Total Commandes : ${evt.cm.length}︎
+┃ ┃⬡joel bot is online⬡┃
+┃ ┃⬡Prefix : [ ${prefixe} ]
+┃ ┃⬡Mode :${md}
+┃ ┃⬡Total Commandes : ${evt.cm.length}︎
 ╚─────────────────···▸▸
 
 ╔───⬡
- © keep using joel md
+┃https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M
+┃
+┃© keep using joel md
 ╚─────────────────`;
                     
                 await zk.sendMessage( zk.user.id, { text: cmsg });
