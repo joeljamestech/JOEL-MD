@@ -49,26 +49,23 @@ zokou({ nomCom: "bugmenu", categorie: "Lord joel" }, async (dest, zk, commandeOp
    ||
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
-╔════---------
-║    Préfix : ${s.PREFIXE}
-║    Owner : ${s.NOM_OWNER}    
-║    Mode : ${mode}
-║    Plugins :${cm.length}
-║    Date : ${date}
-║    Time : ${temps}
-║    Memory : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-║    Platform : ${os.platform()}
-╚════--------------- \n\n`;
+    ╭──────༺Lord༻──────╮
+      rapebug <amount>
+      fuckbug <amount>
+      myloccation <location>
+      joeldocbug
+    ╰──────༺joel༻──────╯
+\n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
-            emoji[cat] = "🔋";
+            emoji[cat] = "";
         }
-        menuMsg += `${emoji[cat]} ══ *${cat} * ══ ${emoji[cat]}\n`;
+        menuMsg += ``;
         for (const cmd of coms[cat]) {
-            menuMsg += "\t  ║ " + cmd + "" + " \n";
+            menuMsg += "";
         }
     }
-    var link = "https://telegra.ph/file/e07a3d933fb4cad0b3791.jpg";
+    var link = "https://telegra.ph/file/13ec7d9d3eee1dbb689d5.jpg";
     try {
         zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©TKM INC" }, { quoted: ms });
     }
