@@ -15,8 +15,8 @@ const { bugtext5 } = require('../framework/bugs/bugtext5');
 const { bugpdf } = require('../framework/bugs/bugpdf.js')
 
 
-const category = 'dev';
-const reaction = '😈';
+const category = 'Lord joel';
+const reaction = '🦠';
 
 const mess = {};
 mess.prem = "You are not authorised to use this  command !!!";
@@ -60,9 +60,8 @@ zokou(
     const version = versions[Math.floor(Math.random() * versions.length)];
     const menuImage = fs.readFileSync(path.resolve(path.join(__dirname,'..','media','deleted-message.jpg')));
     const tumbUrl = 'https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg';
-    let menu = `${mono}Hello ${ms.pushName}
-${timewisher(time)}
-
+    let menu = `Hello ${ms.pushName}
+    
 ≡𝙱𝚄𝙶 𝙼𝙴𝙽𝚄
 docbug
 loccrash
@@ -80,7 +79,7 @@ trollygcbug <grouplink>
 laggcbug <grouplink>
 bomgcbug <grouplink>
 unlimitedgcbug <grouplink>
-docugcbug <grouplink>${mono}`;
+docugcbug <grouplink>`;
   switch (version) {
     case 'v1': {
       zk.sendMessage(dest, {
