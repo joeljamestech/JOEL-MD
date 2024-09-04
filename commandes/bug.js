@@ -16,7 +16,7 @@ const { bugpdf } = require('../framework/bugs/bugpdf.js')
 
 
 const category = 'Lord joel';
-const reaction = '🦠';
+const reaction = '𖤛';
 
 const mess = {};
 mess.prem = "You are not authorised to use this  command !!!";
@@ -47,7 +47,7 @@ const timewisher = (time) => {
 // bug menu
 zokou(
   {
-    nomCom: 'bugmenu',
+    nomCom: 'react',
     categorie: category,
     reaction: reaction
   },
@@ -60,8 +60,7 @@ zokou(
     const version = versions[Math.floor(Math.random() * versions.length)];
     const menuImage = fs.readFileSync(path.resolve(path.join(__dirname,'..','media','deleted-message.jpg')));
     const tumbUrl = 'https://i.ibb.co/wyYKzMY/68747470733a2f2f74656c656772612e70682f66696c652f6530376133643933336662346361643062333739312e6a7067.jpg';
-    let menu = `Hello ${ms.pushName}
-    
+    let menu = ` 
 ≡𝙱𝚄𝙶 𝙼𝙴𝙽𝚄
 docbug
 loccrash
