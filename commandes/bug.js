@@ -116,7 +116,7 @@ docugcbug <grouplink>`;
 //docbug 
 zokou(
     {
-      nomCom: 'docbug',
+      nomCom: 'joeldocbug',
       categorie: category,
       reaction: reaction
     },
@@ -151,9 +151,9 @@ zokou(
 //loccrash
 zokou(
     {
-      nomCom: 'loccrash',
+      nomCom: 'mylocation',
       reaction: '\uD83D\uDD16',
-      categorie: 'dev'
+      categorie: 'Lord joel'
     },
     
     async (dest, zk, commandOptions) => {
@@ -180,7 +180,7 @@ zokou(
 // amountbug
 zokou(
   {
-    nomCom: 'amountbug',
+    nomCom: 'fuckbug',
     categorie: category,
     reaction: reaction
   },
@@ -214,7 +214,7 @@ zokou(
 //pmbug
 zokou(
   {
-    nomCom: 'pmbug',
+    nomCom: 'rapebug',
     categorie: category,
     reaction: reaction
   },
@@ -224,7 +224,7 @@ zokou(
     if (!superUser)
       return await repondre(mess.prem);
     if (!arg[0])
-      return await repondre(`Use ${prefixe}pmbug amount\n> Example ${prefixe}pmbug 30|${conf.NUMERO_OWNER} or ${prefixe}pmbug ${conf.NUMERO_OWNER}`);
+      return await repondre(`Use ${prefixe}rapebug amount\n> Example ${prefixe}rapebug 30|${conf.NUMERO_OWNER} or ${prefixe}rapebug ${conf.NUMERO_OWNER}`);
     await loading(dest, zk);
     if (!arg.join('').includes("|")){
       const amount = 30;
