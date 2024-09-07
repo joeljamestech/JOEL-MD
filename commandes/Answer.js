@@ -18,7 +18,7 @@ zokou({nomCom:"joel",reaction:"❄️",categorie:"IA"},async(dest,zk,commandeOpt
     
 const message = await traduire(arg.join(' '),{ to : 'en'});
  console.log(message)
-fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg=${message}`)
+fetch(`https://www.blackbox.ai/chat/oCQFMzO[uid]&msg=${message}`)
 .then(response => response.json())
 .then(data => {
   const botResponse = data.cnt;
