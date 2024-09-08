@@ -45,7 +45,7 @@ zokou(
 
 zokou(
   {
-    nomCom: 'info',
+    nomCom: 'inf',
     reaction: 'ℹ',
     alias: ['i']
   },
