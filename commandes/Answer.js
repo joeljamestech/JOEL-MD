@@ -11,14 +11,14 @@ zokou({nomCom:"joel",reaction:"❄️",categorie:"IA"},async(dest,zk,commandeOpt
   const {repondre,ms,arg}=commandeOptions;
   
     if(!arg || !arg[0])
-    {return repondre("I'm listening to you.")}
+    {return repondre("yes😶 how are you? is my hope that you are good🤗")}
     //var quest = arg.join(' ');
   try{
     
     
 const message = await traduire(arg.join(' '),{ to : 'en'});
  console.log(message)
-fetch(`https://www.blackbox.ai/chat/oCQFMzO[uid]&msg=${message}`)
+fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg=${message}`)
 .then(response => response.json())
 .then(data => {
   const botResponse = data.cnt;
