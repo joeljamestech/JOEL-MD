@@ -6,7 +6,7 @@ const { format, styletext } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
-zokou({ nomCom: "bugmenu", categorie: "Lord joel" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre } = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -22,8 +22,7 @@ zokou({ nomCom: "bugmenu", categorie: "Lord joel" }, async (dest, zk, commandeOp
     const date = moment.tz("asia/karachi").format("DD/MM/YYYY");
     console.log("date" + date);
     console.log("temps " + temps);
-    let menuMsg = "╚═══════ Lord joel ═══════╝
-\n\n";
+    let menuMsg = "☆࿐ཽ༵༆༒ სიჁძ ქიჹს ༒༆࿐ཽ༵☆\n\n";
     /*menuMsg+=`
     
     
@@ -49,13 +48,12 @@ zokou({ nomCom: "bugmenu", categorie: "Lord joel" }, async (dest, zk, commandeOp
    ||
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
-    ╭──────༺Lord༻──────╮
+  ╭──────༺Lord༻──────╮
       rapebug <amount>
       fuckbug <amount>
       myloccation <location>
       joeldocbug
-    ╰──────༺joel༻──────╯
-\n\n`;
+  ╰──────༺joel༻──────╯ \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
             emoji[cat] = "";
@@ -65,7 +63,7 @@ zokou({ nomCom: "bugmenu", categorie: "Lord joel" }, async (dest, zk, commandeOp
             menuMsg += "";
         }
     }
-    var link = "https://telegra.ph/file/13ec7d9d3eee1dbb689d5.jpg";
+    var link = "https://telegra.ph/file/07a6fca837d4d974afb00.jpg";
     try {
         zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©TKM INC" }, { quoted: ms });
     }
