@@ -22,7 +22,7 @@ zokou({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions
     const date = moment.tz("asia/karachi").format("DD/MM/YYYY");
     console.log("date" + date);
     console.log("temps " + temps);
-    let menuMsg = "☆࿐ཽ༵༆༒ სიჁძ ქიჹს ༒༆࿐ཽ༵☆\n\n";
+    let menuMsg = "lord joel\n\n";
     /*menuMsg+=`
     
     
@@ -48,12 +48,12 @@ zokou({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions
    ||
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
-  ╭──────༺Lord༻──────╮
-      rapebug <amount>
-      fuckbug <amount>
-      myloccation <location>
-      joeldocbug
-  ╰──────༺joel༻──────╯ \n\n`;
+  ╭────༺Lord༻────╮
+    rapebug <amount>
+    fuckbug <amount>
+    myloccation<location>
+    joeldocbug<docbug>
+  ╰────༺joel༻────╯ \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
             emoji[cat] = "";
