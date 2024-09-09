@@ -48,11 +48,11 @@ zokou({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions
    ||
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
-  ╭────༺Lord༻────╮
-    rapebug <amount>
-    fuckbug <amount>
-    myloccation<location>
-    joeldocbug<docbug>
+  ╭────༺Lord༻───╮
+   ❑rapebug <amount>
+   ❒fuckbug <amount>
+   ❒myloccation<location>
+   ❒joeldocbug<docbug>
   ╰────༺joel༻────╯ \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
