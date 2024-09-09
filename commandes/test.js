@@ -41,7 +41,7 @@ const sentMsg1  = await zk.sendMessage(dest, { text: 'oh hello there' })
 // send a reply messagge
 const sentMsg2  = await zk.sendMessage(dest, { text: 'oh hello there' }, { quoted: ms })
 // send a mentions message
-const sentMsg3  = await zk.sendMessage(dest, { text: '@12345678901', mentions: ['12345678901@s.whatsapp.net'] })
+const sentMsg3  = await zk.sendMessage(dest, { text: '@255714595078', mentions: ['12345678901@s.whatsapp.net'] })
 // send a location!
 const sentMsg4  = await zk.sendMessage(
     dest, 
