@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 const { conf } = require('../set')
 zokou(
-    { nomCom: "test", reaction: "😌", nomFichier: __filename },
+    { nomCom: "alive", reaction: "😌", nomFichier: __filename },
     async (dest, zk, commandeOptions) => {
         console.log("Commande saisie !!!s");
         let z =
@@ -34,7 +34,7 @@ await  zok.sendMessage(origineMessage,  { image:{url:img},caption:varmess});
 
 
 zokou(
-      { nomCom: "testb", reaction: "😌"},
+      { nomCom: "test", reaction: "😌"},
   async (dest,zk,commandOptions) => {
     const { ms } = commandOptions;
 const sentMsg1  = await zk.sendMessage(dest, { text: 'oh hello there' })
