@@ -11,7 +11,7 @@ zokou({nomCom:"joel",reaction:"❄️",categorie:"IA"},async(dest,zk,commandeOpt
   const {repondre,ms,arg}=commandeOptions;
   
     if(!arg || !arg[0])
-    {return repondre("yes😶 how are you? is my hope that you are good🤗")}
+    {return repondre("I'm listening to you")}
     //var quest = arg.join(' ');
   try{
     
