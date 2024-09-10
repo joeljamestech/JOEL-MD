@@ -69,11 +69,11 @@ zokou({ nomCom: "naruto", categorie: "Logo", reaction: "⛩" }, async (dest, zk,
 /*NEXA({ nomCom: "didong", categorie: "Logo", reaction: "📱" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre, arg, prefixe } = commandeOptions;
     
-    var titre = "\t logo by NEXA-Md";
+    var titre = "\t logo by joel md";
     try {
       var lien = "https://ephoto360.com/tao-anh-che-vui-tu-choi-cuoc-goi-voi-ten-cua-ban-930.html";
         if (!arg || arg == "") {
-           repondre(`*exemple :* ${prefixe}didong Zokou`)
+           repondre(`*exemple :* ${prefixe}didong joel`)
             return ;
         }
       console.log(typeof arg[0])
@@ -190,7 +190,7 @@ zokou({nomCom: "glitch", categorie: "Logo", reaction: "🎛️"}, async (dest, z
   const text = arg.join(" ");
   mumaker.textpro("https://textpro.me/create-impressive-glitch-text-effects-online-1027.html", text)
     .then((data) => {
-      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo by *₦ɆӾ₳▂ ▄ ▅ ▆ ▇ █*' }, { quoted: ms });
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo by *joel tech*' }, { quoted: ms });
     })
     .catch(console.error);
 });
@@ -244,7 +244,7 @@ var lien="https://en.ephoto360.com/boom-text-comic-style-text-effect-675.html";
 repondre("  processing ...")
          await zk.sendMessage(dest,{image:{url:img.image},caption:"\t *Logo by joel md"})
          
-        // await zk.sendMessage(dest,{image:{url:lienImage},caption:"\t *Logo by ᗫᗅᓿᙢᗅ ᙢᗫ*"})
+        // await zk.sendMessage(dest,{image:{url:lienImage},caption:"\t *Logo by joel md*"})
          
 
 
@@ -332,7 +332,7 @@ zokou({ nomCom: "harrypotter", categorie: "Logo", reaction: "🧙‍♂️" }, a
   const text = arg.join(" ");
   mumaker.textpro("https://textpro.me/create-harry-potter-text-effect-online-1025.html", text)
     .then((data) => {
-      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *joel md*' }, { quoted: ms });
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo by *joel md*' }, { quoted: ms });
     })
     .catch((err) => {
       console.error("Une erreur s'est produite :", err);
@@ -385,7 +385,7 @@ zokou({ nomCom: "lightglow", categorie: "Logo", reaction: "🌟" }, async (dest,
   const text = arg.join(" ");
   mumaker.textpro("https://textpro.me/create-light-glow-sliced-text-effect-online-1068.html", text)
     .then((data) => {
-      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *joel md*' }, { quoted: ms });
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo by *joel md*' }, { quoted: ms });
     })
     .catch((err) => {
       console.error("Une erreur s'est produite :", err);
@@ -493,7 +493,7 @@ zokou({nomCom:"incandescent",categorie:"Logo",reaction:"😋"},async(dest,zk,com
 
     var img = await mumaker.ephoto(lien,arg.join(' '));
    repondre("processing ...")
-    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by ᗫᗅᓿᙢᗅ ᙢᗫ*"},{quoted:ms})
+    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by joel md*"},{quoted:ms})
   }catch(e){repondre(e)}
 })
 
@@ -549,7 +549,7 @@ zokou({nomCom:"light",categorie:"Logo",reaction:"🌠"},async(dest,zk,commandeOp
 
     var img = await mumaker.ephoto(lien,arg.join(' '));
    repondre("processing ...")
-    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by ᗫᗅᓿᙢᗅ ᙢᗫ*"},{quoted:ms})
+    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by *joel md*"},{quoted:ms})
   }catch(e){repondre(e)}
 })
 
@@ -586,7 +586,7 @@ zokou({nomCom:"sunlight",categorie:"Logo",reaction:"🌠"},async(dest,zk,command
 
     var img = await mumaker.ephoto(lien,arg.join(' '));
    repondre("processing ...")
-    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by ᗫᗅᓿᙢᗅ ᙢᗫ*"},{quoted:ms})
+    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by joel md*"},{quoted:ms})
   }catch(e){repondre(e)}
 })
 
@@ -634,7 +634,7 @@ zokou({ nomCom: "leaves", categorie: "Logo", reaction: "☘️" }, async (dest, 
   const text = arg.join(" ");
   mumaker.textpro("https://textpro.me/natural-leaves-text-effect-931.html", text)
     .then((data) => {
-      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *ᗫᗅᓿᙢᗅ ᙢᗫ*' }, { quoted: ms });
+      zk.sendMessage(dest, { image: { url: data.image }, caption: 'Logo BY *joel md*' }, { quoted: ms });
     })
     .catch((err) => {
       console.error("Une erreur s'est produite :", err);
