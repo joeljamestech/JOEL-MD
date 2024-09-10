@@ -42,12 +42,12 @@
     "HEROKU_APY_KEY": {
     "description": "insert your heroku api-key ",
      "value":"",
-	"required" :true
+	"required" :false
     },
   "HEROKU_APP_NAME": {
     "description": "insert your heroku APP NAME (the name you wrote at the beginning)",
      "value":"",
-	"required" :true
+	"required" :false
     }  
 	  ,
     "SESSION_ID":
