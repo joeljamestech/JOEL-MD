@@ -78,7 +78,7 @@ let menuMsg = `
 
     for (const cat in coms) {
 
-        menuMsg += `*${cat}*`;
+        menuMsg += `> *${cat}*`;
 
         for (const cmd of coms[cat]) {
 
@@ -96,7 +96,7 @@ let menuMsg = `
 
     menuMsg += `
 ╭────────────╮
-|  Lord joel   
+ Lord joel   
 ╰────────────╯
 
 
