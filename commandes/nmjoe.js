@@ -65,20 +65,20 @@ const date = moment().format('DD/MM/YYYY');
 
 
   let infoMsg =  `
-❏all menu\n\n`;
+> all menu\n\n`;
 
 
     
 
 let menuMsg = `
-joel md cmds
+> joel md cmds
 `;
 
 
 
     for (const cat in coms) {
 
-        menuMsg += `*╭────── ${cat}*`;
+        menuMsg += `*${cat}*`;
 
         for (const cmd of coms[cat]) {
 
@@ -88,7 +88,6 @@ joel md cmds
         }
 
         menuMsg += `
-╰──────
 \n`
 
     }
@@ -97,6 +96,7 @@ joel md cmds
 
     menuMsg += `
 ╭────────────╮
+|  Lord joel   
 ╰────────────╯
 
 
