@@ -526,7 +526,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Beltah-Md',
+                pack: 'JOel-Md',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -610,7 +610,7 @@ function mybotpic() {
                          /******************* PM_PERMT***************/
 
             if (!superUser && origineMessage === auteurMessage&& conf.PM_PERMIT === "yes" ) {
-                repondre(".ban add") ; return }
+                repondre("Don't Dm the bot") ; return }
             ///////////////////////////////
 
              
@@ -670,9 +670,9 @@ zk.ev.on('group-participants.update', async (group) => {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `╔════◇joel  md◇═════╗
+            let msg = `╔════◇JOel md◇═════╗
 ║ welcome to new(s) member(s)
-║ *New(s) Member(s) :*
+║ New(s) Member(s) :
 `;
 
             let membres = group.participants;
@@ -682,13 +682,13 @@ zk.ev.on('group-participants.update', async (group) => {
 
             msg += `║
 ╚════◇joel tech◇═════╝
-◇ *Descriptioon*   ◇
+◇ Descriptioon   ◇
 
 ${metadata.desc}\n\nyoutube channel https://youtube.com/@joeltech255?si=rqhYlAhFtqK7CVX2`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
-            let msg = `one or somes member(s) left group;\n`;
+            let msg = `goodbye a fallen soldier;\n`;
 
             let membres = group.participants;
             for (let membre of membres) {
