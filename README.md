@@ -33,10 +33,18 @@
 
   **𝟏. 𝐅𝐈𝐑𝐒𝐓 𝐒𝐓𝐄𝐏**
 
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝐅𝐎𝐑𝐊+𝐓𝐇𝐈𝐒+𝐑𝐄𝐏𝐎)](https://git.io/typing-svg)
 
 <a href="https://github.com/joeljamestech/JOEL-MD/fork"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/FORK THIS REPO-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
+
+
 **star✨ my repo if you like this bot🤖**
+
+
+
+
+
 
 
    **𝟐. 𝐒𝐄𝐂𝐎𝐍𝐃 𝐒𝐓𝐄𝐏**
@@ -44,8 +52,9 @@
   
 
 
-   **𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 𝐁𝐘**
- 
+  
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝐆𝐄𝐓+𝐒𝐄𝐒𝐒𝐈𝐎𝐍+𝐈𝐃)](https://git.io/typing-svg)
+
 
 <a href="https://getsession-9a04ec726730.herokuapp.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR CODE-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
@@ -55,19 +64,20 @@
 
 
   **𝟑.𝐓𝐇𝐈𝐑𝐃 𝐒𝐓𝐄𝐏**  
- 
 
-
-  **𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐇𝐄𝐑𝐎𝐊𝐔(SAFE 100 %)**
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝐃𝐄𝐏𝐋𝐎𝐘+𝐎𝐍+𝐇𝐄𝐑𝐎𝐊𝐔)](https://git.io/typing-svg)
+  
 
 <a
       href='https://signup.heroku.com/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-CREAT -purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 
-
 <a
       href='https://dashboard.heroku.com/new?template=https://github.com/joeljamestech/JOEL-MD/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=■+■+■+■+■+100%+safe+on+heroku)](https://git.io/typing-svg)
+ 
 
 
 
