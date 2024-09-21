@@ -14,7 +14,7 @@ module.exports = { session: process.env.SESSION_ID || 'eyJub2lzZUtleSI6eyJwcml2Y
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "non",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'non',
     BOT : process.env.BOT_NAME || 'BEST CODER MD',
-    URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/e062adedf0ab8f57c87d8.jpg,https://telegra.ph/file/e38ac27939b2f3b858e1a.jpg',
+    URL : process.env.BOT_MENU_LINKS || 'https://files.catbox.moe/74ov6c.jpg,https://files.catbox.moe/5a2euh.jpg',
     MODE: process.env.PUBLIC_MODE || "no",
     PM_PERMIT: process.env.PM_PERMIT || 'no',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
