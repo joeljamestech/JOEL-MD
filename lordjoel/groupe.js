@@ -30,10 +30,10 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   } ;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
-  tag += `╔══════════════╗
+  tag += `╔══════════════════════╗
 \n  
         𝙹𝙾𝚎𝚕 𝚖𝚍 𝚟𝟼
-╚══════════════╝
+╚══════════════════════╝
 \n
  Group : ${nomGroupe} 🚀 
  Author : *${nomAuteurMessage}* 
@@ -252,7 +252,7 @@ zokou({ nomCom: "remove", categorie: 'Group', reaction: "🧑‍🔬" }, async (
             if (admin == false) {
               const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif"
               var sticker = new Sticker(gifLink, {
-                pack: '༒ƊƛƖMƛ MƊ𖤍༒', // The pack name
+                pack: `JOEL MD', // The pack name
                 author: nomAuteurMessage, // The author name
                 type: StickerTypes.FULL, // The sticker type
                 categories: ['🤩', '🎉'], // The sticker category
@@ -700,7 +700,7 @@ zokou({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,command
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: '༒ƊƛƖMƛ MƊ𖤍༒-tag',
+          pack: 'JOEL MD',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
