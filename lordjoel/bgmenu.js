@@ -22,7 +22,7 @@ zokou({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions
     const date = moment.tz("asia/karachi").format("DD/MM/YYYY");
     console.log("date" + date);
     console.log("temps " + temps);
-    let menuMsg = "> Lord joel projects\n\n";
+    let menuMsg = "> PEACE FOR WEAK\n\n";
     /*menuMsg+=`
     
     
@@ -48,12 +48,12 @@ zokou({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions
    ||
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
-  ╭────༺Lord༻───╮
+  ╭────༺LORD༻───╮
    ❑rapebug <amount>
    ❒fuckbug <amount>
    ❒myloccation<location>
    ❒joeldocbug<docbug>
-  ╰────༺joel༻────╯ \n\n`;
+  ╰────༺JOE༻────╯ \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
             emoji[cat] = "";
@@ -63,7 +63,7 @@ zokou({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions
             menuMsg += "";
         }
     }
-    var link = "https://telegra.ph/file/07a6fca837d4d974afb00.jpg";
+    var link = "https://files.catbox.moe/zvbprr.jpg";
     try {
         zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©TKM INC" }, { quoted: ms });
     }
