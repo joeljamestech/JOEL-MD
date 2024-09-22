@@ -65,7 +65,7 @@ zokou({
 });
 
 zokou({
-  nomCom: "imdb",
+  nomCom: "movie",
   categorie: "Search"
 }, async (dest, zk, commandeOptions) => {
   const { arg, repondre , ms } = commandeOptions;
