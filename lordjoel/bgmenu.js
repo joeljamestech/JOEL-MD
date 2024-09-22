@@ -22,7 +22,7 @@ zokou({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions
     const date = moment.tz("asia/karachi").format("DD/MM/YYYY");
     console.log("date" + date);
     console.log("temps " + temps);
-    let menuMsg = "≡𝙱𝚄𝙶 𝙼𝙴𝙽𝚄\n\n";
+    let menuMsg = "≡ 𝙹𝙾𝙴𝙻 𝙱𝚄𝙶 𝙼𝙴𝙽𝚄\n\n";
     /*menuMsg+=`
     
     
@@ -48,26 +48,26 @@ zokou({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions
    ||
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
-┏━━━━━━━━━━━━━━━━━━━━━┓
-┃docubug                  ┃
-┃loccrash                 ┃
-┃amountbug <amount>       ┃
-┃pmbug <number>           ┃
-┃delaybug <number>        ┃
-┃trollybug <number>       ┃
-┃docubug <number>         ┃
-┃unlimitedbug <number>    ┃
-┃bombug <number>          ┃
-┃lagbug <number>          ┃
-┃gcbug <grouplink>        ┃
-┃delaygcbug <grouplink>   ┃
-┃trollygcbug <grouplink>  ┃
-┃laggcbug <grouplink>     ┃
-┃bomgcbug <grouplink>     ┃
-┃unlimitedgcbug <grplink> ┃
-┃docugcbug <grouplink>    ┃
-┗━━━━━━━━━━━━━━━━━━━━━┛
-#keep using Joel md*\n\n`;
+┏━━━━━━━━━━━━━━━━━━━━
+┃docubug
+┃loccrash
+┃amountbug <amount>
+┃pmbug <number>
+┃delaybug <number>
+┃trollybug <number>
+┃docubug <number>
+┃unlimitedbug <number>
+┃bombug <number>
+┃lagbug <number>
+┃gcbug <grouplink>
+┃delaygcbug <grouplink>
+┃trollygcbug <grouplink>
+┃laggcbug <grouplink>
+┃bomgcbug <grouplink>
+┃unlimitedgcbug <grplink>
+┃docugcbug <grouplink>
+┗━━━━━━━━━━━━━━━━━━━━━
+*𝚙𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚓𝚘𝚎𝚕 𝚔𝚊𝚗𝚐'𝚘𝚖𝚊*\n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
             emoji[cat] = "";
