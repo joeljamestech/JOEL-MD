@@ -370,7 +370,7 @@ zokou({ nomCom: "url", categorie: "Conversion", reaction: "👨🏿‍💻" }, a
       const telegraphUrl = await uploadToTelegraph(mediaPath);
       fs.unlinkSync(mediaPath);  // Supprime le fichier après utilisation
 
-      repondre(telegraphUrl);
+      repondre(catboxUrl);
   } catch (error) {
       console.error('Erreur lors de la création du lien Telegraph :', error);
       repondre('Opps error');
