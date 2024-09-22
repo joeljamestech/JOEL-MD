@@ -13,3 +13,4 @@ Object.defineProperty(exports, "styletext", { enumerable: true, get: function ()
 Object.defineProperty(exports, "stick", { enumerable: true, get: function () { return mesfonctions_1.stick; } });
 Object.defineProperty(exports, "genererNomFichier", { enumerable: true, get: function () { return mesfonctions_1.genererNomFichier; } });
 var { reagir } = require("./app");
+
