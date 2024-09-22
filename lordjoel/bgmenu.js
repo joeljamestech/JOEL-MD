@@ -48,23 +48,26 @@ zokou({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions
    ||
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
-docubug
-loccrash
-amountbug <amount>
-pmbug <number>
-delaybug <number>
-trollybug <number>
-docubug <number>
-unlimitedbug <number>
-bombug <number>
-lagbug <number>
-gcbug <grouplink>
-delaygcbug <grouplink>
-trollygcbug <grouplink>
-laggcbug <grouplink>
-bomgcbug <grouplink>
-unlimitedgcbug <grouplink>
-docugcbug <grouplink>\n\n`;
+┏━━━━━━━━━━━━━━━━━━━━━┓
+┃docubug                  ┃
+┃loccrash                 ┃
+┃amountbug <amount>       ┃
+┃pmbug <number>           ┃
+┃delaybug <number>        ┃
+┃trollybug <number>       ┃
+┃docubug <number>         ┃
+┃unlimitedbug <number>    ┃
+┃bombug <number>          ┃
+┃lagbug <number>          ┃
+┃gcbug <grouplink>        ┃
+┃delaygcbug <grouplink>   ┃
+┃trollygcbug <grouplink>  ┃
+┃laggcbug <grouplink>     ┃
+┃bomgcbug <grouplink>     ┃
+┃unlimitedgcbug <grplink> ┃
+┃docugcbug <grouplink>    ┃
+┗━━━━━━━━━━━━━━━━━━━━━┛
+#keep using Joel md*\n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
             emoji[cat] = "";
