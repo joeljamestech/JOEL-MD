@@ -22,7 +22,7 @@ zokou({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions
     const date = moment.tz("asia/karachi").format("DD/MM/YYYY");
     console.log("date" + date);
     console.log("temps " + temps);
-    let menuMsg = "> PEACE FOR WEAKS\n\n";
+    let menuMsg = "≡𝙱𝚄𝙶 𝙼𝙴𝙽𝚄\n\n";
     /*menuMsg+=`
     
     
@@ -48,9 +48,7 @@ zokou({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions
    ||
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
-╭────༺LORD༻───╮
-≡𝙱𝚄𝙶 𝙼𝙴𝙽𝚄
-docbug
+docubug
 loccrash
 amountbug <amount>
 pmbug <number>
@@ -66,8 +64,7 @@ trollygcbug <grouplink>
 laggcbug <grouplink>
 bomgcbug <grouplink>
 unlimitedgcbug <grouplink>
-docugcbug <grouplink>
-╰────༺JOE༻────╯ \n\n`;
+docugcbug <grouplink>\n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
             emoji[cat] = "";
