@@ -11,7 +11,7 @@ zokou(
             "i'm a whatsapp bot multi-device";
         let d = " by *lord joel*";
         let varmess = z + d;
-        var img = "https://telegra.ph/file/e8311b969d1cb5ce67da8.jpg";
+        var img = "https://files.catbox.moe/5a2euh.jpg";
         await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
         //console.log("montest")
     }
