@@ -1,5 +1,5 @@
  </h1> 
-<p align="center">𝙹𝚘𝚎𝚕 𝚖𝚍 𝚅 𝟺.𝟶.𝟶
+<p align="center">𝙹𝚘𝚎𝚕 𝚖𝚍 𝚅 5.𝟶.𝟶
  
  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=JOEL THE BOT +WHATSAPP; MULTI+SERVICE+REVOLUTIONIZES;CREATE+BY+JOEL+TECH;BOT DATED+06.6.2024" alt="Typing SVG" /></a>
  <a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M">
