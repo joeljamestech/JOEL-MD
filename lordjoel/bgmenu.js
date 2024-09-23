@@ -48,7 +48,7 @@ zokou({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions
    ||
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
-❑━━━━━━━━━━━━━━━━━━━❒
+┏━━━━━━━━━━━━━━━━━━𖥚
 ┃۞docubug
 ┃۞loccrash
 ┃۞amountbug <amount>
@@ -66,7 +66,7 @@ zokou({ nomCom: "bugmenu", categorie: "Menu" }, async (dest, zk, commandeOptions
 ┃۞bomgcbug <grouplink>
 ┃۞unlimitedgcbug <grplink>
 ┃۞docugcbug <grouplink>
-❏━━━━━━━━━━━━━━━━━━━━❒
+┗━━━━━━━━━━━━━━━━━━━━𖥚
 *𝚙𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚓𝚘𝚎𝚕 𝚔𝚊𝚗𝚐'𝚘𝚖𝚊*\n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
