@@ -30,7 +30,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   } ;
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
-  tag += `BEST CODER MD TAG SITE\n  
+  tag += `JOEL MD TAG SITE\n  
         powered by joel kang'oma 
         
 👥 Group : ${nomGroupe} 🚀 
@@ -72,7 +72,7 @@ zokou({ nomCom: "link", categorie: 'Group', reaction: "🙋" }, async (dest, zk,
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  joel-𝚃𝚎𝚌𝚑-𝚃𝚎𝚊𝚖`
+Grp link :${lien} \n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢  joel-𝚃𝚎𝚌𝚑`
   repondre(mess)
 
 
