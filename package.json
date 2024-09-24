@@ -45,6 +45,7 @@
     "g-i-s": "^2.1.7",
     "google-it": "^1.6.4",
     "google-tts-api": "latest",
+    "genius-lyrics": "^4.4.3", 
     "heroku-client": "^3.1.0",
     "human-readable": "^0.2.1",
     "jimp": "^0.16.0",
@@ -67,6 +68,7 @@
     "wa-sticker-formatter": "^4.4.4",
     "youtube-yts": "^2.0.0",
     "youtubedl-core": "^4.11.7",
-    "yt-search": "^2.10.4"
+    "yt-search": "^2.10.4",
+    "ytdl-core": "github:FaouzKK/node-ytdl-core"
   }
 }
