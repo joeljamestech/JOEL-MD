@@ -4,10 +4,10 @@
   "description": "",
   "main": "bega.js",
   "scripts": {
-    "test": "node bega.js",
-    "s": "node bega.js",
-    "bega": "pm2 start bega.js --attach",
-    "bega": "pm2 start bega.js --attach",
+    "test": "node index.js",
+    "s": "node index.js",
+    "index": "pm2 start index.js --attach",
+    "index": "pm2 start index.js --attach",
     "c": "tsc"
   },
   "keywords": [
@@ -18,7 +18,7 @@
     "whatsapp-bot",
     "baraka-md-bot"
   ],
-  "author": "Baraka bega",
+  "author": "joel tech",
 "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
