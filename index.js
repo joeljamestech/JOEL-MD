@@ -442,7 +442,7 @@ function mybotpic() {
 
                                       if (action === 'remove') {
 
-                                        txt += `message deleted \n @${auteurMessage.split("@")[0]} removed from group by Beltah.`;
+                                        txt += `message deleted \n @${auteurMessage.split("@")[0]} removed from group.`;
 
                                     await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") });
                                     (0, baileys_1.delay)(800);
