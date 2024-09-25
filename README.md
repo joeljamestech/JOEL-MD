@@ -82,7 +82,47 @@
 
 
 
- 
+ **DEPLOY ON TERMUX**
+ ```   
+apt update
+apt upgrade
+pkg update && pkg upgrade
+pkg install bash
+pkg install libwebp
+pkg install git -y
+pkg install nodejs -y 
+pkg install ffmpeg -y 
+pkg install wget
+pkg install imagemagick -y
+git clone https://github.com/joeljamestech/JOEL-MD
+cd JOEL-MD
+npm install
+npm start
+```
+<details>
+
+
+
+
+
+
+
+
+
+
+
+**Lord joel**
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -114,6 +154,21 @@
     <td><a href="https://www.tiktok.com/@joeljamestech"><img src="https://telegra.ph/file/89750a960df185dcf5fd9.jpg" width="180"</td>
   </tr>
 </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
