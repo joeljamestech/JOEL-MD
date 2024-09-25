@@ -99,19 +99,6 @@ cd JOEL-MD
 npm install
 npm start
 ```
-<details>
-
-
-
-
-
-
-
-
-
-
-
-**Lord joel**
 
 
 
