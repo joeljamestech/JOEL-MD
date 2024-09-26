@@ -7,7 +7,7 @@
 
 
 
-
+<img align="right" alt="Coding" width="403333333333" src="https://raw.githubusercontent.com/AiDarkEzio/AiDarkEzio/main/img/ezgif.com-gif-maker.gif" alt="aidarkezio" /></p>
 
 
 
