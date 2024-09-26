@@ -4,6 +4,22 @@
  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=JOEL THE BOT +WHATSAPP; MULTI+SERVICE+REVOLUTIONIZES;CREATE+BY+JOEL+TECH;BOT DATED+06.6.2024" alt="Typing SVG" /></a>
  <a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M">
  <img alt="JOEL BUG BOT" height="300" src="https://files.catbox.moe/5a2euh.jpg">
+
+
+
+
+
+
+
+<hr>
+
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=aidarkezio&theme=onedark&no-bg=true&no-frame=false&column=-1&margin-w=15" alt="aidarkezio" /></a> </p>
+
+<hr>
+
+
+
+ 
   
 </h1> 
 <p align="center">𝚒𝚗𝚝𝚛𝚘𝚍𝚞𝚌𝚒𝚗𝚐<b> 𝚓𝚘𝚎𝚕  𝚖𝚍 </b>, 𝚊 𝚙𝚘𝚠𝚎𝚛𝚏𝚞𝚕 𝚠𝚊 𝚋𝚘𝚝 </p>
