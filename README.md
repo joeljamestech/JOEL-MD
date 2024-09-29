@@ -1,20 +1,12 @@
  </h1> 
 <p align="center">𝙹𝚘𝚎𝚕 𝚖𝚍 𝚅 5.𝟶.𝟶
  
-  href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M">
- <c alt="𝙹𝙾𝙴𝙻 𝚃𝙴𝙲𝙷 𝙿𝚁𝙾𝙹𝙴𝙲𝚃𝚂"
-
-
+  
 
 <img align="right" alt="Coding" width="403333333333" src="https://raw.githubusercontent.com/AiDarkEzio/AiDarkEzio/main/img/ezgif.com-gif-maker.gif" alt="aidarkezio" /></p>
 
 
 
-<hr>
-
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=aidarkezio&theme=onedark&no-bg=true&no-frame=false&column=-1&margin-w=15" alt="aidarkezio" /></a> </p>
-
-<hr>
 
 
 
