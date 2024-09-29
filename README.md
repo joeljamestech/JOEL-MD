@@ -1,9 +1,8 @@
  </h1> 
 <p align="center">𝙹𝚘𝚎𝚕 𝚖𝚍 𝚅 5.𝟶.𝟶
  
- <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=JOEL THE BOT +WHATSAPP; MULTI+SERVICE+REVOLUTIONIZES;CREATE+BY+JOEL+TECH;BOT DATED+06.6.2024" alt="Typing SVG" /></a>
- <a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M">
- <img alt="JOEL BUG BOT" height="300" src="https://files.catbox.moe/5a2euh.jpg">
+  href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M">
+ <P alt="𝙹𝙾𝙴𝙻 𝚃𝙴𝙲𝙷 𝙿𝚁𝙾𝙹𝙴𝙲𝚃𝚂"
 
 
 
