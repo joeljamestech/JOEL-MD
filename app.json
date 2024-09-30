@@ -1,10 +1,11 @@
 {
   "name": "𝙹𝙾𝚎𝚕 𝙱𝚘𝚝",
   "description": " 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝚋𝚘𝚝 𝚌𝚛𝚎𝚊𝚝𝚎𝚍 𝚋𝚢 𝙻𝙾𝚛𝚍 𝙹𝙾𝚎𝚕.",
+  "logo":"https://files.catbox.moe/5a2euh.jpg",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/joeljamestech2/JOEL",
+  "repository": "https://github.com/joeljamestech/JOEL-MD",
   "stack": "container",
   "env": { 
       "SESSION_ID": {
@@ -20,7 +21,7 @@
     "AUTO_STATUS_SEEN": {
       "description": "make it true if you want bot to view status",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "AUTO_READ": {
       "description": "make it true if you want bot to read message",
@@ -40,7 +41,7 @@
     "ALWAYS_ONLINE": {
       "description": "make it true if you want bot to show always online",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "AUTO_BLOCK": {
       "description": "make it true if you want bot to auto block only 212 numbers",
