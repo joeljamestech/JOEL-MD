@@ -7,7 +7,7 @@ const imdb = async (m, gss) => {
 const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
 const text = m.body.slice(prefix.length + cmd.length).trim();
 
-    const validCommands = ['imdb'];
+    const validCommands = ['movie'];
 
     if (!validCommands.includes(cmd)) return;
 
@@ -21,7 +21,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     }
 
     imdbt += "⚍⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚍\n";
-    imdbt += " ```IMDB SEARCH```\n";
+    imdbt += " ```JOEL MOVIE SEARCH```\n";
     imdbt += "⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n";
     imdbt += `🎬Title      : ${fids.data.Title}\n`;
     imdbt += `📅Year       : ${fids.data.Year}\n`;
