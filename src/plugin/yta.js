@@ -173,7 +173,7 @@ const ytsearch = async (_0x42b2d3, _0x229d74) => {
         deviceListMetadataVersion: 0x2
       };
       const _0x2923c3 = {
-        text: "*ETHIX-MD VIDEO DOWNLOADER*\n\n> *TITLE:* _" + _0x5f7938.title + "_\n> *AUTHOR:* _" + _0x5f7938.author + "_\n> *DURATION:* _" + _0x5f7938.duration + "_\n> *VIEWS:* _" + _0x5f7938.views + "_\n> *URL:* _" + _0x5f7938.url + '_'
+        text: "*JOEL-MD VIDEO DOWNLOADER*\n\n> *TITLE:* _" + _0x5f7938.title + "_\n> *AUTHOR:* _" + _0x5f7938.author + "_\n> *DURATION:* _" + _0x5f7938.duration + "_\n> *VIEWS:* _" + _0x5f7938.views + "_\n> *URL:* _" + _0x5f7938.url + '_'
       };
       const _0x11f546 = {
         url: _0x5f7938.thumbnail
@@ -191,7 +191,7 @@ const ytsearch = async (_0x42b2d3, _0x229d74) => {
             'interactiveMessage': proto.Message.InteractiveMessage.create({
               'body': proto.Message.InteractiveMessage.Body.create(_0x2923c3),
               'footer': proto.Message.InteractiveMessage.Footer.create({
-                'text': "© Ibrahim Adams"
+                'text': "© 𝙻𝚘𝚛𝚍 𝚓𝚘𝚎𝚕"
               }),
               'header': proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia(_0x5e13ab, _0x4ad10d)),
@@ -324,7 +324,7 @@ const ytsearch = async (_0x42b2d3, _0x229d74) => {
               await _0x229d74.sendMessage(_0x42b2d3.from, {
                 'video': Buffer.from(_0x410d71.data),
                 'mimetype': "video/mp4",
-                'caption': "> *TITLE:* " + _0x335bfc.title + "\n> *AUTHOR:* " + _0x335bfc.author.name + "\n> *DURATION:* " + _0x335bfc.timestamp + "\n\n> *© Ibrahim Adams*"
+                'caption': "> *TITLE:* " + _0x335bfc.title + "\n> *AUTHOR:* " + _0x335bfc.author.name + "\n> *DURATION:* " + _0x335bfc.timestamp + "\n\n> *© 𝙻𝚘𝚛𝚍 𝚓𝚘𝚎𝚕*"
               }, {
                 'quoted': _0x42b2d3
               });
