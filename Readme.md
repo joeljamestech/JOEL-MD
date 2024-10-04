@@ -181,8 +181,12 @@ You can also deploy the bot directly on your Android device using Termux. Here�
 
 
 
+**❤️Supporters I Love You❤️**
 
 
+[![Stargazers repo roster for @joeljamestech/JOEL-MD](http://reporoster.com/stars/dark/joeljamestech/JOEL-MD)](https://github.com/joeljamestech/JOEL-MD/stargazers)
+     
+[![Forkers repo roster for @joeljamestech/JOEL-MD](http://reporoster.com/forks/dark/joeljamestech/JOEL-MD)](https://github.com/joeljamestech/JOEL-MD/network/members)
 
 
 
