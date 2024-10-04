@@ -70,20 +70,20 @@ async function start() {
     try {
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         const { version, isLatest } = await fetchLatestBaileysVersion();
-        console.log(`🤖 𝙹𝙾𝚎𝚕-MD using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        console.log(`🤖 JOEL-MD using WA v${version.join('.')}, isLatest: ${isLatest}`);
         
         const Matrix = makeWASocket({
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["𝙹𝙾𝚎𝚕-MD", "safari", "3.3"],
+            browser: ["Ethix-MD", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
                     const msg = await store.loadMessage(key.remoteJid, key.id);
                     return msg.message || undefined;
                 }
-                return { conversation: "𝙹𝙾𝚎𝚕-MD whatsapp user bot" };
+                return { conversation: "JOEL-MD whatsapp user bot" };
             }
         });
 
@@ -95,8 +95,8 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("😃 𝙹𝙾𝚎𝚕 𝚖𝚍 𝚒𝚜 𝚘𝚗𝚕𝚒𝚗𝚎✅"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `😃 𝙹𝙾𝚎𝚕 𝚖𝚍 𝚒𝚜 𝚌𝚘𝚗𝚗𝚎𝚌𝚝𝚎𝚍uccessful️ ✅` });
+                    console.log(chalk.green("😃 Integration Successful️ ✅"));
+                    Matrix.sendMessage(Matrix.user.id, { text: `😃 Integration Successful️ ✅` });
                     initialConnection = false;
                 } else {
                     console.log(chalk.blue("♻️ Connection reestablished after restart."));
@@ -156,7 +156,7 @@ async function init() {
 init();
 
 app.get('/', (req, res) => {
-    res.send('JOEL MD IS ONLINE');
+    res.send('Hello World!');
 });
 
 app.listen(PORT, () => {
