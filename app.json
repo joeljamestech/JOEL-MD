@@ -4,6 +4,7 @@
   "keywords": [
     "whatsapp bot"
   ],
+    "logo":"https://files.catbox.moe/5a2euh.jpg",
   "repository": "https://github.com/joeljamestech/JOEL-MD",
   "stack": "container",
   "env": { 
@@ -20,7 +21,7 @@
     "AUTO_STATUS_SEEN": {
       "description": "make it true if you want bot to view status",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "AUTO_READ": {
       "description": "make it true if you want bot to read message",
@@ -40,7 +41,7 @@
     "ALWAYS_ONLINE": {
       "description": "make it true if you want bot to show always online",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "AUTO_BLOCK": {
       "description": "make it true if you want bot to auto block only 212 numbers",
