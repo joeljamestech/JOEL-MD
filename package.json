@@ -1,16 +1,16 @@
 {
-  "name": "𝙹𝙾𝚎𝚕 𝚃𝚎𝚌𝚑",
+  "name": "Ethix-MD",
   "version": "10.8.1",
-  "description": "Mercedes latest multi device whatsapp bot",
+  "description": "Ethix-MD latest multi device whatsapp bot",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Mercedes",
-    "stop": "pm2 stop Mercedes",
-    "restart": "pm2 restart Mercedes"
+    "start": "pm2 start index.js --deep-monitoring --attach --name Ethix-MD",
+    "stop": "pm2 stop Ethix-MD",
+    "restart": "pm2 restart Ethix-MD"
   },
-  "keywords": ["Mercedes", "whatsapp-bot", "whatsapp md bot"],
-  "author": "Marisel",
+  "keywords": ["ethix-md", "whatsapp-bot", "whatsapp md bot"],
+  "author": "Ethix-Xsid",
   "license": "ISC",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
