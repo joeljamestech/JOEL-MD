@@ -4,8 +4,7 @@
   "keywords": [
     "whatsapp bot"
   ],
-    "logo":"https://files.catbox.moe/5a2euh.jpg",
-  "repository": "https://github.com/joeljamestech/JOEL-MD",
+  "repository": "https://github.com/Ethix-Xsid/Ethix-MD",
   "stack": "container",
   "env": { 
       "SESSION_ID": {
@@ -21,7 +20,7 @@
     "AUTO_STATUS_SEEN": {
       "description": "make it true if you want bot to view status",
       "required": false,
-      "value": "true"
+      "value": ""
     },
     "AUTO_READ": {
       "description": "make it true if you want bot to read message",
@@ -41,7 +40,7 @@
     "ALWAYS_ONLINE": {
       "description": "make it true if you want bot to show always online",
       "required": false,
-      "value": "true"
+      "value": ""
     },
     "AUTO_BLOCK": {
       "description": "make it true if you want bot to auto block only 212 numbers",
@@ -50,6 +49,11 @@
     },
     "REJECT_CALL": {
       "description": "make it true if you want to reject call",
+      "required": false,
+      "value": ""
+    },
+    "PREFIX": {
+      "description": "Your Bot Prefix default (.)",
       "required": false,
       "value": ""
     }
@@ -69,4 +73,3 @@
     }
   ]
 }
-
