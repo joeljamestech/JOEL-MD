@@ -61,7 +61,7 @@
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝐆𝐄𝐓+𝐒𝐄𝐒𝐒𝐈𝐎𝐍+𝐈𝐃)](https://git.io/typing-svg)
 
 
-<a href="https://pairjpel-1fc26f537dd3.herokuapp.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIR CODE-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
+<a href="https://professional-kitty-goutammallick516-86803e18.koyeb.app/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIR CODE-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
  
 
@@ -81,7 +81,35 @@
 
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=■+■+■+■+■+100%+safe+on+heroku)](https://git.io/typing-svg)
- 
+
+
+
+
+
+**RUN ON REPLIT**
+
+
+
+
+
+
+
+<a
+      href='https://replit.com/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-CREAT-purple?style=for-the-badge&logo=replit&logoColor=white'/></a>
+
+
+
+
+
+
+
+
+      
+ <a
+      href='https://replit.com/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=replit&logoColor=white'/></a>
+
+
+
 
 
 **DEPLOY TO RENDER**
