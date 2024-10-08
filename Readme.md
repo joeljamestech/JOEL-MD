@@ -77,7 +77,7 @@
 
 
 <a
-      href='https://joel-c1359332ee25.herokuapp.com/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+      href='https://dashboard.heroku.com/new?template=https://github.com/joeljamestech/JOEL-MD/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=■+■+■+■+■+100%+safe+on+heroku)](https://git.io/typing-svg)
@@ -92,7 +92,7 @@
 
 
     
-<a href='https://joel-c1359332ee25.herokuapp.com/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
+<a href='https://dashboard.render.com/web/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
 
 
  **DEPLOY ON TERMUX**
