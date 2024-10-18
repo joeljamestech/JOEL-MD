@@ -9,8 +9,8 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
   const stickerCommands = ['cry', 'kiss', 'kill', 'kick', 'hug', 'pat', 'lick', 'bite', 'yeet', 'bully', 'bonk', 'wink', 'poke', 'nom', 'slap', 'smile', 'wave', 'awoo', 'blush', 'smug', 'dance', 'happy', 'sad', 'cringe', 'cuddle', 'shinobu', 'handhold', 'glomp', 'highfive'];
 
   if (stickerCommands.includes(cmd)) {
-    const packname = `joel`;
-    const author = '';
+    const packname = `ᴊᴏᴇʟ`;
+    const author = 'ᴍᴅ';
 
     try {
       const { data } = await axios.get(`https://api.waifu.pics/sfw/${cmd}`);
