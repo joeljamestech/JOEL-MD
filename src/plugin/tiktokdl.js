@@ -82,7 +82,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
                 text: "© 𝙻𝚘𝚛𝚍 𝚓𝚘𝚎𝚕"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
-                 ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/fbbe1744668b44637c21a.jpg` } }, { upload: Matrix.waUploadToServer })),
+                 ...(await prepareWAMessageMedia({ image: { url: `https://files.catbox.moe/ghh2wz.png` } }, { upload: Matrix.waUploadToServer })),
                 title: "",
                 gifPlayback: true,
                 subtitle: "",
