@@ -10,12 +10,14 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     const responseTime = (end - start) / 1000;
 
     const text = `┏━━━━❐
-┃
-┃
-┃
-┃
-┃
-┃
+┃『ᴊᴏᴇʟ ᴍᴇ ʙᴏᴛ』
+┗━━━━
+┃『ᴡᴀ ᴄʜᴀɴɴᴇʟ』
+┃❑ https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M
+┗━━━━━━━━
+┃『ᴡᴀ ɢʀᴏᴜᴘ 』
+┃❐ https://chat.whatsapp.com/GxlcVwkXrPo2YwNoQI5TwS
+
 ┗━━━━━━━━━━━━━━━━━━━━━━━❑`;
     sock.sendMessage(m.from, { text }, { quoted: m });
   }
