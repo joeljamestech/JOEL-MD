@@ -6,15 +6,15 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
 const text = m.body.slice(prefix.length + cmd.length).trim();
 
   if (cmd === 'welcome') {
-    if (!m.isGroup) return m.reply("*📛 THIS COMMAND CAN ONLY BE USED IN GROUPS*");
+    if (!m.isGroup) return m.reply("*COMMAND CAN ONLY BE USED IN GROUPS*");
     const groupMetadata = await Matrix.groupMetadata(m.from);
     const participants = groupMetadata.participants;
     const botNumber = await Matrix.decodeJid(Matrix.user.id);
     const botAdmin = participants.find(p => p.id === botNumber)?.admin;
     const senderAdmin = participants.find(p => p.id === m.sender)?.admin;
 
-    if (!botAdmin) return m.reply("*📛 BOT MUST BE AN ADMIN TO USE THIS COMMAND*");
-    if (!senderAdmin) return m.reply("*📛 YOU MUST BE AN ADMIN TO USE THIS COMMAND*");
+    if (!botAdmin) return m.reply("*BOT MUST BE AN ADMIN TO USE THIS COMMAND*");
+    if (!senderAdmin) return m.reply("*YOU MUST BE AN ADMIN TO USE THIS COMMAND*");
     let responseMessage;
 
     if (text === 'on') {
