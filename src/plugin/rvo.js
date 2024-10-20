@@ -23,7 +23,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     const type = Object.keys(msg)[0];
     
     const originalCaption = msg[type].caption || '';
-    const newCaption = `${originalCaption}\n\n> © Powered By Mercedes`;
+    const newCaption = `${originalCaption}\n\nᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ᴠɪᴇᴡ ᴏɴᴄᴇ ʙʏ ᴊᴏᴇʟ ᴍᴅ`;
 
 
     // Download the media content
