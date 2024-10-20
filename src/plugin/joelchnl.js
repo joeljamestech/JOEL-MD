@@ -12,12 +12,21 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     const text = `┏━━━━❐
 ┃『ᴊᴏᴇʟ ᴍᴇ ʙᴏᴛ』
 ┗━━━━
+┏
 ┃『ᴡᴀ ᴄʜᴀɴɴᴇʟ』
 ┃❑ https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M
 ┗━━━━━━━━
+┏
 ┃『ᴡᴀ ɢʀᴏᴜᴘ 』
 ┃❐ https://chat.whatsapp.com/GxlcVwkXrPo2YwNoQI5TwS
-
+┗━━━━━━━━━━━
+┏
+┃『ʏᴏᴜ ᴛᴜʙᴇ 』
+┃❐https://youtube.com/@joeltech255?si=rqhYlAhFtqK7CVX2
+┗━━━━━━━━━━━━━
+┏
+┃『ᴛɪᴋᴛᴏᴋ 』
+┃❐https://www.tiktok.com/@joeljamestech
 ┗━━━━━━━━━━━━━━━━━━━━━━━❑`;
     sock.sendMessage(m.from, { text }, { quoted: m });
   }
