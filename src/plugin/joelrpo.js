@@ -14693,109 +14693,119 @@
 
 
 
-import config from '../../config.cjs';
 import pkg, { prepareWAMessageMedia } from '@whiskeysockets/baileys';
-import Jimp from 'jimp';
 const { generateWAMessageFromContent, proto } = pkg;
+import axios from 'axios';
 
-const alive = async (m, Matrix) => {
-  const uptimeSeconds = process.uptime();
-  const days = Math.floor(uptimeSeconds / (3600 * 24));
-  const hours = Math.floor((uptimeSeconds % (3600 * 24)) / 3600);
-  const minutes = Math.floor((uptimeSeconds % 3600) / 60);
-  const seconds = Math.floor(uptimeSeconds % 60);
-  const timeString = `${String(days).padStart(2, '0')}-${String(hours).padStart(2, '0')}-${String(minutes).padStart(2, '0')}-${String(seconds).padStart(2, '0')}`;
-  const prefix = config.PREFIX;
+const searchRepo = async (m, Matrix) => {
+  const prefixMatch = m.body.match(/^[\\/!#.]/);
+  const prefix = prefixMatch ? prefixMatch[0] : '/';
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
-  const text = m.body.slice(prefix.length + cmd.length).trim();
 
-  if (['repo', 'sc', 'deploy'].includes(cmd)) {
-    const width = 800;
-    const height = 500;
-    const image = new Jimp(width, height, 'yellow');
-    const font = await Jimp.loadFont(Jimp.FONT_SANS_128_WHITE);
-    const textMetrics = Jimp.measureText(font, timeString);
-    const textHeight = Jimp.measureTextHeight(font, timeString, width);
-    const x = (width / 2) - (textMetrics / 2);
-    const y = (height / 2) - (textHeight / 2);
-    image.print(font, x, y, timeString, width, Jimp.HORIZONTAL_ALIGN_CENTER | Jimp.VERTICAL_ALIGN_MIDDLE);
-    const buffer = await image.getBufferAsync(Jimp.MIME_PNG);
-    
-    const uptimeMessage = `*JOEL MD REPO*
-╭━━〔 *JOEL MD* 〕━━┈⊷
-┃๏╭───────────
-┃๏│▸ *_Name:_* ${name}
-┃๏│▸ *_Stars:_* ${stargazers_count}
-┃๏│▸ *_Forks:_* ${forks_count}
-┃๏│▸ *_Created At:_* ${new Date(created_at).toLocaleDateString()}
-┃๏│▸ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : *Joel*
-┃๏│▸ *Tutorials*:https://shorturl.at/h45nS
-┃๏│▸ *Session*:https://shorturl.at/SJBuI
-┃๏└───────────···▸
-╰──────────────┈⊷
-     *JOEL MD V5*
-`;
-    
-    const buttons = [
-      {
-        "name": "quick_reply",
-        "buttonParamsJson": JSON.stringify({
-          display_text: "Talk To Joel",
-          id: `${prefix}owner`
-        })
-      },
-      {
-        "name": "quick_reply",
-        "buttonParamsJson": JSON.stringify({
-          display_text: "GitHub",
-          id: `https://github.com/joeljamestech/JOEL-MD`
-        })
-      }
-    ];
+  const validCommands = ['repo', 'sc', 'script'];
 
-    const msg = generateWAMessageFromContent(m.from, {
+  if (validCommands.includes(cmd)) {
+    const repoUrl = `https://api.github.com/repos/joeljamestech/JOEL-MD`;
+    
+    await handleRepoCommand(m, Matrix, repoUrl);
+  }
+};
+
+const handleRepoCommand = async (m, Matrix, repoUrl) => {
+  try {
+    const response = await axios.get(repoUrl);
+    const repoData = response.data;
+
+    const {
+      full_name,
+      name,
+      forks_count,
+      stargazers_count,
+      created_at,
+      updated_at,
+      owner,
+    } = repoData;
+
+    const messageText = `┏❐ 𝙹𝙾𝚎𝚕𝚍 𝚖𝚍 𝚋𝚘𝚝 ❑
+┃☐Name: ${name}
+┃☐Stars: ${stargazers_count}
+┃☐Forks: ${forks_count}
+┃☐Created At: ${new Date(created_at).toLocaleDateString()}
+┃☐creator: 𝙻𝚘𝚛𝚍 𝚓𝚘𝚎𝚕
+┃☐Tutorials: https://youtube.com/@joeltech255
+┃☐Session: https://t-945m.onrender.com/
+┗❑
+‎‎‎‎   𝙻𝚘𝚛𝚍 𝚓𝚘𝚎𝚕 `;
+
+    const repoMessage = generateWAMessageFromContent(m.from, {
       viewOnceMessage: {
         message: {
           messageContextInfo: {
             deviceListMetadata: {},
-            deviceListMetadataVersion: 2
+            deviceListMetadataVersion: 2,
           },
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
-              text: uptimeMessage
+              text: messageText,
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "Powered By Joel Kagoma"
+              text: '𝙻𝚘𝚛𝚍 𝚓𝚘𝚎𝚕',
             }),
             header: proto.Message.InteractiveMessage.Header.create({
-              ...(await prepareWAMessageMedia({ image: buffer }, { upload: Matrix.waUploadToServer })),
-              title: ``,
-              gifPlayback: false,
-              subtitle: "",
-              hasMediaAttachment: false
+              ...(await prepareWAMessageMedia({
+                image: {
+                  url: 'https://files.catbox.moe/5a2euh.jpg',
+                },
+              }, { upload: Matrix.waUploadToServer })),
+              title: '',
+              gifPlayback: true,
+              subtitle: '',
+              hasMediaAttachment: false,
             }),
             nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
-              buttons
+              buttons: [
+                {
+                  name: 'cta_url',
+                  buttonParamsJson: JSON.stringify({
+                    display_text: 'chat ownerr',
+                    url: 'https://wa.me/+255714595078?text=HI_joel',
+                  }),
+                },
+                {
+                  name: 'cta_url',
+                  buttonParamsJson: JSON.stringify({
+                    display_text: 'fork repo',
+                    url: 'https://github.com/joeljamestech/JOEL-MD/fork',
+                  }),
+                },
+                {
+                  name: 'cta_url',
+                  buttonParamsJson: JSON.stringify({
+                    display_text: 'follow channel',
+                    url: 'https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M',
+                  }),
+                },
+              ],
             }),
             contextInfo: {
-              quotedMessage: m.message,
-              forwardingScore: 999,
+              mentionedJid: [m.sender],
+              forwardingScore: 9999,
               isForwarded: true,
-              forwardedNewsletterMessageInfo: {
-                newsletterJid: '255714595078@s.whatsapp.net',
-                newsletterName: "Joel",
-                serverMessageId: 143
-              }
-            }
+            },
           }),
         },
       },
     }, {});
 
-    await Matrix.relayMessage(msg.key.remoteJid, msg.message, {
-      messageId: msg.key.id
+    await Matrix.relayMessage(repoMessage.key.remoteJid, repoMessage.message, {
+      messageId: repoMessage.key.id,
     });
+    await m.React('✅');
+  } catch (error) {
+    console.error('Error processing your request:', error);
+    m.reply('Error processing your request.');
+    await m.React('❌');
   }
 };
 
-export default alive;
+export default searchRepo;;
