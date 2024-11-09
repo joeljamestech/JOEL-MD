@@ -4,6 +4,7 @@
   "keywords": [
     "whatsapp bot"
   ],
+  "logo":"https://files.catbox.moe/5a2euh.jpg",
   "repository": "https://github.com/Ethix-Xsid/Ethix-MD",
   "stack": "container",
   "env": { 
