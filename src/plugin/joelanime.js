@@ -121,6 +121,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 ┃✰ .𝙸𝚗𝚜𝚝𝚊𝚂𝚝𝚊𝚕𝚔
 ┃✰ .𝙶𝚒𝚝𝚑𝚞𝚋𝚂𝚝𝚊𝚕𝚔
 ╰❐
+https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M
   
 𝚙𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝙹𝙾𝚎𝚕 𝚔𝚊𝚗𝚐'𝚘𝚖𝚊`;
     sock.sendMessage(m.from, { text }, { quoted: m });
