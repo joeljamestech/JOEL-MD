@@ -11,9 +11,14 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     const end = new Date().getTime();
     const responseTime = (end - start) / 1000;
 
-    const text = `*𝙹𝙾𝚎𝚕 𝚖𝚍 𝚋𝚘𝚝 𝚎𝚗𝚊𝚋𝚕𝚎𝚍*`;
+    const text = `┏۞*𝙹𝙾𝚎𝚕 𝚖𝚍 𝚋𝚘𝚝 𝚎𝚗𝚊𝚋𝚕𝚎𝚍*
+┃𝚔𝚎𝚎𝚙 𝚌𝚊𝚕𝚖 𝚍𝚞𝚍𝚎
+┗━━━━┓
+┏━━━━┛
+┃https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M
+┗━━━━━━━━━━━━━━━۞`;
     sock.sendMessage(m.from, { text }, { quoted: m });
   }
 }
 
-export default joel;
+export default ping;
