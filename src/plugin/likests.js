@@ -21,7 +21,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
       config.AUTO_LIKE_STATUS = false;
       responseMessage = "AUTO LIKE STATUS has been disabled.";
     } else {
-      responseMessage = `Usage:\n- *${prefix + cmd} ON:* Enable AUTO LIKE STATUS\n- *${prefix + cmd} off:* Disable AUTO STATUS SEEN`;
+      responseMessage = `Usage:\n- *${prefix + cmd} ON:* Enable AUTO LIKE STATUS\n- *${prefix + cmd} off:* Disable AUTO LIKE STATUS`;
     }
 
     try {
