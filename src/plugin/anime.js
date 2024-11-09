@@ -5,9 +5,9 @@ const ping = async (m, sock) => {
 const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
 const text = m.body.slice(prefix.length + cmd.length).trim();
 
-  if (cmd === "ping") {
+  if (cmd === "menu") {
     const start = new Date().getTime();
-    await m.React('⚡');
+    await m.React('✴️');
     const end = new Date().getTime();
     const responseTime = (end - start) / 1000;
 
