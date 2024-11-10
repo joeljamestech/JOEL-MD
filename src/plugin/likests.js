@@ -15,10 +15,10 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     let responseMessage;
 
     if (text === 'on') {
-      config.AUTO_LIKE_STATUS = true;
+      config.AUTOLIKE_STATUS = true;
       responseMessage = "AUTO LIKE STATUS has been enabled.";
     } else if (text === 'off') {
-      config.AUTO_LIKE_STATUS = false;
+      config.AUTOLIKE_STATUS = false;
       responseMessage = "AUTO LIKE STATUS has been disabled.";
     } else {
       responseMessage = `Usage:\n- *${prefix + cmd} ON:* Enable AUTO LIKE STATUS\n- *${prefix + cmd} off:* Disable AUTO LIKE STATUS`;
