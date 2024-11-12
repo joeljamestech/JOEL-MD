@@ -22,11 +22,26 @@
       "description": "make it true if you want bot to view status",
       "required": false,
       "value": "true"
-    },
+        },
     "AUTOLIKE_STATUS": {
-      "description": "make it true if you want bot to like status",
+      "description": "Make it true if you want bot to read and like status else leave blank",
       "required": false,
       "value": "true"
+    },
+    "AUTOLIKE_EMOJI": {
+      "description": "Input your custom status like emoji else leave blank to use default => 💚",
+      "required": false,
+      "value": "💚"
+    },
+    "AUTO_REPLY_STATUS": {
+      "description": "make it true if you want the bot to send message after viewing status else leave blank",
+      "required": false,
+      "value": ""
+    },
+    "SUDO_NUMBERS": {
+      "description": "Put Sudo Numbers separated by comma Here. Sudos are limited to owner commands else leave blank",
+      "required": false,
+      "value": "255714595078,255781144539,255767570963"
     },
     "AUTO_READ": {
       "description": "make it true if you want bot to read message",
