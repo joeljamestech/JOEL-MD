@@ -61,7 +61,7 @@
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝐆𝐄𝐓+𝐒𝐄𝐒𝐒𝐈𝐎𝐍+𝐈𝐃)](https://git.io/typing-svg)
 
 
-<a href="https://joelxxxxsession-k9qy.vercel.app/?"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIR CODE-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
+<a href="https://lively-starship-7378eb.netlify.app/?"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIR CODE-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
 
  
 
@@ -77,7 +77,7 @@
 
 
 <a
-      href='https://deploy-henna-ten.vercel.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+      href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=■+■+■+■+■+100%+safe+on+heroku)](https://git.io/typing-svg)
@@ -95,7 +95,7 @@
 
 
 <a
-      href='https://deploy-henna-ten.vercel.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-CREAT-purple?style=for-the-badge&logo=replit&logoColor=white'/></a>
+      href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-CREAT-purple?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
 
 
@@ -106,7 +106,7 @@
 
       
  <a
-      href='https://deploy-henna-ten.vercel.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=replit&logoColor=white'/></a>
+      href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
 
 
@@ -120,7 +120,7 @@
 
 
     
-<a href='https://deploy-henna-ten.vercel.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
 
 
  **DEPLOY ON TERMUX**
