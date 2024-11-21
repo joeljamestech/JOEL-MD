@@ -161,17 +161,22 @@ jobs:
 
 
 
-<a href='https://effulgent-basbousa-1bfe4a.netlify.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/CONTACT ME-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://joeljamestech.netlify.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/CONTACT ME-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
 
-**FORK THIS REPO**
+**MORE INFO**
+
+
+
+
+
 `GET MORE INFORMATION ABOUT ME`
 
 
 
-<a href='https://effulgent-basbousa-1bfe4a.netlify.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/MORE INFO-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://joeljamestech.netlify.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/MORE INFO-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
