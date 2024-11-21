@@ -176,7 +176,7 @@ jobs:
 
 
 
-<a href='https://joeljamestech.netlify.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/MORE INFO-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://my-users-livid.vercel.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/MORE INFO-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
