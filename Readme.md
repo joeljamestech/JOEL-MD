@@ -33,7 +33,7 @@ src="https://cardivo.vercel.app/api?name=JOEL%20MD%20V5&description=🥂THE%20WO
 
 
 
-<a href='https://lively-starship-7378eb.netlify.app/?' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/PAIR CODE-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://lively-starship-7378eb.netlify.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/PAIR CODE-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
  
@@ -151,31 +151,27 @@ jobs:
 
  **𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐎𝐖𝐍𝐄𝐑**
 
-<table>
-  <tr>
-    <td>𝚓𝚘𝚎𝚕_𝚝𝚎𝚌𝚑</td>
-    <td>𝚠𝚊 𝚌𝚑𝚊𝚗𝚗𝚎𝚕</td>
-  </tr>
-  <tr>
-    <td><a href="https://wa.link/e9lbut"><img src="https://telegra.ph/file/7cbfc792540bfb6f974f6.jpg" width="180"</td>
-    <td><a href="https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M"><img src="https://telegra.ph/file/dd9036cd4a22846c6e2a5.jpg" width="180"</td>
-  </tr>
-</table>
 
 
 
-<table>
-  <tr>
-    <td>𝚢𝚘𝚞 𝚝𝚞𝚋𝚎</td>
-    <td>𝚃𝚒𝚔 𝚝𝚘𝚔</td>
-  </tr>
-  <tr>
-    <td><a href="https://youtube.com/@joeltech255?si=rqhYlAhFtqK7CVX2"><img src="https://telegra.ph/file/864b974e301ccac54c793.jpg" width="180"</td>
-    <td><a href="https://www.tiktok.com/@joeljamestech"><img src="https://telegra.ph/file/89750a960df185dcf5fd9.jpg" width="180"</td>
-  </tr>
-</table>
 
 
+`GET INFORMATION ABOUT ME `
+
+
+
+
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/CONTACT ME-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+
+
+
+
+**FORK THIS REPO**
+`GET MORE INFORMATION ABOUT ME`
+
+
+
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/MORE INFO-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
@@ -189,12 +185,6 @@ jobs:
 
 
 
-
-
-
-
-
- *𝚔𝚎𝚎𝚙 𝚞𝚜𝚒𝚗𝚐 𝚓𝚘𝚎𝚕 𝚖𝚍 𝚋𝚘𝚝*
 
 
 
