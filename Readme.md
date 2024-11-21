@@ -1,224 +1,150 @@
- </h1> 
-<p align="center">𝙹𝚘𝚎𝚕 𝚖𝚍 𝚅 5.𝟶.𝟶
+
+
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+
+
+<img align="center" height="auto"
+src="https://cardivo.vercel.app/api?name=JOEL%20MD%20V5&description=🥂THE%20WORLD%20BEST%20WHATSAPP%20BOT%★%20CREATED%20BY%20JOEL%20TECH%20432%20KING%20OF%20KINGS%20OWNER%20OF%20JOEL%20MD%20WA%20BOT♥️&image=https://files.catbox.moe/5a2euh.jpg?v=4&backgroundColor=%23ecf0f1&github=joeljamestech&pattern=leaf&colorPattern=%23eaeaea"/>
+
+
+
+
+
+
+
+
+### <br> FORK THIS REPO
+
+
+
+`CLICK THE BOTTOM BELLOW TO FORK THIS REPO , STAR 🌟 THE REPO IF YOU LIKE THIS BOT`
+
+
+
+<a href='https://github.com/joeljamestech/JOEL-MD/fork' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/FORK REPO-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+
+
+
+### <br>GET SESSION ID 
+`IF YOU DON'T HAVE YOUR SESSION_ID SO U CAN GET IT CLICK ON SESSION_ID BUTTON AND PASTE YOUR NUMBER With COUNTRY CODE EXAMPLE:+2557145950xx THEN YOU CAN GET YOUR SESSION_ID`
+
+
+
+
+<a href='https://lively-starship-7378eb.netlify.app/?' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/PAIR CODE-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+
+
  
-  
+### <br>    DEPLOY_HEROKU 
 
-<img align="right" alt="Coding" width="403333333333" src="https://raw.githubusercontent.com/AiDarkEzio/AiDarkEzio/main/img/ezgif.com-gif-maker.gif" alt="aidarkezio" /></p>
-
-
-
-
-
-
- 
-  
-</h1> 
-<p align="center">𝚒𝚗𝚝𝚛𝚘𝚍𝚞𝚌𝚒𝚗𝚐<b> 𝚓𝚘𝚎𝚕  𝚖𝚍 </b>, 𝚊 𝚙𝚘𝚠𝚎𝚛𝚏𝚞𝚕 𝚠𝚊 𝚋𝚘𝚝 </p>
-
-
-  
-
-
-    
- 
- 
-
-
-
----
-
-
-
-
-
-  **𝐇𝐎𝐖 𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘 𝐉𝐎𝐄𝐋 𝐌𝐃 𝐕 5**
-
- 
-
-
-  **𝟏. 𝐅𝐈𝐑𝐒𝐓 𝐒𝐓𝐄𝐏**
-
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝐅𝐎𝐑𝐊+𝐓𝐇𝐈𝐒+𝐑𝐄𝐏𝐎)](https://git.io/typing-svg)
-
-<a href="https://github.com/joeljamestech/JOEL-MD/fork"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/FORK THIS REPO-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
-
-
-
-**star✨ my repo if you like this bot🤖**
-
-
-
-
-
-
-
-   **𝟐. 𝐒𝐄𝐂𝐎𝐍𝐃 𝐒𝐓𝐄𝐏**
-
-  
-
-
-  
- [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝐆𝐄𝐓+𝐒𝐄𝐒𝐒𝐈𝐎𝐍+𝐈𝐃)](https://git.io/typing-svg)
-
-
-<a href="https://lively-starship-7378eb.netlify.app/?"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIR CODE-h?color=red&style=for-the-badge&logo=msi" width="100" height="38.45"/></a></p>
+`IF YOU WANT TO DEPLOY JOEL-MD BOT ON HEROKU SO FIRST GET YOUR SESSION_ID THEN CLICK THIS BLUE BUTTON [DEPLOY TO HEROKU] THEN YOU CAN ENJOY THIS BOT`
 
  
 
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/HEROKU-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
-  **𝟑.𝐓𝐇𝐈𝐑𝐃 𝐒𝐓𝐄𝐏**  
 
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝐃𝐄𝐏𝐋𝐎𝐘+𝐎𝐍+𝐇𝐄𝐑𝐎𝐊𝐔)](https://git.io/typing-svg)
-  
+### <br>     DEPLOY_REPLIT 
 
-<a
-      href='https://signup.heroku.com/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-CREAT -purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+`IF U HAVE YOUR REPLIT ACCOUNT SO YOU CAN EASY DEPLOY JOEL-MD ON REPLIT CLICK BLACK BUTTON [DEPLOY TO REPLIT] AND FIND CONFIG.JSON FILE THEN PASTE YOUR SESSION AND MONGODB KEY THEN RUN CODE AND ENJOY BOT`
 
 
-<a
-      href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/REPLIT-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=■+■+■+■+■+100%+safe+on+heroku)](https://git.io/typing-svg)
 
 
+### <br>   DEPLOY_KOYEB 
 
+`IF YOU HAVE YOUR KOYEB ACCOUNT SO YOU CAN DEPLOY JOEL-MD ON KOYEB WITH EASY SETUP NOTE:-MAYBE SOME PROBLEM TO DEPLOY ON KOYEB I ILL FIX SOON `
 
 
-**RUN ON REPLIT**
 
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/KOYEB-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
+### <br>  DEPLOY_RAILWAY 
 
+`IF YOU HAVE YOUR RAILWAY ACCOUNT SO YOU CAN DEPLOY JOEL-MD ON RAILWAY WITH EASY SETUP NOTE:-MAYBE SOME PROBLEM TO DEPLOY ON KOYEB I ILL FIX SOON`
 
 
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/RAILWAY-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
-<a
-      href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-CREAT-purple?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
+### <br>   DEPLOY_GLITCH 
 
 
+`IF YOU WANT TO DEPLOY JOEL-MD BOT ON GLITCH SO FIRST GET YOUR SESSION_ID THEN CLICK THIS BLUE BUTTON TO DEPLOY THEN YOU CAN ENJOY THIS BOT`
 
 
 
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/GLITCH-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
-      
- <a
-      href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
 
+### <br>   DEPLOY_CODESPACE 
 
 
+`IF YOU WANT TO DEPLOY JOEL-MD BOT ON CODE SPACE SO FIRST GET YOUR SESSION_ID THEN CLICK THIS BLUE BUTTON TO DEPLOY THEN YOU CAN ENJOY THIS BOT`
 
-**DEPLOY TO RENDER**
 
 
-    
-<a href='https://dashboard.render.com/register' target="_blank"><img alt='Render' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/CDSPACE-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
-    
-<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
 
+### <br>    DEPLOY_RENDER 
 
- **DEPLOY ON TERMUX**
+`IF YOU WANT TO DEPLOY JOEL-MD BOT ON RENDER SO FIRST GET YOUR SESSION_ID THEN CLICK THIS BLUE BUTTON TO DEPLOY THEN YOU CAN ENJOY THIS BOT`
 
 
 
-You can also deploy the bot directly on your Android device using Termux. Here’s how:
 
-1. **Install Termux:**
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/RENDER-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
-   If you don't have Termux installed, download it from the Google Play Store or F-Droid.
 
-   - [Google Play Store](https://play.google.com/store/apps/details?id=com.termux)
-   - [F-Droid](https://f-droid.org/en/packages/com.termux/)
 
-2. **Update and Install Required Packages:**
+### <br>    DEPLOY_WORKFLOWS 
+```
+name: Node.js CI
 
-   Open Termux and run the following commands to update packages and install required dependencies:
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
-   ```bash
-   pkg update && pkg upgrade
-   pkg install git nodejs -y
-   ```
+jobs:
+  build:
 
-3. **Clone the Repository:**
+    runs-on: ubuntu-latest
 
-   Clone the forked repository using the following command:
+    strategy:
+      matrix:
+        node-version: [20.x]
 
-   ```bash
-   git clone https://github.com/joeljestech/JOEL-MD.git
-   ```
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-4. **Navigate to the Project Directory:**
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
 
-   Change into the project directory:
+    - name: Install dependencies
+      run: npm install
 
-   ```bash
-   cd JOEL-MD
-   ```
+    - name: Start application
+      run: npm start
 
-5. **Set the `SESSION_ID` in the `.env` File:**
-
-   To set the `SESSION_ID`, you need to create or edit the `.env` file in the project directory.
-
-   - **Create/Edit the `.env` File:**
-
-     Open (or create) the `.env` file using a text editor like `nano`:
-
-     ```bash
-     nano .env
-     ```
-
-   - **Add the `SESSION_ID` Variable:**
-
-     Add the following line to the `.env` file:
-
-     ```bash
-     SESSION_ID='your-session-id-here'
-     ```
-
-     Replace `'your-session-id-here'` with the actual session ID you obtained.
-
-   - **Save and Exit:**
-
-     If using `nano`, save the changes by pressing `CTRL + X`, then `Y`, and then `Enter` to exit.
-
-6. **Install Node Modules:**
-
-   Install the required Node.js modules:
-
-   ```bash
-   npm install
-   ```
-
-7. **Start the Bot:**
-
-   Finally, start the bot with the following command:
-
-   ```bash
-   node .
-   ```
-
-   Make sure to keep Termux open to maintain the bot's operation.
-   
-
-
-
-
-**❤️Supporters I Love You❤️**
-
-
-[![Stargazers repo roster for @joeljamestech/JOEL-MD](http://reporoster.com/stars/dark/joeljamestech/JOEL-MD)](https://github.com/joeljamestech/JOEL-MD/stargazers)
-     
-[![Forkers repo roster for @joeljamestech/JOEL-MD](http://reporoster.com/forks/dark/joeljamestech/JOEL-MD)](https://github.com/joeljamestech/JOEL-MD/network/members)
-
-
-
-
+```
 
 
 
@@ -277,10 +203,3 @@ You can also deploy the bot directly on your Android device using Termux. Here�
 
 
 *𝙽𝚘𝚝𝚎* :*𝚓𝚘𝚎𝚕 𝚖𝚍 𝚒𝚜 𝚜𝚊𝚏𝚎 𝚘𝚗 𝚑𝚎𝚛𝚘𝚔𝚞 𝚌𝚘𝚗𝚝𝚊𝚌𝚝 𝚘𝚠𝚗𝚎𝚛 𝚏𝚘𝚛 𝚖𝚘𝚛𝚎 𝚒𝚗𝚏𝚘*
-
-
-
-
-
-    
-<img align="right" alt="Coding" width="403333333333" src="https://files.catbox.moe/5a2euh.jpg" alt="https://joelxxxxsession.vercel.app/" /></p>
