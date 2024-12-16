@@ -155,7 +155,7 @@ jobs:
 `IF YOU WANT TO REQUEST A,FREE BOT (JOEL-MD BOT)  SO FIRST FORK THIS REPO (A-MUST)  THEN CLICK THIS BLUE BUTTON TO REQUEST A FREE BOT`
 
 
-<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/FREE BOT-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://joeljamestechinfo.vercel.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/FREE BOT-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
