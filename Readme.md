@@ -6,7 +6,7 @@
 
 
 <img align="center" height="auto"
-src="https://cardivo.vercel.app/api?name=JOEL%20MD%20V5&description=🥂THE%20WORLD%20BEST%20WHATSAPP%20BOT%★%20CREATED%20BY%20JOEL%20TECH%20432%20KING%20OF%20KINGS%20OWNER%20OF%20JOEL%20MD%20WA%20BOT♥️&image=https://files.catbox.moe/5a2euh.jpg?v=4&backgroundColor=%23ecf0f1&github=joeljamestech&pattern=leaf&colorPattern=%23eaeaea"/>
+src="https://cardivo.vercel.app/api?name=JOEL%20MD%20V5&description=🥂THE%20WORLD%20BEST%20WHATSAPP%20BOT%★%20CREATED%20BY%20JOEL%20TECH%20432%20KING%20OF%20KINGS%20OWNER%20OF%20JOEL%20MD%20WA%20BOT♥️&image=https://files.catbox.moe/3czn61.jpg?v=4&backgroundColor=%23ecf0f1&github=joeljamestech&pattern=leaf&colorPattern=%23eaeaea"/>
 
 
 
@@ -23,7 +23,7 @@ src="https://cardivo.vercel.app/api?name=JOEL%20MD%20V5&description=🥂THE%20WO
 
 
 
-<a href='https://github.com/joeljamestech/JOEL-MD/fork' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/FORK REPO-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://github.com/joeljamestech/JOEL-MD/fork' target="_blank"><img alt='joel' src='https://img.shields.io/badge/FORK REPO-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
@@ -33,7 +33,7 @@ src="https://cardivo.vercel.app/api?name=JOEL%20MD%20V5&description=🥂THE%20WO
 
 
 
-<a href='https://lively-starship-7378eb.netlify.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/PAIR CODE-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://lively-starship-7378eb.netlify.app' target="_blank"><img alt='joel' src='https://img.shields.io/badge/PAIR CODE-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
  
@@ -43,7 +43,7 @@ src="https://cardivo.vercel.app/api?name=JOEL%20MD%20V5&description=🥂THE%20WO
 
  
 
-<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/HEROKU-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/HEROKU-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
@@ -53,7 +53,7 @@ src="https://cardivo.vercel.app/api?name=JOEL%20MD%20V5&description=🥂THE%20WO
 
 
 
-<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/REPLIT-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/REPLIT-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
@@ -63,7 +63,7 @@ src="https://cardivo.vercel.app/api?name=JOEL%20MD%20V5&description=🥂THE%20WO
 
 
 
-<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/KOYEB-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/KOYEB-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 ### <br>  DEPLOY_RAILWAY 
@@ -71,7 +71,7 @@ src="https://cardivo.vercel.app/api?name=JOEL%20MD%20V5&description=🥂THE%20WO
 `IF YOU HAVE YOUR RAILWAY ACCOUNT SO YOU CAN DEPLOY JOEL-MD ON RAILWAY WITH EASY SETUP NOTE:-MAYBE SOME PROBLEM TO DEPLOY ON KOYEB I ILL FIX SOON`
 
 
-<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/RAILWAY-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/RAILWAY-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 ### <br>   DEPLOY_GLITCH 
@@ -81,7 +81,7 @@ src="https://cardivo.vercel.app/api?name=JOEL%20MD%20V5&description=🥂THE%20WO
 
 
 
-<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/GLITCH-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/GLITCH-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
@@ -93,7 +93,7 @@ src="https://cardivo.vercel.app/api?name=JOEL%20MD%20V5&description=🥂THE%20WO
 
 
 
-<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/CDSPACE-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/CDSPACE-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
@@ -104,7 +104,7 @@ src="https://cardivo.vercel.app/api?name=JOEL%20MD%20V5&description=🥂THE%20WO
 
 
 
-<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/RENDER-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/RENDER-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
@@ -149,6 +149,17 @@ jobs:
 
 
 
+### <br>   REQUEST A FREE BOT HERE 
+
+
+`IF YOU WANT TO REQUEST A,FREE BOT (JOEL-MD BOT)  SO FIRST FORK THIS REPO (A-MUST)  THEN CLICK THIS BLUE BUTTON TO REQUEST A FREE BOT`
+
+
+<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/FREE BOT-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+
+
+
+
  **𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐎𝐖𝐍𝐄𝐑**
 
 
@@ -161,7 +172,7 @@ jobs:
 
 
 
-<a href='https://joeljamestech.netlify.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/CONTACT ME-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://joeljamestech.netlify.app' target="_blank"><img alt='joel' src='https://img.shields.io/badge/CONTACT ME-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
@@ -176,7 +187,7 @@ jobs:
 
 
 
-<a href='https://my-users-livid.vercel.app/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/MORE INFO-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://my-users-livid.vercel.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/MORE INFO-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
