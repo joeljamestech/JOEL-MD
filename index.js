@@ -30630,20 +30630,20 @@ async function start() {
     try {
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         const { version, isLatest } = await fetchLatestBaileysVersion();
-        console.log(`Mercedes using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        console.log(`joel md using WA v${version.join('.')}, isLatest: ${isLatest}`);
         
         const Matrix = makeWASocket({
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["Ethix-MD", "safari", "3.3"],
+            browser: ["JOEL-MD", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
                     const msg = await store.loadMessage(key.remoteJid, key.id);
                     return msg.message || undefined;
                 }
-                return { conversation: "Mercedes whatsapp user bot" };
+                return { conversation: "joel md  whatsapp user bot" };
             }
         });
 
@@ -30655,8 +30655,8 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("😃 Integration Successful️"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `😃 Integration Successful️` });
+                    console.log(chalk.green("am joel md wa bot 😃"));
+                    Matrix.sendMessage(Matrix.user.id, { text: `am joel md wa bot😃` });
                     initialConnection = false;
                 } else {
                     console.log(chalk.blue("♻️ Connection reestablished after restart."));
@@ -30716,7 +30716,7 @@ async function init() {
 init();
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('am joel bot');
 });
 
 app.listen(PORT, () => {
