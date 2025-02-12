@@ -43,7 +43,7 @@ src="https://cardivo.vercel.app/api?name=JOEL%20MD%20V5&description=🥂THE%20WO
 
  
 
-<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/HEROKU-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://deploy-your-own-bot.netlify.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/HEROKU-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
@@ -53,7 +53,7 @@ src="https://cardivo.vercel.app/api?name=JOEL%20MD%20V5&description=🥂THE%20WO
 
 
 
-<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/REPLIT-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://deploy-your-own-bot.netlify.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/REPLIT-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
@@ -63,7 +63,7 @@ src="https://cardivo.vercel.app/api?name=JOEL%20MD%20V5&description=🥂THE%20WO
 
 
 
-<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/KOYEB-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://deploy-your-own-bot.netlify.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/KOYEB-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 ### <br>  DEPLOY_RAILWAY 
@@ -71,7 +71,7 @@ src="https://cardivo.vercel.app/api?name=JOEL%20MD%20V5&description=🥂THE%20WO
 `IF YOU HAVE YOUR RAILWAY ACCOUNT SO YOU CAN DEPLOY JOEL-MD ON RAILWAY WITH EASY SETUP NOTE:-MAYBE SOME PROBLEM TO DEPLOY ON KOYEB I ILL FIX SOON`
 
 
-<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/RAILWAY-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://deploy-your-own-bot.netlify.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/RAILWAY-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 ### <br>   DEPLOY_GLITCH 
@@ -81,7 +81,7 @@ src="https://cardivo.vercel.app/api?name=JOEL%20MD%20V5&description=🥂THE%20WO
 
 
 
-<a href='https://effulgent-basbousa-1bfe4a.netlify.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/GLITCH-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://deploy-your-own-bot.netlify.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/GLITCH-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
