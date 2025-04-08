@@ -1,4 +1,5 @@
-
+(block_shutdown_disable)
+(admin request)
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
