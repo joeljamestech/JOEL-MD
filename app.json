@@ -1,0 +1,126 @@
+{
+  "name": "ᴊᴏᴇʟ xᴍᴅ ʙᴏᴛ",
+  "description": "ᴀ ᴊᴀᴠᴀsᴄʀɪᴘᴛ ʙᴏᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ʟᴏʀᴅ ᴊᴏᴇʟ",
+  "keywords": [
+    "whatsapp bot"
+  ],
+  "logo":"https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/joelXtec.jpg",
+  "repository": "https://github.com/Ethix-Xsid/Ethix-MD",
+  "stack": "container",
+  "env": { 
+      "SESSION_ID": {
+      "description": "your session id",
+      "required": true,
+      "value": ""
+    },
+    "MODE": {
+      "description": "mode public or self",
+      "required": true,
+      "value": "public"
+    },
+    "AUTO_STATUS_SEEN": {
+      "description": "make it true if you want bot to view status",
+      "required": false,
+      "value": "true"
+        },
+    "AUTOLIKE_STATUS": {
+      "description": "Make it true if you want bot to read and like status else leave blank",
+      "required": false,
+      "value": "true"
+    },
+    "CHAT_BOT": {
+      "description": "Make it true if you want to enable chatbot",
+      "required": false,
+      "value": "false"
+    },
+    "ANTI_DELETE": {
+      "description": "make it true if you wanna enable antidelete mode",
+      "required": false,
+      "value": "true"
+      },
+    "AUTOLIKE_EMOJI": {
+      "description": "Input your custom status like emoji else leave blank to use default => 💚",
+      "required": false,
+      "value": "💚"
+      },
+    "AUTO_REACT": {
+      "description": "make it true if you want a bot to react on messages",
+      "required": false,
+      "value": ""
+    },
+    "AUTO_REPLY_STATUS": {
+      "description": "make it true if you want the bot to send message after viewing status else leave blank",
+      "required": false,
+      "value": ""
+    },
+    "SUDO_NUMBER": {
+      "description": "Put Sudo Numbers separated by comma Here. Sudos are limited to owner commands else leave blank",
+      "required": false,
+      "value": "255781144539"
+    },
+    "AUTO_READ": {
+      "description": "make it true if you want bot to read message",
+      "required": false,
+      "value": ""
+    },
+    "AUTO_TYPING": {
+      "description": "make it true if you want bot to show typing",
+      "required": false,
+      "value": ""
+    },
+    "AUTO_RECORDING": {
+      "description": "make it true if you want bot to show recording audio",
+      "required": false,
+      "value": ""
+    },
+    "ALWAYS_ONLINE": {
+      "description": "make it true if you want bot to show always online",
+      "required": false,
+      "value": "true"
+      },
+    "AUTO_BIO": {
+      "description": "make it true if you want the bot to update de bio after restart",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_BLOCK": {
+      "description": "make it true if you want bot to auto block only 212 numbers",
+      "required": false,
+      "value": ""
+    },
+    "REJECT_CALL": {
+      "description": "make it true if you want to reject call",
+      "required": false,
+      "value": ""
+     },
+    "WELCOME": {
+      "description": "make it true if you want to enable auto welcome",
+      "required": false,
+      "value": "" 
+      },
+    "ANTILINK": {
+      "description": "make it true if you want to enable auto delete links",
+      "required": false,
+      "value": ""  
+    },
+    "PREFIX": {
+      "description": "Your Bot Prefix default (.)",
+      "required": false,
+      "value": ""
+    }
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
