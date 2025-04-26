@@ -1,7 +1,7 @@
 
 
 <img alt="lord joel"
-src="mydata/media/joelXbot.jpg"/>
+src="mydata/media/joelXtec.jpg"/>
 
 
 
