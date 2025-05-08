@@ -1,5 +1,4 @@
 
-
 <img alt="lord joel"
 src="mydata/media/joelXtec.jpg"/>
 
@@ -37,7 +36,7 @@ src="mydata/media/joelXtec.jpg"/>
 
 
 
-<a href='https://joel-xmd-pair-joelbot-d392f3b60559.herokuapp.com' target="_blank"><img alt='joel' src='https://img.shields.io/badge/PAIR CODE-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://joel-xmd-bot.onrender.com/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/PAIR CODE-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
  
@@ -52,7 +51,7 @@ src="mydata/media/joelXtec.jpg"/>
 
  
 
-<a href='https://deploy-your-own-bot.netlify.app' target="_blank"><img alt='joel' src='https://img.shields.io/badge/HEROKU-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://deployments-web-joel-xmd-bot.vercel.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/HEROKU-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
@@ -69,7 +68,7 @@ src="mydata/media/joelXtec.jpg"/>
 
 
 
-<a href='https://deploy-your-own-bot.netlify.app' target="_blank"><img alt='joel' src='https://img.shields.io/badge/REPLIT-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://deployments-web-joel-xmd-bot.vercel.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/REPLIT-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
@@ -85,7 +84,7 @@ src="mydata/media/joelXtec.jpg"/>
 
 
 
-<a href='https://deploy-your-own-bot.netlify.app' target="_blank"><img alt='joel' src='https://img.shields.io/badge/KOYEB-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://deployments-web-joel-xmd-bot.vercel.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/KOYEB-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 **ᴅᴇᴘʟᴏʏ ʀᴀɪʟᴡᴀʏ**
@@ -98,7 +97,7 @@ src="mydata/media/joelXtec.jpg"/>
 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ʏᴏᴜʀ ʀᴀɪʟᴡᴀʏ ᴀᴄᴄᴏᴜɴᴛ sᴏ ʏᴏᴜ ᴄᴀɴ ᴅᴇᴘʟᴏʏ ᴊᴏᴇʟ-ᴍᴅ ᴏɴ ʀᴀɪʟᴡᴀʏ ᴡɪᴛʜ ᴇᴀsʏ sᴇᴛᴜᴘ ɴᴏᴛᴇ:-ᴍᴀʏʙᴇ sᴏᴍᴇ ᴘʀᴏʙʟᴇᴍ ᴛᴏ ᴅᴇᴘʟᴏʏ ᴏɴ ᴋᴏʏᴇʙ ɪ ɪʟʟ ғɪx sᴏᴏɴ
 
 
-<a href='https://deploy-your-own-bot.netlify.app' target="_blank"><img alt='joel' src='https://img.shields.io/badge/RAILWAY-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://deployments-web-joel-xmd-bot.vercel.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/RAILWAY-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 **ᴅᴇᴘʟᴏʏ_ɢʟɪᴛᴄʜ** 
@@ -113,7 +112,7 @@ src="mydata/media/joelXtec.jpg"/>
 
 
 
-<a href='https://deploy-your-own-bot.netlify.app' target="_blank"><img alt='joel' src='https://img.shields.io/badge/GLITCH-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://deployments-web-joel-xmd-bot.vercel.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/GLITCH-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
@@ -128,7 +127,7 @@ src="mydata/media/joelXtec.jpg"/>
 ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴇᴘʟᴏʏ ᴊᴏᴇʟ-ᴍᴅ ʙᴏᴛ ᴏɴ ᴄᴏᴅᴇ sᴘᴀᴄᴇ sᴏ ғɪʀsᴛ ɢᴇᴛ ʏᴏᴜʀ sᴇssɪᴏɴ_ɪᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴛʜɪs ʙʟᴜᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴅᴇᴘʟᴏʏ ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴇɴᴊᴏʏ ᴛʜɪs ʙᴏᴛ
 
 
-<a href='https://deploy-your-own-bot.netlify.app' target="_blank"><img alt='joel' src='https://img.shields.io/badge/CDSPACE-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://deployments-web-joel-xmd-bot.vercel.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/CDSPACE-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
@@ -143,7 +142,7 @@ src="mydata/media/joelXtec.jpg"/>
 ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴇᴘʟᴏʏ ᴊᴏᴇʟ-ᴍᴅ ʙᴏᴛ ᴏɴ ʀᴇɴᴅᴇʀ sᴏ ғɪʀsᴛ ɢᴇᴛ ʏᴏᴜʀ sᴇssɪᴏɴ_ɪᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴛʜɪs ʙʟᴜᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴅᴇᴘʟᴏʏ ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴇɴᴊᴏʏ ᴛʜɪs ʙᴏᴛ
 
 
-<a href='https://deploy-your-own-bot.netlify.app' target="_blank"><img alt='joel' src='https://img.shields.io/badge/RENDER-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://deployments-web-joel-xmd-bot.vercel.app/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/RENDER-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
 
@@ -263,6 +262,8 @@ jobs:
     <img src="http://reporoster.com/forks/dark/joeljamestech2/Joel-xMD" alt="lord joel ">
   </a>
 </p>
+
+
 
 
 
