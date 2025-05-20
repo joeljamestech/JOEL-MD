@@ -36,7 +36,7 @@ src="mydata/media/joelXtec.jpg"/>
 
 
 
-<a href='https://joel-xmd-bot.onrender.com/' target="_blank"><img alt='joel' src='https://img.shields.io/badge/PAIR CODE-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+<a href='https://joel-xmd-bot.onrender.com' target="_blank"><img alt='joel' src='https://img.shields.io/badge/PAIR CODE-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 
  

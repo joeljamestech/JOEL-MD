@@ -4,7 +4,7 @@
   "keywords": [
     "whatsapp bot"
   ],
-  "logo":"https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/joelXtec.jpg",
+  "logo":"https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/Xstarting.jpg",
   "repository": "https://github.com/Ethix-Xsid/Ethix-MD",
   "stack": "container",
   "env": { 
@@ -16,14 +16,14 @@
     "MODE": {
       "description": "mode public or self",
       "required": true,
-      "value": "public"
+      "value": "private"
     },
     "AUTO_STATUS_SEEN": {
       "description": "make it true if you want bot to view status",
       "required": false,
       "value": "true"
         },
-    "AUTOLIKE_STATUS": {
+    "AUTO_STATUS_REACT": {
       "description": "Make it true if you want bot to read and like status else leave blank",
       "required": false,
       "value": "true"
@@ -36,7 +36,7 @@
     "ANTI_DELETE": {
       "description": "make it true if you wanna enable antidelete mode",
       "required": false,
-      "value": "true"
+      "value": "false"
       },
     "AUTOLIKE_EMOJI": {
       "description": "Input your custom status like emoji else leave blank to use default => 💚",
