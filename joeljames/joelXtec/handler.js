@@ -66,7 +66,7 @@ const Handler = async (chatUpdate, sock, logger) => {
         console.log(m);
 
         // Updated plugin directory path
-        const pluginDir = path.join(__dirname, '..', '..', 'joelXjames', 'joelXbot');
+        const pluginDir = path.join(__dirname, '..', '..', 'joelXbot', 'joel');
         const pluginFiles = await fs.readdir(pluginDir);
 
         for (const file of pluginFiles) {
