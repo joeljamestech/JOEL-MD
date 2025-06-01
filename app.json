@@ -4,7 +4,7 @@
   "keywords": [
     "whatsapp bot"
   ],
-  "logo":"https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/Xstarting.jpg",
+  "logo":"https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/thumbnail.jpg",
   "repository": "https://github.com/Ethix-Xsid/Ethix-MD",
   "stack": "container",
   "env": { 
@@ -92,6 +92,16 @@
       "description": "make it true if you want to reject call",
       "required": false,
       "value": ""
+      },
+    "TIMEZONE": {
+      "description": "inset your time zone eg. Africa/Dar_es_Salaam",
+      "required": false,
+      "value": "Africa/Dar_es_Salaam"
+      },
+    "DEPLOY_DATE": {
+      "description": "a deployment date in (YYYY-MM-DD) eg. 2025-05-25",
+      "required": false,
+      "value": ""
      },
     "WELCOME": {
       "description": "make it true if you want to enable auto welcome",
@@ -124,3 +134,4 @@
     }
   ]
 }
+
