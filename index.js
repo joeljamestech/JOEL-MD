@@ -18,6 +18,7 @@ contact owner +2557114595078
 
 
 
+
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -27,13 +28,11 @@ import {
     fetchLatestBaileysVersion,
     DisconnectReason,
     useMultiFileAuthState,
-    getContentType
 } from '@whiskeysockets/baileys';
-import { Handler, Callupdate, GroupUpdate } from './joelXjames/joelXtec/joel.js';
+import { Handler, Callupdate, GroupUpdate } from './joeljames/joelXtec/joel.js';
 import express from 'express';
 import pino from 'pino';
 import fs from 'fs';
-import { File } from 'megajs';
 import NodeCache from 'node-cache';
 import path from 'path';
 import chalk from 'chalk';
@@ -41,9 +40,8 @@ import moment from 'moment-timezone';
 import axios from 'axios';
 import config from './config.cjs';
 import pkg from './lib/autoreact.cjs';
-
 const { emojis, doReact } = pkg;
-const prefix = process.env.PREFIX || config.PREFIX;
+
 const sessionName = "session";
 const app = express();
 const orange = chalk.bold.hex("#FFA500");
@@ -60,7 +58,7 @@ logger.level = "trace";
 
 const msgRetryCounterCache = new NodeCache();
 
-const __filename = decodeURIComponent(new URL(import.meta.url).pathname);
+const __filename = new URL(import.meta.url).pathname;
 const __dirname = path.dirname(__filename);
 
 const sessionDir = path.join(__dirname, 'session');
@@ -71,38 +69,20 @@ if (!fs.existsSync(sessionDir)) {
 }
 
 async function downloadSessionData() {
-    console.log("Debugging SESSION_ID:", config.SESSION_ID);
-
     if (!config.SESSION_ID) {
         console.error('Please add your session to SESSION_ID env !!');
         return false;
     }
-
-    const sessdata = config.SESSION_ID.split("JOEL-XMD~")[1];
-
-    if (!sessdata || !sessdata.includes("#")) {
-        console.error('Invalid SESSION_ID format! It must contain both file ID and decryption key.');
-        return false;
-    }
-
-    const [fileID, decryptKey] = sessdata.split("#");
-
+    const sessdata = config.SESSION_ID.split("JOEL~MD~BOT~")[1];
+    const url = `https://pastebin.com/raw/${sessdata}`;
     try {
-        console.log("Downloading Session...");
-        const file = File.fromURL(`https://mega.nz/file/${fileID}#${decryptKey}`);
-
-        const data = await new Promise((resolve, reject) => {
-            file.download((err, data) => {
-                if (err) reject(err);
-                else resolve(data);
-            });
-        });
-
+        const response = await axios.get(url);
+        const data = typeof response.data === 'string' ? response.data : JSON.stringify(response.data);
         await fs.promises.writeFile(credsPath, data);
-        console.log("Session Successfully Loaded !!");
+        console.log("🔒 Session Successfully Loaded !!");
         return true;
     } catch (error) {
-        console.error('Failed to download session data:', error);
+       // console.error('Failed to download session data:', error);
         return false;
     }
 }
@@ -121,16 +101,20 @@ async function start() {
     try {
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         const { version, isLatest } = await fetchLatestBaileysVersion();
-        console.log(`joel md using WA v${version.join('.')}, isLatest: ${isLatest}`);
-
+        console.log(`joel Xmd is using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        
         const Matrix = makeWASocket({
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["ʝσєℓ χ∂", "safari", "3.3"],
+            browser: ["JOEL-XMD", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
-                return { conversation: "joel md whatsapp user bot" };
+                if (store) {
+                    const msg = await store.loadMessage(key.remoteJid, key.id);
+                    return msg.message || undefined;
+                }
+                return { conversation: "\`\`\`joel Xmd whatsapp user bot\`\`\`" };
             }
         });
 
@@ -142,7 +126,7 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("✔️  ᴊᴏᴇʟ-xᴍᴅ ɪs ɴᴏᴡ ᴏɴʟɪɴᴇ ᴀɴᴅ ᴘᴏᴡᴇʀᴇᴅ ᴜᴘ"));
+                    console.log(chalk.green("joel Xmd is connected successful Don't forgot to give a star ⭐"));
 
                     const startingMessageData = await getStartingMessageData();
 
