@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Joel XMD Bot | AI Assistant & Support</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --text: #f4f4f4;
+      --accent: #00ffff;
+      --card: rgba(255, 255, 255, 0.05);
+      --blur: 14px;
+      --radius: 12px;
+    }
+
+    body {
+      font-family: 'JetBrains Mono', monospace;
+      margin: 0;
+      background-color: var(--bg);
+      color: var(--text);
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    h1, h2 {
+      color: var(--accent);
+    }
+
+    #chatBox {
+      width: 100%;
+      max-width: 700px;
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 1rem;
+      margin-bottom: 1rem;
+      overflow-y: auto;
+      max-height: 70vh;
+      backdrop-filter: blur(var(--blur));
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .msg {
+      margin: 0.5rem 0;
+      padding: 0.8rem;
+      border-radius: 8px;
+      max-width: 80%;
+      line-height: 1.4;
+      word-wrap: break-word;
+    }
+
+    .user {
+      background-color: #222;
+      align-self: flex-end;
+      text-align: right;
+      margin-left: auto;
+    }
+
+    .bot {
+      background-color: #111;
+      align-self: flex-start;
+      text-align: left;
+      margin-right: auto;
+    }
+
+    form {
+      width: 100%;
+      max-width: 700px;
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+    }
+
+    input[type="text"] {
+      flex: 1;
+      padding: 0.8rem;
+      border-radius: var(--radius);
+      border: none;
+      background: #111;
+      color: var(--text);
+    }
+
+    button {
+      background: var(--accent);
+      color: black;
+      padding: 0.8rem 1.2rem;
+      border: none;
+      border-radius: var(--radius);
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 1.5rem;
+      border-radius: var(--radius);
+      margin: 1rem 0;
+      backdrop-filter: blur(var(--blur));
+      border: 1px solid rgba(255,255,255,0.1);
+      width: 100%;
+      max-width: 700px;
+    }
+
+    .socials a {
+      font-size: 1.5rem;
+      color: var(--text);
+      margin-right: 1rem;
+      transition: 0.3s;
+    }
+
+    .socials a:hover {
+      color: var(--accent);
+    }
+
+    @media (max-width: 600px) {
+      form {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Support Center</h1>
+
+  <div id="jorl"></div>
+
+  <div class="card">
+    <p>We're here to help! Reach out if you're facing issues, have questions, or want to request new features.</p>
+    <p>Start by checking the <a href="info.html" style="color: var(--accent);">Info Page</a> for common commands and setup tips.</p>
+  </div>
+
+  <section>
+    <h2>Contact Developer</h2>
+    <div class="card">
+      <p>Direct support and feature requests:</p>
+      <div class="socials">
+        <a href="https://github.com/joeljamestech" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://youtube.com/@joeltech255" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://tiktok.com/@joeljamestech" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        <a href="https://whatsapp.com/channel/0029Vak2PevK0IBh2pKJPp2K" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Need Help?</h2>
+    <div id="chatBox"></div>
+    <form onsubmit="handleJoelAI(event)">
+      <input type="text" id="prompt" placeholder="ASK ME" required />
+      <button type="submit">ask</button>
+    </form>
+  </section>
+
+  <script>
+    const chatBox = document.getElementById("chatBox");
+    const storageKey = "joel_ai_chat_history";
+
+    window.onload = () => {
+      const saved = JSON.parse(localStorage.getItem(storageKey)) || [];
+      saved.forEach(msg => addMessage(msg.text, msg.sender));
+    };
+
+    async function handleJoelAI(event) {
+      event.preventDefault();
+      const input = document.getElementById("prompt");
+      const prompt = input.value.trim();
+      if (!prompt) return;
+
+      addMessage(prompt, "user");
+      saveMessage(prompt, "user");
+
+      const cleanPrompt = prompt.toLowerCase();
+      const customReplies = {
+        "who are you": "I'm Joel XMD Bot AI assistant, here to help you with anything WA bot related!",
+        "what is your name": "My name is Joel XMD AI assistant.",
+        "who is your owner": "I was created by LORD_JOEL using joel Xmd as base."
+      };
+
+      if (customReplies[cleanPrompt]) {
+        addMessage(customReplies[cleanPrompt], "bot");
+        saveMessage(customReplies[cleanPrompt], "bot");
+        input.value = "";
+        return;
+      }
+
+      addMessage("Thinking...", "bot", true);
+
+      const apiUrl = `https://api.paxsenix.biz.id/ai/gemini-realtime?text=${encodeURIComponent(prompt)}&session_id=ZXlKaklqb2lZMTg0T0RKall6TTNNek13TVdFNE1qazNJaXdpY2lJNkluSmZNbU01TUdGa05ETmtNVFF3WmpNNU5pSXNJbU5vSWpvaWNtTmZZVE16TURWaE1qTmpNR1ExTnpObFl5Sjk`;
+
+      try {
+        const res = await fetch(apiUrl);
+        const data = await res.json();
+        chatBox.lastChild.remove();
+        addMessage(data.message || "No response.", "bot");
+        saveMessage(data.message || "No response.", "bot");
+      } catch (err) {
+        chatBox.lastChild.remove();
+        const errorMsg = "Something went wrong. Try again later.";
+        addMessage(errorMsg, "bot");
+        saveMessage(errorMsg, "bot");
+      }
+
+      input.value = "";
+    }
+
+    function addMessage(text, sender, isTemp = false) {
+      const div = document.createElement("div");
+      div.className = `msg ${sender}`;
+      div.textContent = text;
+      if (isTemp) div.style.opacity = 0.6;
+      chatBox.appendChild(div);
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    function saveMessage(text, sender) {
+      const existing = JSON.parse(localStorage.getItem(storageKey)) || [];
+      existing.push({ text, sender });
+      localStorage.setItem(storageKey, JSON.stringify(existing));
+    }
+  </script>
+</body>
+</html>

@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 – Not Found | Lord Joel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    :root {
+      --primary: linear-gradient(135deg, #00d4ff, #7e00ff);
+      --bg: #000000;
+      --glass: rgba(255, 255, 255, 0.05);
+      --text: #ffffff;
+      --muted: #aaaaaa;
+      --highlight: #00ffff;
+      --radius: 16px;
+      --blur: 12px;
+      --transition: 0.3s ease-in-out;
+      --glow: 0 0 15px rgba(0, 212, 255, 0.3);
+    }
 
+    body {
+      font-family: 'JetBrains Mono', monospace;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url('https://files.catbox.moe/pi97ne.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      margin: 0;
+    }
+
+    .container {
+      background: var(--glass);
+      backdrop-filter: blur(var(--blur));
+      border-radius: var(--radius);
+      box-shadow: var(--glow);
+      padding: 2rem;
+      max-width: 420px;
+      width: 100%;
+      text-align: center;
+      border: 1px solid rgba(255,255,255,0.1);
+      animation: popin 0.8s ease;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3rem;
+      background: var(--primary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+    }
+
+    a.button {
+      display: inline-block;
+      background: var(--primary);
+      color: #000;
+      font-weight: bold;
+      font-family: 'Orbitron', sans-serif;
+      padding: 0.75rem 1.5rem;
+      border-radius: var(--radius);
+      text-decoration: none;
+      transition: var(--transition);
+      box-shadow: var(--glow);
+    }
+
+    a.button:hover {
+      transform: scale(1.05);
+    }
+
+    @keyframes popin {
+      0% { transform: scale(0.5); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1><i class="fas fa-triangle-exclamation"></i> 404</h1>
+    <p>Oops! The page you're looking for doesn't exist.</p>
+    <a href="/" class="button"><i class="fas fa-arrow-left"></i> Go Back Home</a>
+  </div>
+
+</body>
+  </html>
+  

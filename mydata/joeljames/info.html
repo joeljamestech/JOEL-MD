@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joel MD Bot | Info</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --text: #f4f4f4;
+      --accent: #00ffff;
+      --card: rgba(255, 255, 255, 0.05);
+      --blur: 14px;
+      --radius: 12px;
+    }
+
+    body {
+      font-family: 'JetBrains Mono', monospace;
+      margin: 0;
+      background-color: var(--bg);
+      color: var(--text);
+      padding: 2rem;
+    }
+
+    h1, h2, h3 {
+      color: var(--accent);
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 1.5rem;
+      border-radius: var(--radius);
+      margin: 1rem 0;
+      backdrop-filter: blur(var(--blur));
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .command {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+
+    .command-code {
+      background: #111;
+      padding: 0.5rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
+
+    .button {
+      background: var(--accent);
+      color: black;
+      padding: 0.7rem 1.5rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s ease;
+      display: inline-block;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+
+    .button:hover {
+      transform: scale(1.05);
+    }
+
+    .socials a {
+      font-size: 1.5rem;
+      color: var(--text);
+      margin-right: 1rem;
+      transition: 0.3s;
+    }
+
+    .socials a:hover {
+      color: var(--accent);
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Info Center</h1>
+
+  <section>
+    <h2>About the Bot</h2>
+    <div class="card">
+      <p><strong>Joel MD</strong> is a multipurpose WhatsApp bot designed for automation, media tools, entertainment, and group management. Built with ❤️ by <strong>joeljamestech</strong>.</p>
+      <p>Compatible with WhatsApp Multi-Device Beta.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Features</h2>
+    <div class="card">
+      AI-powered replies, translation, moderation tools, media downloads, anime info, meme generation, sticker maker, voice effects, text-to-speech, PDF tools, group controls, NSFW toggle, image manipulation, and more.
+    </div>
+  </section>
+
+  <section>
+    <h2>Popular Commands</h2>
+    <div class="card command">
+      <h3>/menu</h3>
+      <div class="command-code">Displays full command list.</div>
+
+      <h3>/sticker</h3>
+      <div class="command-code">Converts image/video to sticker.</div>
+
+      <h3>/play [songName]</h3>
+      <div class="command-code">Downloads YouTube audio.</div>
+
+      <h3>/anime [title]</h3>
+      <div class="command-code">Shows anime info via Jikan API.</div>
+
+      <h3>/meme</h3>
+      <div class="command-code">Sends a random meme.</div>
+
+      <h3>/lyrics [song]</h3>
+      <div class="command-code">Fetches lyrics of the song.</div>
+
+      <h3>/vcf [text]</h3>
+      <div class="command-code">Converts contacts into a downloadable PDF.</div>
+
+      <h3>/say [type] </h3>
+      <div class="command-code">Converts text to funny voice (e.g., robot, deep, chipmunk).</div>
+
+      <h3>/ai [prompt]</h3>
+      <div class="command-code">Chat with AI powered by GPT-4.</div>
+
+      <h3>/kick @user</h3>
+      <div class="command-code">Removes a member from the group (admin only).</div>
+
+      <h3>/nsfw on/off</h3>
+      <div class="command-code">Toggles NSFW features (admin only).</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Invite / Join</h2>
+    <a href="https://whatsapp.com/channel/0029Vak2PevK0IBh2pKJPp2K" class="button" target="_blank">Join the WhatsApp Channel</a>
+  </section>
+
+  <section>
+    <h2>Bot Status</h2>
+    <div class="card" id="uptime">
+      Loading uptime...
+    </div>
+  </section>
+
+  <section>
+    <h2>Developer & Links</h2>
+    <div class="card">
+      <p><strong>joeljamestech</strong> is a developer focused on making powerful, user-friendly bots for WhatsApp automation and fun.</p>
+      <div class="socials">
+        <a href="https://github.com/joeljamestech" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://youtube.com/@joeltech255" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.tiktok.com/@joeljamestech" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="https://whatsapp.com/channel/0029Vak2PevK0IBh2pKJPp2K" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>FAQ</h2>
+    <div class="card">
+      <p><strong>Q:</strong> How do I install the bot?</p>
+      <p><strong>A:</strong> Join the official WhatsApp channel and follow the setup steps provided in the pinned message.</p>
+
+      <p><strong>Q:</strong> Is it free?</p>
+      <p><strong>A:</strong> Yes! Joel MD is completely free to use.</p>
+
+      <p><strong>Q:</strong> Can I suggest new features?</p>
+      <p><strong>A:</strong> Absolutely! Reach out via GitHub or the channel.</p>
+    </div>
+  </section>
+
+  <script>
+    function updateUptime() {
+      const start = new Date('2024-05-01').getTime();
+      const now = new Date().getTime();
+      const diff = now - start;
+
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+      document.getElementById('uptime').innerText =
+        `Uptime since deployment: ${days}d ${hours}h ${minutes}m ${seconds}s`;
+    }
+
+    setInterval(updateUptime, 1000);
+    updateUptime();
+  </script>
+
+</body>
+</html>

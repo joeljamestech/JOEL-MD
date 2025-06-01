@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>joeljamestech | MD WA Bot</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <style>
+    :root {
+      --primary: linear-gradient(135deg, #00d4ff, #7e00ff);
+      --bg: #01010a;
+      --glass: rgba(255, 255, 255, 0.05);
+      --text: #ffffff;
+      --muted: #bbbbbb;
+      --highlight: #00ffff;
+      --radius: 16px;
+      --blur: 16px;
+      --transition: 0.4s ease;
+      --glow: 0 0 25px rgba(0, 212, 255, 0.3);
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'JetBrains Mono', monospace;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    .container {
+      background: url('https://files.catbox.moe/3czn61.jpg') no-repeat center center/cover;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding: 2rem;
+    }
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(0,0,0,0.85), rgba(0,0,0,0.6));
+      backdrop-filter: blur(var(--blur));
+      z-index: 0;
+    }
+
+    .content {
+      z-index: 1;
+      max-width: 1200px;
+      text-align: center;
+      width: 100%;
+      animation: fadeIn 1.5s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      font-size: 3.5em;
+      background: var(--primary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: glow 3s ease-in-out infinite;
+    }
+
+    @keyframes glow {
+      0%, 100% { text-shadow: 0 0 15px #00ffff; }
+      50% { text-shadow: 0 0 25px #7e00ff; }
+    }
+
+    .typing-text {
+      font-size: 1.7em;
+      color: var(--highlight);
+      margin: 1rem 0 2rem;
+      height: 40px;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+
+    .feature {
+      background: var(--glass);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin: 1rem;
+      width: calc(33.333% - 2rem);
+      min-width: 250px;
+      backdrop-filter: blur(var(--blur));
+      box-shadow: var(--glow);
+      transition: var(--transition);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .feature:hover {
+      transform: translateY(-6px) scale(1.02);
+      box-shadow: 0 0 25px #00ffff99;
+    }
+
+    .feature i {
+      font-size: 2.2rem;
+      color: var(--highlight);
+      margin-bottom: 0.6rem;
+    }
+
+    .feature h3 {
+      color: var(--highlight);
+      margin-bottom: 0.4rem;
+    }
+
+    .cta-button {
+      background: var(--primary);
+      border: none;
+      color: white;
+      padding: 15px 35px;
+      font-size: 1.1rem;
+      border-radius: 50px;
+      cursor: pointer;
+      margin-top: 2.5rem;
+      box-shadow: 0 0 20px #00d4ff80;
+      transition: var(--transition);
+    }
+
+    .cta-button:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 30px #00ffff;
+    }
+
+    #runtime {
+      margin-top: 2rem;
+      font-size: 1rem;
+      color: var(--muted);
+    }
+
+    .developer-info {
+      margin-top: 3rem;
+      padding: 2rem;
+      background: var(--glass);
+      border-radius: var(--radius);
+      backdrop-filter: blur(var(--blur));
+      box-shadow: var(--glow);
+    }
+
+    .developer-info h3 {
+      color: var(--highlight);
+      margin-bottom: 1rem;
+    }
+
+    .social-links {
+      margin-top: 1rem;
+    }
+
+    .social-links a {
+      font-size: 1.6rem;
+      margin: 0 12px;
+      color: var(--text);
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .social-links a:hover {
+      color: var(--highlight);
+      transform: scale(1.2);
+    }
+
+    @media (max-width: 768px) {
+      .feature {
+        width: 80%;
+      }
+
+      h1 {
+        font-size: 2.5em;
+      }
+
+      .typing-text {
+        font-size: 1.3em;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .feature {
+        width: 100%;
+      }
+
+      .cta-button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>joel md wa bot</h1>
+      <div class="typing-text" id="typing-text"></div>
+
+      <div class="features">
+        <div class="feature"><i class="fas fa-robot"></i><h3>Smart Replies</h3><p>AI-powered responses</p></div>
+        <div class="feature"><i class="fas fa-language"></i><h3>Multi-language</h3><p>Talk globally</p></div>
+        <div class="feature"><i class="fas fa-terminal"></i><h3>Custom Commands</h3><p>Your bot, your rules</p></div>
+        <div class="feature"><i class="fas fa-share-alt"></i><h3>Media Sharing</h3><p>Send anything</p></div>
+        <div class="feature"><i class="fas fa-users-cog"></i><h3>Group Tools</h3><p>Manage like a pro</p></div>
+        <div class="feature"><i class="fas fa-clock"></i><h3>Scheduled Posts</h3><p>Automated drops</p></div>
+      </div>
+
+      <button class="cta-button" onclick="window.open('https://whatsapp.com/channel/0029Vak2PevK0IBh2pKJPp2K')">
+        FOLLOW US ON WHATSAPP
+      </button>
+
+      <div id="runtime"></div>
+
+      <div class="developer-info">
+        <h3>About the Developer</h3>
+        <p>
+          <strong>joeljamestech</strong> is a developer crafting smart bots like JOEL-MD & JOEL-XMD to make your WhatsApp experience legendary.
+        </p>
+        <div class="social-links">
+          <a href="https://github.com/joeljamestech" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://whatsapp.com/channel/0029Vak2PevK0IBh2pKJPp2K" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://youtube.com/@joeltech255?si=rqhYlAhFtqK7CVX2" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.tiktok.com/@joeljamestech" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    new Typed('#typing-text', {
+      strings: ['Enhance your chats...', 'Automate replies like a boss.', 'joel md makes it easy.'],
+      typeSpeed: 60,
+      backSpeed: 35,
+      loop: true,
+      backDelay: 1200
+    });
+
+    function updateRuntime() {
+      const start = new Date('2025-05-09').getTime();
+      const now = new Date().getTime();
+      const diff = now - start;
+
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+      document.getElementById('runtime').innerText = 
+        `Uptime on Heroku: ${days}d ${hours}h ${minutes}m ${seconds}s`;
+    }
+
+    setInterval(updateRuntime, 1000);
+    updateRuntime();
+  </script>
+</body>
+</html>
+

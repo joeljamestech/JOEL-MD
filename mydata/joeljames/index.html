@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>itXjoel Dashboard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet" />
+    <style>
+    :root {
+      --primary: linear-gradient(135deg, #00d4ff, #7e00ff);
+      --bg: #01010a;
+      --glass: rgba(255, 255, 255, 0.05);
+      --text: #ffffff;
+      --muted: #bbbbbb;
+      --highlight: #00ffff;
+      --radius: 16px;
+      --blur: 16px;
+      --transition: 0.4s ease;
+      --glow: 0 0 25px rgba(0, 212, 255, 0.3);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'JetBrains Mono', monospace;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .mobile-header {
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--glass);
+      padding: 1rem;
+      box-shadow: var(--glow);
+      backdrop-filter: blur(var(--blur));
+    }
+
+    .menu-toggle {
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      color: var(--highlight);
+      cursor: pointer;
+    }
+
+    .sidebar {
+      width: 250px;
+      background: var(--glass);
+      padding: 1.5rem 1rem;
+      backdrop-filter: blur(var(--blur));
+      box-shadow: var(--glow);
+      overflow-y: auto;
+      height: 100vh;
+      position: fixed;
+      left: 0;
+      top: 0;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .sidebar h2 {
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+    }
+
+    .nav-item {
+      display: flex;
+      align-items: center;
+      padding: 0.8rem;
+      margin-bottom: 0.5rem;
+      border-radius: var(--radius);
+      transition: var(--transition);
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .nav-item:hover,
+    .nav-item.active {
+      background: var(--highlight);
+      color: #000;
+    }
+
+    .nav-item i {
+      margin-right: 1rem;
+      font-size: 1.2rem;
+    }
+
+    .main {
+      margin-left: 250px;
+      padding: 2rem;
+      flex: 1;
+    }
+
+    .dashboard h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .card {
+      background: var(--glass);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      backdrop-filter: blur(var(--blur));
+      box-shadow: var(--glow);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .card h2 {
+      font-size: 1.1rem;
+      color: var(--muted);
+      margin-bottom: 0.3rem;
+    }
+
+    .card p {
+      font-size: 1.8rem;
+      margin: 0;
+    }
+
+    .icon {
+      font-size: 2rem;
+      color: var(--highlight);
+    }
+
+    .section-title {
+      margin-top: 2rem;
+      font-weight: bold;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      color: var(--highlight);
+    }
+
+    .terms {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-top: 1rem;
+    }
+
+    .footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .mobile-header {
+        display: flex;
+      }
+
+      .sidebar {
+        transform: translateX(-100%);
+        z-index: 999;
+      }
+
+      .sidebar.show {
+        transform: translateX(0);
+      }
+
+      .main {
+        margin-left: 0;
+        margin-top: 70px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="mobile-header">
+    <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+    <h1>JOEL XMD BOT</h1>
+  </header>
+
+  <aside class="sidebar" id="sidebar">
+    <a href="/" class="nav-item active"><i class="fas fa-home"></i> dashboard</a>
+    <a href="/cofee" class="nav-item active"><i class="fas fa-home"></i> buy me cofee</a>
+    <a href="/inf" class="nav-item active"><i class="fas fa-home"></i> bot info</a>
+    <a href="/s" class="nav-item"><i class="fas fa-headset"></i> Support</a>
+    <a href="/uses" class="nav-item"><i class="fas fa-cogs"></i> Uses</a>
+    <!-- Retain other links as needed -->
+  </aside>
+
+  <main class="main">
+    <div class="dashboard">
+      <h1>DASHBOARD</h1>
+      <div class="card">
+        <div>
+          <h2>Total Visitors</h2>
+          <p id="visitorCount">Loading...</p>
+        </div>
+        <i class="fas fa-eye icon"></i>
+      </div>
+      <div class="card">
+        <div>
+          <h2>Battery Level</h2>
+          <p id="batteryLevel">Loading...</p>
+        </div>
+        <i class="fas fa-battery-half icon"></i>
+      </div>
+      <div class="card">
+        <div>
+          <h2>Your IP Address</h2>
+          <p id="ipAddress">Loading...</p>
+        </div>
+        <i class="fas fa-wifi icon"></i>
+      </div>
+
+       <div class="section-title">Terms and Conditions</div>
+<div class="terms">
+  1. The use of this bot is intended for ethical, legal, and responsible activities only. <br/>
+  2. Users must not misuse the bot for illegal activities, including but not limited to spamming, hacking, or data theft. <br/>
+  3. Users are responsible for ensuring that their activities comply with applicable laws and regulations. <br/>
+  4. The bot should not be used for harassing, abusing, or discriminating against others. <br/>
+  5. The sharing of API keys or unauthorized access to the bot’s resources is strictly prohibited. Violators will be banned. <br/>
+  6. Users are not permitted to overload or disrupt the bot’s services, including using it for excessive requests or attempts to compromise its security. <br/>
+  7. Any attempt to reverse-engineer, modify, or manipulate the bot’s features is forbidden. <br/>
+  8. The bot's API is provided "as is," and the developers are not liable for any damages or losses resulting from misuse. <br/>
+  9. The developers reserve the right to suspend or revoke access for any user found violating these terms. <br/>
+  10. Please report any bugs, suggestions, or inappropriate usage to our support team immediately. <br/>
+</div>
+     
+
+  <footer class="footer">
+    Powered by <strong>joeljamestech</strong>
+  </footer>
+
+  <script>
+    const toggleBtn = document.querySelector(".menu-toggle");
+    const sidebar = document.getElementById("sidebar");
+
+    toggleBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("show");
+    });
+
+    document.querySelectorAll(".nav-item").forEach(item => {
+      item.addEventListener("click", () => {
+        document.querySelectorAll(".nav-item").forEach(i => i.classList.remove("active"));
+        item.classList.add("active");
+      });
+    });
+
+    const visitorEl = document.getElementById("visitorCount");
+    let count = localStorage.getItem("visitorCount");
+    count = count ? parseInt(count) + 1 : 1;
+    localStorage.setItem("visitorCount", count);
+    visitorEl.textContent = count.toLocaleString();
+
+    navigator.getBattery?.().then(battery => {
+      document.getElementById("batteryLevel").textContent = `${Math.round(battery.level * 100)}%`;
+    }).catch(() => {
+      document.getElementById("batteryLevel").textContent = "Unavailable";
+    });
+
+    fetch('https://api.ipify.org?format=json')
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById("ipAddress").textContent = data.ip;
+      })
+      .catch(() => {
+        document.getElementById("ipAddress").textContent = "Unavailable";
+      });
+  </script>
+</body>
+        </html>
